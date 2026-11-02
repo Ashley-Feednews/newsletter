@@ -32,3 +32,7 @@ palavras: leite, leite em pó, whey, WPC, soro, GDT, captação, laticínio, lá
 tipo: nota
 foco: preço, safra no Nordeste, importação da Ásia
 palavras: coco, água de coco, coco ralado, coqueiro
+
+[Notícias do setor]
+foco: lançamentos de produtos, novidades e tecnologias de ingredientes, tendências de consumo, investimentos, fábricas, aquisições e resultados de empresas de alimentos, bebidas e ingredientes
+palavras: lançamento, lança, lançou, novo produto, novidade, inovação, tecnologia, tendência, tendências, startup, fábrica, investimento, investe, aquisição, adquire, fusão, expansão, parceria, embalagem, rotulagem, plant-based, proteína, funcional, funcionais, Anvisa, faturamento, resultado, balanço, indústria de alimentos, ingrediente, ingredientes

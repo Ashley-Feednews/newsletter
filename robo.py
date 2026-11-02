@@ -21,12 +21,13 @@ import requests
 
 # ---------------- CONFIGURAÇÃO ----------------
 NOME_NEWSLETTER = "Radar de Ingredientes"
-SUBTITULO = "Açúcar, trigo, arroz, óleos, cacau, lácteos e coco — atualizado 3x ao dia"
+SUBTITULO = "Açúcar, trigo, arroz, óleos, cacau, lácteos, coco e as novidades do setor, resumidos às 7h, 13h e 19h."
 DIAS_NA_PAGINA = 7          # notícias dos últimos N dias aparecem na página
 DIAS_NO_HISTORICO = 30      # quanto tempo o robô lembra das notícias
 MAX_IA_POR_RODADA = 90      # máximo de matérias enviadas ao Gemini por rodada
 LOTE_IA = 15                # matérias por chamada ao Gemini
 PAUSA_ENTRE_CHAMADAS = 13   # segundos entre chamadas (respeita o limite por minuto do plano grátis)
+VERSAO_IA = 2              # sobe quando mudamos o que a IA escreve; faz ela reprocessar
 MODELO = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
 # ----------------------------------------------
 
@@ -234,12 +235,14 @@ Temas de interesse:
 {descricao}
 
 Para cada notícia abaixo:
-1. Escolha UM tema da lista ({", ".join(nomes)}) ou "fora" se a notícia não tiver relação real com o foco dos temas.
+1. Escolha UM tema da lista ({", ".join(nomes)}) ou "fora" se a notícia não tiver relação real com o foco dos temas. Use "Notícias do setor" para lançamentos, tecnologias, tendências e movimentos de empresas que não sejam sobre preço ou safra de um ingrediente.
 2. Escreva um resumo em português, com 2 frases curtas, só com fatos que estão no título e no trecho. Não invente números, não opine e não copie frases inteiras: reescreva com suas palavras.
 3. Dê uma nota de relevância de 1 a 5 para quem compra e vende esses ingredientes.
+4. Escreva um comentário da IA ("ia_texto"), com 1 ou 2 frases, que complemente a notícia para um vendedor de ingredientes: o que isso pode significar para preço, oferta ou demanda, o que vale acompanhar, uma oportunidade de conversa com clientes ou um cuidado. Pode usar conhecimento geral de mercado, mas não invente números, datas, nomes de empresas ou links, e escreva como possibilidade ("pode", "vale acompanhar"), nunca como certeza.
+5. Classifique o comentário em "ia_tipo": "insight" (leitura de mercado), "alerta" (risco ou ponto de atenção), "sugestao" (ação prática) ou "contexto" (explica um termo ou o pano de fundo).
 
 Responda só com JSON neste formato:
-[{{"i": 0, "tema": "...", "resumo": "...", "relevancia": 3}}]
+[{{"i": 0, "tema": "...", "resumo": "...", "relevancia": 3, "ia_tipo": "insight", "ia_texto": "..."}}]
 
 Notícias:
 {itens}"""
@@ -281,101 +284,395 @@ def aplicar_ia(pendentes, temas):
             if resp.get("resumo"):
                 m["resumo"] = str(resp["resumo"]).strip()
             m["relevancia"] = int(resp.get("relevancia") or 3)
+            tipo = normalizar(str(resp.get("ia_tipo", "")))
+            m["ia_tipo"] = tipo if tipo in ("insight", "alerta", "sugestao", "contexto") else "insight"
+            m["ia_texto"] = str(resp.get("ia_texto") or "").strip()
             m["ia"] = True
+            m["versao_ia"] = VERSAO_IA
         if inicio + LOTE_IA < len(pendentes):
             time.sleep(PAUSA_ENTRE_CHAMADAS)
 
 
 # ---------- página ----------
+# Cor de cada ingrediente: (modo claro, modo escuro). Temas novos usam as cores de reserva.
+CORES_TEMAS = {
+    "acucar": ("#B8901A", "#E2C05A"),
+    "trigo e farinhas": ("#B0662A", "#E39A5C"),
+    "arroz": ("#4F8A3C", "#8CC774"),
+    "oleos e gorduras": ("#7D7A12", "#C7C34F"),
+    "cacau": ("#6B3B22", "#C48862"),
+    "lacteos": ("#3473AD", "#7DB3E6"),
+    "coco": ("#8A6A45", "#C9A57A"),
+    "noticias do setor": ("#5B5F97", "#A3A7E0"),
+}
+CORES_RESERVA = [("#5B5F97", "#A3A7E0"), ("#9C4F6B", "#E59AB5"), ("#2F7F7A", "#79C9C3")]
+
+
+def slug(texto):
+    return re.sub(r"[^a-z0-9]+", "-", normalizar(texto)).strip("-")
+
+
+def nome_do_dia(data_local):
+    hoje = AGORA.astimezone(FUSO).date()
+    if data_local == hoje:
+        return "Hoje"
+    if data_local == hoje - timedelta(days=1):
+        return "Ontem"
+    dias = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
+    return f"{dias[data_local.weekday()].capitalize()}, {data_local:%d/%m}"
+
+
+MASCOTE_SVG = """<svg class="vaca" viewBox="0 0 240 250" aria-hidden="true">
+<defs><clipPath id="vc-cab"><ellipse cx="120" cy="112" rx="72" ry="62"/></clipPath>
+<clipPath id="vc-corpo"><path d="M38 250 C38 196 70 172 120 172 C170 172 202 196 202 250 Z"/></clipPath></defs>
+<g stroke="#3B2A20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M38 250 C38 196 70 172 120 172 C170 172 202 196 202 250 Z" fill="#FFFFFF"/>
+  <g clip-path="url(#vc-corpo)" stroke="none"><path d="M160 178 C186 190 200 214 204 250 L156 250 C146 228 146 200 160 178Z" fill="#3B2A20"/><path d="M40 222 C58 212 74 222 70 250 L36 250Z" fill="#3B2A20"/></g>
+  <path d="M38 250 C38 196 70 172 120 172 C170 172 202 196 202 250" fill="none"/>
+  <path d="M84 176 Q120 194 156 176" fill="none" stroke="#C8473D" stroke-width="8"/>
+  <path d="M110 188 h20 l3 14 a13 13 0 0 1 -26 0 z" fill="#F2B632"/>
+  <ellipse cx="44" cy="96" rx="30" ry="14" transform="rotate(-18 44 96)" fill="#FFFFFF"/>
+  <ellipse cx="47" cy="97" rx="17" ry="7" transform="rotate(-18 47 97)" fill="#F7A9B9" stroke="none"/>
+  <ellipse cx="196" cy="96" rx="30" ry="14" transform="rotate(18 196 96)" fill="#FFFFFF"/>
+  <ellipse cx="193" cy="97" rx="17" ry="7" transform="rotate(18 193 97)" fill="#F7A9B9" stroke="none"/>
+  <path d="M66 82 C50 78 40 66 40 52 C54 58 64 64 78 70" fill="#FFF1CF"/>
+  <path d="M174 82 C190 78 200 66 200 52 C186 58 176 64 162 70" fill="#FFF1CF"/>
+  <ellipse cx="120" cy="112" rx="72" ry="62" fill="#FFFFFF"/>
+  <g clip-path="url(#vc-cab)" stroke="none">
+    <path d="M44 84 C66 66 92 76 88 102 C84 124 58 126 44 114Z" fill="#3B2A20"/>
+    <path d="M152 58 C174 60 194 74 196 98 C178 100 160 86 152 58Z" fill="#3B2A20"/>
+  </g>
+  <ellipse cx="120" cy="112" rx="72" ry="62" fill="none"/>
+  <ellipse cx="92" cy="106" rx="13" ry="17" fill="#2B1D16" stroke="none"/>
+  <ellipse cx="148" cy="106" rx="13" ry="17" fill="#2B1D16" stroke="none"/>
+  <circle cx="97" cy="99" r="5.5" fill="#FFFFFF" stroke="none"/>
+  <circle cx="153" cy="99" r="5.5" fill="#FFFFFF" stroke="none"/>
+  <circle cx="88" cy="113" r="2.5" fill="#FFFFFF" stroke="none"/>
+  <circle cx="144" cy="113" r="2.5" fill="#FFFFFF" stroke="none"/>
+  <path d="M78 86 q12 -7 24 -2" fill="none" stroke-width="3"/>
+  <path d="M138 84 q12 -5 24 2" fill="none" stroke-width="3"/>
+  <ellipse cx="70" cy="132" rx="10" ry="6" fill="#F49AB0" opacity="0.75" stroke="none"/>
+  <ellipse cx="170" cy="132" rx="10" ry="6" fill="#F49AB0" opacity="0.75" stroke="none"/>
+  <ellipse cx="120" cy="148" rx="44" ry="25" fill="#F8C3CD"/>
+  <ellipse cx="104" cy="145" rx="5" ry="7" fill="#3B2A20" stroke="none"/>
+  <ellipse cx="136" cy="145" rx="5" ry="7" fill="#3B2A20" stroke="none"/>
+  <path d="M110 160 Q120 168 130 160" fill="none"/>
+  <ellipse cx="120" cy="58" rx="66" ry="13" fill="#F2C76B"/>
+  <path d="M84 56 C82 24 158 24 156 56 Z" fill="#F6D58A"/>
+  <path d="M85 47 C100 43 140 43 155 47 L156 55 C140 51 100 51 84 55Z" fill="#C8473D" stroke="none"/>
+  <path d="M84 56 C82 24 158 24 156 56" fill="none"/>
+  <g transform="rotate(-5 120 230)">
+    <rect x="66" y="210" width="108" height="58" rx="3" fill="#FFFDF7"/>
+    <text x="120" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#3B2A20" stroke="none">RADAR</text>
+    <path d="M78 238 h36 M78 246 h36 M126 238 h36 M126 246 h36" fill="none" stroke="#B9AFA6" stroke-width="3"/>
+  </g>
+  <ellipse cx="66" cy="232" rx="13" ry="11" fill="#6B5A50"/>
+  <ellipse cx="174" cy="226" rx="13" ry="11" fill="#6B5A50"/>
+</g>
+</svg>"""
+
+ROTULOS_IA = {"insight": "Insight de mercado", "alerta": "Atenção", "sugestao": "Sugestão", "contexto": "Para entender"}
+
+MODELO_PAGINA = """<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__NOME__</title>
+<meta name="description" content="__SUBTITULO__">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --papel: #FFFFFF; --fundo: #F4F9F1; --tinta: #16211C; --apagado: #55625A;
+  --linha: #DDE7DA; --foco: #1D5BD8; --zap: #1E8E4E;
+  --ia-fundo: #EEF3FC; --ia-selo: #2D5BB9; --alerta-fundo: #FFF4E5; --alerta-selo: #B4561A;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --papel: #19201D; --fundo: #101513; --tinta: #E9EFEC; --apagado: #9AA8A1;
+          --linha: #2B3531; --foco: #8AB4FF; --zap: #5FCB8A;
+          --ia-fundo: #1D2735; --ia-selo: #6E9BF0; --alerta-fundo: #33261A; --alerta-selo: #E89A5C; }
+  .tema-cor { --c: var(--cd) !important; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--fundo); color: var(--tinta);
+  font: 17px/1.55 "Atkinson Hyperlegible Next", system-ui, "Segoe UI", sans-serif; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--foco); outline-offset: 2px; border-radius: 4px; }
+.miolo { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+
+/* cabeçalho ilustrado (fica igual no modo claro e escuro) */
+.cena { position: relative; overflow: hidden; background: linear-gradient(180deg, #BFE3F2 0%, #E3F3F7 70%); }
+.cena .sol { position: absolute; top: 18px; right: max(150px, calc(50% - 470px)); width: 76px; height: 76px; border-radius: 50%;
+  background: #FFE08A; box-shadow: 0 0 0 14px rgba(255, 224, 138, .35); }
+.cena .nuvens { position: absolute; top: 18px; left: 0; width: 100%; height: 90px; }
+.cena .campo { position: absolute; left: 0; bottom: 0; width: 100%; height: 96px; }
+.cena .vaca { position: absolute; bottom: 0; right: max(4px, calc(50% - 400px)); width: clamp(140px, 24vw, 226px); height: auto; }
+.cena-texto { position: relative; padding-top: 36px; padding-bottom: 118px; }
+.cena-texto h1, .cena-texto p { color: #16302A; max-width: 30ch; }
+.cena-texto .atualizado { display: inline-block; margin-top: 10px; font-size: 14px; font-weight: 700; color: #16302A;
+  background: rgba(255, 255, 255, .75); border-radius: 999px; padding: 3px 12px; }
+.cena-texto .subtitulo { color: #2E4A43; margin-top: 8px; }
+@media (max-width: 600px) {
+  .cena .sol { top: auto; right: auto; left: 40px; bottom: 58px; width: 58px; height: 58px; }
+  .cena-texto { padding-bottom: 150px; }
+  .cena-texto h1, .cena-texto p { max-width: 100%; }
+}
+.topo-busca { padding-top: 20px; }
+.ia { display: flex; gap: 10px; align-items: flex-start; margin-top: 12px; padding: 10px 12px; border-radius: 10px;
+  background: var(--ia-fundo); font-size: 16px; max-width: 68ch; }
+.ia .selo { flex: none; margin-top: 2px; font-size: 12px; font-weight: 800; color: #fff; background: var(--ia-selo);
+  border-radius: 6px; padding: 1px 7px; }
+.ia.alerta { background: var(--alerta-fundo); }
+.ia.alerta .selo { background: var(--alerta-selo); }
+@media (prefers-color-scheme: dark) { .ia .selo { color: #10151A; } }
+.titulo { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; }
+h1 { margin: 0; font-size: clamp(30px, 6.4vw, 46px); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+.atualizado { color: var(--apagado); font-size: 15px; }
+.subtitulo { margin: 8px 0 0; color: var(--apagado); max-width: 60ch; }
+
+.busca { display: block; position: relative; }
+.busca input { width: 100%; font: inherit; color: var(--tinta); background: var(--papel);
+  border: 1px solid var(--linha); border-radius: 10px; padding: 12px 14px 12px 42px; }
+.busca svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--apagado); }
+
+.faixa-wrap { position: sticky; top: 0; z-index: 5; background: var(--fundo);
+  border-bottom: 1px solid var(--linha); }
+.faixa { display: flex; gap: 8px; overflow-x: auto; padding: 12px 16px; max-width: 760px; margin: 0 auto;
+  scrollbar-width: thin; }
+.chip { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; font: inherit; font-size: 15px;
+  color: var(--tinta); background: var(--papel); border: 1px solid var(--linha); border-radius: 999px;
+  padding: 7px 14px 7px 10px; cursor: pointer; }
+.chip .ponto { width: 12px; height: 12px; border-radius: 50%; background: var(--c); }
+.chip .qtd { font-weight: 800; font-variant-numeric: tabular-nums; }
+.chip.zero .qtd { color: var(--apagado); font-weight: 500; }
+.chip[aria-pressed="true"] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+.chip[aria-pressed="true"] .qtd { color: var(--papel); }
+.legenda.miolo { margin-top: 10px; margin-bottom: 0; font-size: 14px; color: var(--apagado); }
+@media (min-width: 700px) { .faixa { flex-wrap: wrap; overflow: visible; } .faixa-wrap { position: static; border-bottom: 0; } }
+
+main.miolo { padding-top: 0; padding-bottom: 24px; }
+.dia h2 { font-size: 15px; font-weight: 700; color: var(--apagado); margin: 24px 0 8px; }
+.folha { background: var(--papel); border: 1px solid var(--linha); border-radius: 14px; overflow: hidden; }
+.item { position: relative; padding: 18px 20px 16px 24px; border-top: 1px solid var(--linha); }
+.item:first-child { border-top: 0; }
+.item::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: var(--c); }
+.topo { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 14px; }
+.ingrediente { font-weight: 700; color: var(--c); }
+.etiqueta { font-size: 13px; font-weight: 700; border-radius: 6px; padding: 1px 8px; }
+.etiqueta.importante { border: 1.5px solid var(--c); color: var(--tinta); }
+.etiqueta.nova { border: 1.5px solid var(--foco); color: var(--foco); display: none; }
+.item.e-nova .etiqueta.nova { display: inline-block; }
+.etiqueta.portal { color: var(--apagado); border: 1px solid var(--linha); font-weight: 500; }
+.item h3 { margin: 6px 0 6px; font-size: 20px; line-height: 1.3; font-weight: 700; }
+.item h3 a { text-decoration: none; }
+.item h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.item p { margin: 0; max-width: 68ch; }
+.rodape-item { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 12px;
+  font-size: 15px; color: var(--apagado); }
+.rodape-item .fonte { margin-right: auto; }
+.acao { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; text-decoration: none;
+  padding: 6px 2px; color: var(--tinta); }
+.acao.zap { color: var(--zap); }
+.acao:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.vazio { background: var(--papel); border: 1px dashed var(--linha); border-radius: 14px;
+  padding: 28px 20px; text-align: center; color: var(--apagado); margin-top: 24px; }
+.vazio button { font: inherit; font-weight: 700; color: var(--foco); background: none; border: 0;
+  cursor: pointer; text-decoration: underline; }
+
+footer.miolo { padding-top: 24px; padding-bottom: 56px; font-size: 14px; color: var(--apagado); }
+footer summary { cursor: pointer; }
+footer ul { padding-left: 18px; }
+@media (max-width: 520px) {
+  .item { padding: 16px 16px 14px 20px; }
+  .item h3 { font-size: 18px; }
+  .rodape-item .fonte { flex-basis: 100%; }
+}
+</style>
+</head>
+<body>
+<header class="cena">
+  <div class="sol" aria-hidden="true"></div>
+  <svg class="nuvens" viewBox="0 0 1200 90" preserveAspectRatio="xMidYMin slice" aria-hidden="true">
+    <g fill="#FFFFFF" opacity="0.9"><ellipse cx="160" cy="44" rx="58" ry="16"/><ellipse cx="190" cy="34" rx="34" ry="18"/>
+    <ellipse cx="930" cy="30" rx="48" ry="13"/><ellipse cx="952" cy="22" rx="26" ry="14"/></g>
+  </svg>
+  <svg class="campo" viewBox="0 0 1200 140" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 64 C200 26 380 36 560 64 C760 96 980 34 1200 54 L1200 140 L0 140Z" fill="#B5DA92"/>
+    <path d="M0 100 C240 76 460 88 700 104 C900 116 1060 92 1200 96 L1200 140 L0 140Z" fill="#F0D37E"/>
+    <path d="M0 124 C300 114 700 120 1200 116 L1200 140 L0 140Z" fill="#E2B95A"/>
+  </svg>
+  __MASCOTE__
+  <div class="miolo cena-texto">
+    <h1>__NOME__</h1>
+    <p class="subtitulo">__SUBTITULO__</p>
+    <span class="atualizado">Atualizado __ATUALIZADO__</span>
+  </div>
+</header>
+<div class="miolo topo-busca">
+  <label class="busca">
+    <span style="position:absolute;left:-9999px">Buscar notícia</span>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="busca" type="search" placeholder="Buscar notícia (ex.: Cepea, EUDR, Argentina)" autocomplete="off">
+  </label>
+</div>
+<div class="faixa-wrap">
+  <nav class="faixa" aria-label="Filtrar por ingrediente">
+    <button class="chip" data-filtro="" aria-pressed="true"><span>Todos</span><span class="qtd">__TOTAL24__</span></button>
+    __CHIPS__
+  </nav>
+</div>
+<p class="legenda miolo">Os números mostram quantas notícias chegaram nas últimas 24 horas.</p>
+<main class="miolo">
+__DIAS__
+<div class="vazio" id="vazio" hidden>
+  <p id="vazio-texto">Nenhuma notícia encontrada.</p>
+  <button type="button" id="limpar">Ver todas as notícias</button>
+</div>
+</main>
+<footer class="miolo">
+  <p>Os resumos e os comentários da IA são feitos automaticamente a partir das matérias dos portais. Os comentários são sugestões para orientar a leitura, não recomendações de compra ou venda. Para decisões, confira sempre a matéria original.</p>
+  <details><summary>De onde vêm as notícias</summary><ul>__STATUS__</ul></details>
+</footer>
+<script>
+(function () {
+  var itens = Array.prototype.slice.call(document.querySelectorAll(".item"));
+  var dias = Array.prototype.slice.call(document.querySelectorAll(".dia"));
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
+  var busca = document.getElementById("busca");
+  var vazio = document.getElementById("vazio");
+  var vazioTexto = document.getElementById("vazio-texto");
+  var filtro = decodeURIComponent((location.hash || "").slice(1));
+
+  function sem(t) { return (t || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+
+  // marca como "nova" o que chegou depois da última visita
+  try {
+    var ultima = Number(localStorage.getItem("radar-ultima-visita") || 0);
+    if (ultima) itens.forEach(function (i) { if (Number(i.dataset.ts) > ultima) i.classList.add("e-nova"); });
+    localStorage.setItem("radar-ultima-visita", String(Date.now()));
+  } catch (e) {}
+
+  function aplicar() {
+    var q = sem(busca.value.trim());
+    var visiveis = 0;
+    itens.forEach(function (i) {
+      var ok = (!filtro || i.dataset.tema === filtro) && (!q || sem(i.textContent).indexOf(q) > -1);
+      i.hidden = !ok; if (ok) visiveis++;
+    });
+    dias.forEach(function (d) { d.hidden = !d.querySelector(".item:not([hidden])"); });
+    chips.forEach(function (c) { c.setAttribute("aria-pressed", String(c.dataset.filtro === filtro)); });
+    vazio.hidden = visiveis > 0;
+    if (!visiveis) {
+      var nome = filtro ? document.querySelector('.chip[data-filtro="' + filtro + '"] span').textContent : "";
+      vazioTexto.textContent = q ? "Nenhuma notícia com “" + busca.value.trim() + "”" + (nome ? " em " + nome : "") + "."
+                                 : "Nenhuma notícia de " + nome + " nos últimos 7 dias.";
+    }
+  }
+  chips.forEach(function (c) {
+    c.addEventListener("click", function () {
+      filtro = c.dataset.filtro;
+      history.replaceState(null, "", filtro ? "#" + filtro : location.pathname);
+      aplicar();
+    });
+  });
+  busca.addEventListener("input", aplicar);
+  document.getElementById("limpar").addEventListener("click", function () {
+    filtro = ""; busca.value = ""; history.replaceState(null, "", location.pathname); aplicar();
+  });
+  window.addEventListener("hashchange", function () { filtro = decodeURIComponent(location.hash.slice(1)); aplicar(); });
+  aplicar();
+})();
+</script>
+</body>
+</html>
+"""
+
+
 def montar_pagina(noticias, temas, status):
     corte = AGORA - timedelta(days=DIAS_NA_PAGINA)
     visiveis = [n for n in noticias if n.get("tema") and datetime.fromisoformat(n["data"]) >= corte]
     visiveis.sort(key=lambda n: n["data"], reverse=True)
 
-    def cartao(n):
-        data = datetime.fromisoformat(n["data"]).astimezone(FUSO)
-        resumo = n.get("resumo") or n["trecho"] or ""
-        aviso = "" if n.get("ia") else '<span class="aviso">resumo do portal</span>'
-        destaque = " destaque" if n.get("relevancia", 0) >= 4 else ""
-        return f"""<article class="cartao{destaque}" data-tema="{html.escape(n['tema'])}">
-  <div class="meta"><span class="tema">{html.escape(n['tema'])}</span>
-  <span>{html.escape(n['fonte'])} · {data:%d/%m %H:%M}</span>{aviso}</div>
-  <h2><a href="{html.escape(n['link'])}" target="_blank" rel="noopener">{html.escape(n['titulo'])}</a></h2>
-  <p>{html.escape(encurtar(resumo, 420))}</p>
+    cores, reserva = {}, iter(CORES_RESERVA * 5)
+    for t in temas:
+        cores[t["nome"]] = CORES_TEMAS.get(normalizar(t["nome"])) or next(reserva)
+
+    def estilo_cor(tema):
+        claro, escuro = cores.get(tema, ("#56635C", "#9AA8A1"))
+        return f'style="--c:{claro};--cd:{escuro}"'
+
+    def item(n):
+        data = datetime.fromisoformat(n["data"])
+        local = data.astimezone(FUSO)
+        resumo = encurtar(n.get("resumo") or n["trecho"] or "", 420)
+        etiquetas = '<span class="etiqueta nova">nova</span>'
+        if n.get("relevancia", 0) >= 4:
+            etiquetas += '<span class="etiqueta importante">Importante</span>'
+        if not n.get("ia"):
+            etiquetas += '<span class="etiqueta portal">resumo do portal</span>'
+        ia_html = ""
+        if n.get("ia_texto"):
+            tipo = n.get("ia_tipo", "insight")
+            ia_html = (f'<div class="ia{" alerta" if tipo == "alerta" else ""}"><span class="selo">IA</span>'
+                       f'<div><strong>{ROTULOS_IA.get(tipo, "Insight de mercado")}.</strong> {html.escape(n["ia_texto"])}</div></div>')
+        texto_zap = f"{n['titulo']}\n\n{resumo}\n\n{n['link']}"
+        zap = "https://wa.me/?text=" + quote_plus(texto_zap)
+        return f"""<article class="item tema-cor" data-tema="{slug(n['tema'])}" data-ts="{int(data.timestamp() * 1000)}" {estilo_cor(n['tema'])}>
+  <div class="topo"><span class="ingrediente">{html.escape(n['tema'])}</span>{etiquetas}</div>
+  <h3><a href="{html.escape(n['link'])}" target="_blank" rel="noopener">{html.escape(n['titulo'])}</a></h3>
+  <p>{html.escape(resumo)}</p>
+  {ia_html}
+  <div class="rodape-item">
+    <span class="fonte">{html.escape(n['fonte'])}, {local:%H:%M}</span>
+    <a class="acao" href="{html.escape(n['link'])}" target="_blank" rel="noopener">Ler matéria</a>
+    <a class="acao zap" href="{html.escape(zap)}" target="_blank" rel="noopener">Enviar no WhatsApp</a>
+  </div>
 </article>"""
 
-    botoes = "".join(
-        f'<button data-filtro="{html.escape(t["nome"])}">{html.escape(t["nome"])}'
-        f'{" (nota)" if t["nota"] else ""}</button>' for t in temas
+    # agrupa por dia
+    grupos = []
+    for n in visiveis:
+        dia = datetime.fromisoformat(n["data"]).astimezone(FUSO).date()
+        if not grupos or grupos[-1][0] != dia:
+            grupos.append((dia, []))
+        grupos[-1][1].append(n)
+    blocos = "\n".join(
+        f'<section class="dia"><h2>{nome_do_dia(dia)}</h2><div class="folha">'
+        + "\n".join(item(n) for n in lista) + "</div></section>"
+        for dia, lista in grupos
+    )
+
+    limite24 = AGORA - timedelta(hours=24)
+    def qtd24(nome=None):
+        return sum(1 for n in visiveis if datetime.fromisoformat(n["data"]) >= limite24
+                   and (nome is None or n["tema"] == nome))
+
+    chips = "".join(
+        f'<button class="chip tema-cor{" zero" if qtd24(t["nome"]) == 0 else ""}" data-filtro="{slug(t["nome"])}" '
+        f'aria-pressed="false" {estilo_cor(t["nome"])}><span class="ponto" aria-hidden="true"></span>'
+        f'<span>{html.escape(t["nome"])}</span><span class="qtd">{qtd24(t["nome"])}</span></button>'
+        for t in temas
     )
     linhas_status = "".join(
-        f"<li>{html.escape(s['fonte'])}: {s['materias']} matérias via {html.escape(s['metodo'])}</li>"
+        f"<li>{html.escape(s['fonte'])}: {s['materias']} matérias ({html.escape(s['metodo'])})</li>"
         for s in status
     )
-    cartoes = "\n".join(cartao(n) for n in visiveis) or "<p>Nenhuma notícia dos temas nos últimos dias.</p>"
-    atualizado = AGORA.astimezone(FUSO).strftime("%d/%m/%Y às %H:%M")
+    agora_local = AGORA.astimezone(FUSO)
+    atualizado = f"hoje às {agora_local:%H:%M}"
 
-    pagina = f"""<!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(NOME_NEWSLETTER)}</title>
-<style>
-:root {{ --fundo:#f6f4ef; --cartao:#fff; --texto:#1f2421; --suave:#5f6b64; --marca:#1f6b4a; --linha:#e3e0d8; }}
-@media (prefers-color-scheme: dark) {{
-  :root {{ --fundo:#141816; --cartao:#1d2320; --texto:#e8ece9; --suave:#9aa69f; --marca:#5fc596; --linha:#2c3430; }}
-}}
-* {{ box-sizing:border-box; }}
-body {{ margin:0; background:var(--fundo); color:var(--texto); font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }}
-header {{ max-width:860px; margin:0 auto; padding:32px 16px 8px; }}
-h1 {{ margin:0; font-size:28px; color:var(--marca); }}
-header p {{ margin:4px 0 0; color:var(--suave); }}
-nav {{ max-width:860px; margin:16px auto 0; padding:0 16px; display:flex; flex-wrap:wrap; gap:8px; }}
-nav button {{ border:1px solid var(--linha); background:var(--cartao); color:var(--texto); border-radius:999px; padding:6px 14px; font:inherit; font-size:14px; cursor:pointer; }}
-nav button.ativo {{ background:var(--marca); border-color:var(--marca); color:#fff; }}
-main {{ max-width:860px; margin:0 auto; padding:16px; display:grid; gap:12px; }}
-.cartao {{ background:var(--cartao); border:1px solid var(--linha); border-radius:12px; padding:16px 18px; }}
-.cartao.destaque {{ border-left:4px solid var(--marca); }}
-.meta {{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:13px; color:var(--suave); }}
-.tema {{ font-weight:600; color:var(--marca); }}
-.aviso {{ font-size:12px; border:1px solid var(--linha); border-radius:6px; padding:0 6px; }}
-h2 {{ font-size:18px; margin:6px 0; line-height:1.35; }}
-h2 a {{ color:inherit; text-decoration:none; }}
-h2 a:hover {{ text-decoration:underline; }}
-.cartao p {{ margin:0; color:var(--texto); }}
-footer {{ max-width:860px; margin:0 auto; padding:16px 16px 40px; font-size:13px; color:var(--suave); }}
-footer ul {{ padding-left:18px; }}
-</style>
-</head>
-<body>
-<header>
-  <h1>{html.escape(NOME_NEWSLETTER)}</h1>
-  <p>{html.escape(SUBTITULO)}</p>
-  <p>Última atualização: {atualizado} (horário de Brasília)</p>
-</header>
-<nav><button class="ativo" data-filtro="">Todos</button>{botoes}</nav>
-<main>
-{cartoes}
-</main>
-<footer>
-  <p>Resumos gerados automaticamente a partir dos portais citados. Sempre confira a matéria original no link.</p>
-  <details><summary>Situação das fontes nesta rodada</summary><ul>{linhas_status}</ul></details>
-</footer>
-<script>
-document.querySelectorAll("nav button").forEach(function (b) {{
-  b.addEventListener("click", function () {{
-    document.querySelectorAll("nav button").forEach(function (x) {{ x.classList.remove("ativo"); }});
-    b.classList.add("ativo");
-    var f = b.getAttribute("data-filtro");
-    document.querySelectorAll(".cartao").forEach(function (c) {{
-      c.style.display = (!f || c.getAttribute("data-tema") === f) ? "" : "none";
-    }});
-  }});
-}});
-</script>
-</body>
-</html>"""
+    pagina = (MODELO_PAGINA
+              .replace("__MASCOTE__", MASCOTE_SVG)
+              .replace("__NOME__", html.escape(NOME_NEWSLETTER))
+              .replace("__SUBTITULO__", html.escape(SUBTITULO))
+              .replace("__ATUALIZADO__", atualizado)
+              .replace("__TOTAL24__", str(qtd24()))
+              .replace("__CHIPS__", chips)
+              .replace("__DIAS__", blocos)
+              .replace("__STATUS__", linhas_status))
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(pagina, encoding="utf-8")
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
@@ -407,7 +704,7 @@ def main():
     print(f"{adicionadas} matérias novas dentro dos temas.")
 
     # manda ao Gemini as matérias que ainda não têm resumo da IA (mais recentes primeiro)
-    pendentes = sorted((n for n in historico if not n.get("ia") and n.get("tema")),
+    pendentes = sorted((n for n in historico if n.get("versao_ia") != VERSAO_IA and n.get("tema")),
                        key=lambda n: n["data"], reverse=True)
     aplicar_ia(pendentes, temas)
 
