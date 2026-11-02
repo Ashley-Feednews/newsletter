@@ -20,8 +20,9 @@ import feedparser
 import requests
 
 # ---------------- CONFIGURAÇÃO ----------------
-NOME_NEWSLETTER = "Radar de Ingredientes"
-SUBTITULO = "Açúcar, trigo, arroz, óleos, cacau, lácteos, coco e as novidades do setor, resumidos às 7h, 13h e 19h."
+NOME_NEWSLETTER = "Mimosa News"
+ASSINATURA = "Radar de Ingredientes · por Rafael Almeida"
+SUBTITULO = "Mercado, safra e cotações dos principais ingredientes da indústria, filtrados por quem vive o setor."
 DIAS_NA_PAGINA = 7          # notícias dos últimos N dias aparecem na página
 DIAS_NO_HISTORICO = 30      # quanto tempo o robô lembra das notícias
 MAX_IA_POR_RODADA = 90      # máximo de matérias enviadas ao Gemini por rodada
@@ -361,6 +362,7 @@ MASCOTE_SVG = """<svg class="vaca" viewBox="0 0 240 250" aria-hidden="true">
   <path d="M84 56 C82 24 158 24 156 56 Z" fill="#F6D58A"/>
   <path d="M85 47 C100 43 140 43 155 47 L156 55 C140 51 100 51 84 55Z" fill="#C8473D" stroke="none"/>
   <path d="M84 56 C82 24 158 24 156 56" fill="none"/>
+  <g class="placa">
   <g transform="rotate(-5 120 230)">
     <rect x="66" y="210" width="108" height="58" rx="3" fill="#FFFDF7"/>
     <text x="120" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#3B2A20" stroke="none">RADAR</text>
@@ -368,6 +370,7 @@ MASCOTE_SVG = """<svg class="vaca" viewBox="0 0 240 250" aria-hidden="true">
   </g>
   <ellipse cx="66" cy="232" rx="13" ry="11" fill="#6B5A50"/>
   <ellipse cx="174" cy="226" rx="13" ry="11" fill="#6B5A50"/>
+  </g>
 </g>
 </svg>"""
 
@@ -378,7 +381,7 @@ MODELO_PAGINA = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__NOME__</title>
+<title>__NOME__ · __ASSINATURA__</title>
 <meta name="description" content="__SUBTITULO__">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -414,7 +417,17 @@ a { color: inherit; }
 .cena-texto h1, .cena-texto p { color: #16302A; max-width: 30ch; }
 .cena-texto .atualizado { display: inline-block; margin-top: 10px; font-size: 14px; font-weight: 700; color: #16302A;
   background: rgba(255, 255, 255, .75); border-radius: 999px; padding: 3px 12px; }
+.cena-texto .assinatura { margin: 6px 0 0; font-size: 17px; font-weight: 700; color: #2B5A3F; max-width: none; }
 .cena-texto .subtitulo { color: #2E4A43; margin-top: 8px; }
+.vaca .placa { transform-box: fill-box; transform-origin: 50% 100%; animation: balanca 2.8s ease-in-out infinite alternate; }
+@keyframes balanca { from { transform: rotate(-7deg); } to { transform: rotate(7deg); } }
+/* vento leve: nuvens e sol se movem devagar para os lados */
+.nuvem-1 { animation: vento 11s ease-in-out infinite alternate; }
+.nuvem-2 { animation: vento 14s ease-in-out -5s infinite alternate-reverse; }
+@keyframes vento { from { transform: translateX(-28px); } to { transform: translateX(28px); } }
+.cena .sol { animation: sol-vento 9s ease-in-out infinite alternate; }
+@keyframes sol-vento { from { transform: translateX(-7px); } to { transform: translateX(7px); } }
+@media (prefers-reduced-motion: reduce) { .vaca .placa, .nuvem, .cena .sol { animation: none; } }
 @media (max-width: 600px) {
   .cena .sol { top: auto; right: auto; left: 40px; bottom: 58px; width: 58px; height: 58px; }
   .cena-texto { padding-bottom: 150px; }
@@ -497,8 +510,10 @@ footer ul { padding-left: 18px; }
 <header class="cena">
   <div class="sol" aria-hidden="true"></div>
   <svg class="nuvens" viewBox="0 0 1200 90" preserveAspectRatio="xMidYMin slice" aria-hidden="true">
-    <g fill="#FFFFFF" opacity="0.9"><ellipse cx="160" cy="44" rx="58" ry="16"/><ellipse cx="190" cy="34" rx="34" ry="18"/>
-    <ellipse cx="930" cy="30" rx="48" ry="13"/><ellipse cx="952" cy="22" rx="26" ry="14"/></g>
+    <g fill="#FFFFFF" opacity="0.9">
+      <g class="nuvem nuvem-1"><ellipse cx="160" cy="44" rx="58" ry="16"/><ellipse cx="190" cy="34" rx="34" ry="18"/></g>
+      <g class="nuvem nuvem-2"><ellipse cx="930" cy="30" rx="48" ry="13"/><ellipse cx="952" cy="22" rx="26" ry="14"/></g>
+    </g>
   </svg>
   <svg class="campo" viewBox="0 0 1200 140" preserveAspectRatio="none" aria-hidden="true">
     <path d="M0 64 C200 26 380 36 560 64 C760 96 980 34 1200 54 L1200 140 L0 140Z" fill="#B5DA92"/>
@@ -508,6 +523,7 @@ footer ul { padding-left: 18px; }
   __MASCOTE__
   <div class="miolo cena-texto">
     <h1>__NOME__</h1>
+    <p class="assinatura">__ASSINATURA__</p>
     <p class="subtitulo">__SUBTITULO__</p>
     <span class="atualizado">Atualizado __ATUALIZADO__</span>
   </div>
@@ -667,6 +683,7 @@ def montar_pagina(noticias, temas, status):
     pagina = (MODELO_PAGINA
               .replace("__MASCOTE__", MASCOTE_SVG)
               .replace("__NOME__", html.escape(NOME_NEWSLETTER))
+              .replace("__ASSINATURA__", html.escape(ASSINATURA))
               .replace("__SUBTITULO__", html.escape(SUBTITULO))
               .replace("__ATUALIZADO__", atualizado)
               .replace("__TOTAL24__", str(qtd24()))
