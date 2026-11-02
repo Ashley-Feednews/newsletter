@@ -44,7 +44,9 @@ jobs:
           git config user.email "robo-noticias@users.noreply.github.com"
           git add data
           git commit -m "Atualização automática das notícias" || echo "Nada novo para guardar"
-          git push
+          # pega as mudanças feitas no repositório enquanto o robô rodava, e só então guarda
+          git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || git rebase --abort
+          git push origin "HEAD:${GITHUB_REF_NAME}" || echo "Não foi possível guardar o histórico desta vez; a página será publicada mesmo assim"
 
       - name: Configurar a página
         uses: actions/configure-pages@v5
