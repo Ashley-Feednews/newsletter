@@ -720,7 +720,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 3,
-  "resumo": "Entidades agropecuárias de Santa Catarina contestam a possível volta do licenciamento ambiental para a rizicultura. O setor teme o aumento de custos, burocracia e insegurança jurídica na atividade."
+  "resumo": "Entidades do setor agropecuário em Santa Catarina criticam a possível volta da exigência de licenciamento ambiental para a rizicultura. O setor aponta riscos de aumento de burocracia, custos operacionais e insegurança jurídica na atividade.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O aumento de exigências burocráticas pode elevar os custos de produção locais e afetar a competitividade dos produtores catarinenses. Vale acompanhar se a medida avançará, pois pode gerar impactos na oferta regional do grão.",
+  "versao_ia": 2
  },
  {
   "id": "2982d18b41f452b0",
@@ -732,7 +735,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 2,
-  "resumo": "Empresas do setor químico ampliaram o portfólio de ferramentas voltadas ao manejo de doenças na cultura do arroz. A estratégia combina prevenção e tecnologia para proteger a produtividade das lavouras."
+  "resumo": "Empresa do setor químico lançou novas soluções tecnológicas voltadas ao manejo preventivo de doenças na cultura do arroz. A estratégia busca proteger a produtividade, a qualidade dos grãos e a rentabilidade nas lavouras.",
+  "ia_tipo": "insight",
+  "ia_texto": "Inovações no manejo agrícola ajudam a mitigar quebras de safra e podem estabilizar a qualidade do grão ofertado à indústria. É um tema interessante para entender a evolução da produtividade e conversar com parceiros sobre sanidade de cultivos.",
+  "versao_ia": 2
  },
  {
   "id": "14dcc7a86792da98",
@@ -744,7 +750,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "Os preços do arroz no Rio Grande do Sul devem se manter estáveis no curto prazo. A retenção do produto por parte dos produtores ajuda a sustentar as cotações atuais."
+  "resumo": "As cotações do arroz no Rio Grande do Sul devem permanecer estáveis no curto prazo, cotadas entre R$ 80 e R$ 82 a saca. A sustentação dos valores ocorre principalmente devido à retenção do produto por parte dos produtores.",
+  "ia_tipo": "insight",
+  "ia_texto": "A retenção por parte dos produtores indica firmeza nos preços e limita quedas expressivas no curto prazo. Para quem compra ingredientes derivados, o cenário sugere custos estáveis, mas exige monitoramento constante do fluxo de oferta.",
+  "versao_ia": 2
  },
  {
   "id": "2f96e64aebfb0be2",
@@ -756,7 +765,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 3,
-  "resumo": "O retorno da exigência de licenciamento ambiental ameaça a produção de arroz em Santa Catarina. A medida pode impactar principalmente os pequenos produtores que dominam a atividade no estado."
+  "resumo": "Entidades representativas do agro em Santa Catarina alertam que a cobrança de licenciamento ambiental para o cultivo de arroz ameaça a atividade. A medida pode impactar severamente os pequenos produtores, que formam a base da rizicultura catarinense.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Dificuldades operacionais para pequenos produtores podem trazer riscos à oferta regional de arroz a médio prazo. Vale acompanhar os desdobramentos legais e políticos dessa exigência ambiental no estado.",
+  "versao_ia": 2
  },
  {
   "id": "2bb9ce2a9a2ea5e8",
@@ -767,8 +779,11 @@
   "trecho": "Enquanto o mercado registra novas aquisições, produtores gaúchos enfrentam atrasos no plantio em parte das regiões arrozeiras, devido às chuvas e às baixas temperaturas (Por Ieda Risco/ AgroEffective) As compras de arroz para exportação foram retomadas no Rio Grande do Sul, com a aquisição do produto a um preço médio de R$ 90 por saca, […] Arroz para exportação alcança R$ 90 por saca após retomada das compras",
   "tema": "Arroz",
   "ia": true,
-  "relevancia": 4,
-  "resumo": "O preço do arroz para exportação alcançou R$ 90 por saca após a retomada das compras no Rio Grande do Sul. Em contrapartida, o plantio enfrenta atrasos em algumas regiões devido às chuvas e ao frio."
+  "relevancia": 5,
+  "resumo": "O preço do arroz voltado para a exportação atingiu R$ 90 por saca com a retomada das compras externas no Rio Grande do Sul. Em contrapartida, as lavouras gaúchas enfrentam atrasos no plantio decorrentes de chuvas e baixas temperaturas.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A combinação de preços maiores para exportação e atrasos no plantio por clima adverso pode acirrar a disputa pelo grão e encarecer a matéria-prima no mercado interno. É um ponto de atenção crítico para a estratégia de compras e margens.",
+  "versao_ia": 2
  },
  {
   "id": "beb4cef099091135",
@@ -780,7 +795,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "A produção brasileira de arroz na safra 2026/27 deve registrar queda devido a recuos no Rio Grande do Sul. O avanço do cultivo no Mato Grosso ajuda a compensar parcialmente a redução de oferta."
+  "resumo": "A Conab projeta uma queda na produção nacional de arroz para a safra 2026/27, refletindo menores área e produtividade no Rio Grande do Sul. O recuo deve impactar a oferta brasileira, embora haja expectativa de expansão do cultivo de sequeiro em Mato Grosso.",
+  "ia_tipo": "insight",
+  "ia_texto": "Uma projeção de safra menor no principal estado produtor tende a manter o mercado firme e limitar quedas de preços ao longo do ciclo. Vale antecipar o planejamento de suprimentos com os clientes diante da perspectiva de oferta restrita.",
+  "versao_ia": 2
  },
  {
   "id": "465c94608154dcd8",
@@ -792,7 +810,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 3,
-  "resumo": "Cientistas desenvolveram uma nova técnica para proteger culturas como arroz, trigo e cevada contra fungos. A modificação no sistema imunológico das plantas visa criar variedades mais resistentes à brusone."
+  "resumo": "Pesquisadores desenvolveram uma técnica experimental para modificar o sistema imunológico de plantas contra fungos que afetam arroz, trigo e cevada. A inovação visa criar lavouras mais resistentes aos danos causados pela brusone.",
+  "ia_tipo": "insight",
+  "ia_texto": "Avanços em biotecnologia agrícola são essenciais para reduzir perdas de safras futuras frente a doenças fúngicas severas. No longo prazo, isso pode trazer maior estabilidade de volume e qualidade para a cadeia de cereais.",
+  "versao_ia": 2
  },
  {
   "id": "0cd596f2089a3311",
@@ -1327,9 +1348,12 @@
   "data": "2026-10-03T22:42:05+00:00",
   "trecho": "Guia Funcionais 2025 - Nov/Dez — Edição 223 aditivosingredientes.com.br",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Guia Funcionais 2025 - Nov/Dez — Edição 223 aditivosingredientes.com.br"
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Foi divulgada uma nova edição de um guia especializado focado em ingredientes funcionais para o mercado de alimentos e bebidas. A publicação aborda tendências e soluções técnicas voltadas ao desenvolvimento de produtos.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Guias de ingredientes funcionais são excelentes ferramentas para identificar tendências de formulação e novos aditivos demandados pela indústria. Vale explorar o material para mapear oportunidades de portfólio junto a clientes que buscam saudabilidade.",
+  "versao_ia": 2
  },
  {
   "id": "82da090293cdf9f3",
@@ -1479,6 +1503,36 @@
   "resumo": "A Agrion aplicou R$ 46 milhões na construção de uma nova fábrica de fertilizantes. A planta vai aproveitar resíduos da produção sucroenergética para alcançar alta capacidade anual.",
   "ia_tipo": "insight",
   "ia_texto": "O aproveitamento de subprodutos da usina pode otimizar custos operacionais no setor sucroenergético. Vale acompanhar a oferta regional desses insumos agrícolas para as lavouras.",
+  "versao_ia": 2
+ },
+ {
+  "id": "7e3d176a32f42b9b",
+  "titulo": "Mercado Devastado com o Resultado das Eleições é Hora de Vender Soja ?",
+  "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVGJ4OFo1eG1XT0NaRVR2Z0RJMkg3aUJ5VjdabEVsZWo5dHpQWnhPUVp4cVBhTVhGN0tNZ3NxTDgxTFZaajI2WUNHRzAxaTJuU1BTVDZMVU9qSW9kMEdWb0dpS2ZReGdtb3lydER2eDNoMENVZmlFM0FiaVVmUngyaktaUDhTcVdQcmI2R0J4WllYWXZta2M0Y1N5NENjd3NMNnQyQ2RuLUlvLVhuRzBHMmtLWWdTRTJBeWhKR25Mckw3RUYyUWY4X3hxS29jc2lfRnfSAdcBQVVfeXFMTzdreGZEQndmWG8xSXRXNnVDYURwRC1pampJamh5T0RhMXAyMkJMcXZFT0gwWnBjWndCbE10N05NUGgtVUMwTlk2M2JvZmp1TjlGd0lvZTZiWF9tRV9TUEpXaWs1TEx2dUNISXFkV091OXZHaWVpVjJTZGNXUHRpRzJQaUQtY1pQU19IYmluZkFETFZ6al9uT0tSWjkwV0pFTEF0eHFOOGE0bFQzeC1HX1pnVUVtVzh3SGhGekNRWklvSjBuYkZUb3Rqc1RwMWQ0Y3BhQjNZcUk?oc=5",
+  "fonte": "Notícias Agrícolas",
+  "data": "2026-10-27T14:21:33+00:00",
+  "trecho": "Mercado Devastado com o Resultado das Eleições é Hora de Vender Soja ? Notícias Agrícolas",
+  "tema": "Óleos e gorduras",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "O mercado de soja repercute os desdobramentos de um resultado eleitoral e debate o momento ideal para a comercialização. A discussão envolve a cautela dos produtores diante das oscilações de preços e do cenário político.",
+  "ia_tipo": "insight",
+  "ia_texto": "A volatilidade política pode impactar o ritmo de comercialização e influenciar as cotações do complexo soja e de óleos. Vale acompanhar os reflexos nos custos de matéria-prima para a indústria de alimentos e avaliar o timing de compras.",
+  "versao_ia": 2
+ },
+ {
+  "id": "9e8f9ef040aa1232",
+  "titulo": "Preços recebidos pelo produtor têm a maior alta desde fevereiro de 2022; o motivo e o que representa",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM2h0cnc5SW45QXg4eWRSZWNGUVY3SDZTM3ZlOU5yN1drVjZTSVZMVGNVTkFoamNJOS14QlhpZWpsckF6NjlhdEhQZTZMRmxWWE5zaC1TdTV6SkdjOUF2U1gwT2pEM1FJYTEwYi1iUXRXb3dlYzdveGFPM3o1TGw5aE9uM196bmtnbWIzcF8wZkE1ZUpRVWphckV3ejlFdngzSGRQMTRSSHVwbjVJZ0g5SHNwb2NmNTJnWEptYm9iMDJMNEZNVTZZ?oc=5",
+  "fonte": "Planeta Arroz",
+  "data": "2026-10-27T12:16:44+00:00",
+  "trecho": "Preços recebidos pelo produtor têm a maior alta desde fevereiro de 2022; o motivo e o que representa Planeta Arroz",
+  "tema": "Arroz",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "Os preços pagos aos produtores de arroz registraram a maior alta mensal desde fevereiro de 2022. O movimento é impulsionado por fatores de mercado que afetam diretamente a remuneração no campo.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A alta nos preços ao produtor pode pressionar os custos das indústrias de beneficiamento e de ingredientes derivados. É importante monitorar a margem de repasse para os produtos finais e conversar com clientes sobre previsibilidade de preços.",
   "versao_ia": 2
  }
 ]
