@@ -1,0 +1,21 @@
+# LISTA DE PORTAIS
+# Uma linha por portal, no formato:   Nome | endereço do site
+# Linhas que começam com # são ignoradas (servem de comentário).
+# Para tirar um portal sem apagar, coloque # no começo da linha.
+#
+# O robô descobre o RSS sozinho. Se o portal não tiver RSS ou bloquear
+# o robô, ele busca as matérias desse portal pelo Google Notícias.
+
+MilkPoint | https://www.milkpoint.com.br/
+Notícias Agrícolas | https://www.noticiasagricolas.com.br/
+Abitrigo | https://www.abitrigo.com.br/
+Conab | https://www.gov.br/conab/pt-br
+FoodBiz | https://foodbiz.com.br/
+Giro News | https://gironews.com/
+AgFeed | https://agfeed.com.br/
+Food Connection | https://www.foodconnection.com.br/
+Aditivos & Ingredientes | https://aditivosingredientes.com.br/
+Agrolink | https://www.agrolink.com.br/
+FoodNavigator LatAm | https://www.foodnavigator.com/Regions/Latin-America/
+Planeta Arroz | https://planetaarroz.com.br/
+NovaCana | https://www.novacana.com/

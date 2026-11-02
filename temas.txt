@@ -1,0 +1,34 @@
+# TEMAS DA NEWSLETTER
+# Cada tema começa com o nome entre colchetes.
+# "foco" explica para a IA o que interessa nesse tema.
+# "palavras" são as palavras-chave, separadas por vírgula (maiúscula e acento não importam).
+# "tipo: nota" faz o tema aparecer só quando houver notícia, como nota eventual.
+
+[Açúcar]
+foco: indicador Cepea do cristal, bolsa de NY (ICE), moagem e safra do Centro-Sul, mix açúcar/etanol, exportação
+palavras: açúcar, cristal, refinado, VHP, moagem, Unica, ICE, cana-de-açúcar, sucroenergético
+
+[Trigo e farinhas]
+foco: preço Cepea (PR/RS), safra brasileira e argentina, importação, dólar
+palavras: trigo, farinha, moinho, Abitrigo, Argentina
+
+[Arroz]
+foco: preços no RS, safra, exportação e importação (Mercosul e Ásia), farinha de arroz, sem glúten
+palavras: arroz, Irga, Federarroz, farinha de arroz, sem glúten
+
+[Óleos e gorduras]
+foco: óleo de soja, palma, preço da soja em Chicago, biodiesel (mistura obrigatória pesa no preço do óleo), lecitina
+palavras: óleo de soja, palma, gordura vegetal, biodiesel, Abiove, lecitina, esmagamento, óleo vegetal
+
+[Cacau]
+foco: preço em Nova York e Londres, safra da Costa do Marfim e de Gana, moagem, EUDR (regra europeia de desmatamento), produção na Bahia e no Pará
+palavras: cacau, chocolate, ICCO, moagem, EUDR, amêndoa, Costa do Marfim, Gana
+
+[Lácteos]
+foco: preço do leite ao produtor (Cepea), leite em pó, whey, importação do Mercosul, leilões GDT (Nova Zelândia)
+palavras: leite, leite em pó, whey, WPC, soro, GDT, captação, laticínio, lácteo
+
+[Coco]
+tipo: nota
+foco: preço, safra no Nordeste, importação da Ásia
+palavras: coco, água de coco, coco ralado, coqueiro
