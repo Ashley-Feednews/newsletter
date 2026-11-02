@@ -1,0 +1,59 @@
+name: Atualizar notícias
+
+on:
+  schedule:
+    # Horários em UTC: 10h, 16h e 22h UTC = 7h, 13h e 19h em Brasília
+    - cron: "0 10,16,22 * * *"
+  workflow_dispatch: # permite rodar na mão pelo botão "Run workflow"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: newsletter
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+    steps:
+      - name: Baixar os arquivos do projeto
+        uses: actions/checkout@v4
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar o que o robô precisa
+        run: pip install feedparser requests
+
+      - name: Rodar o robô
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python robo.py
+
+      - name: Guardar o histórico de notícias
+        run: |
+          git config user.name "robo-noticias"
+          git config user.email "robo-noticias@users.noreply.github.com"
+          git add data
+          git commit -m "Atualização automática das notícias" || echo "Nada novo para guardar"
+          git push
+
+      - name: Configurar a página
+        uses: actions/configure-pages@v5
+
+      - name: Enviar a página
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Publicar a página
+        id: publicar
+        uses: actions/deploy-pages@v4
