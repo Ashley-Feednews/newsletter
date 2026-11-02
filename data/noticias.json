@@ -8,8 +8,11 @@
   "trecho": "De produtores de leite a empreendedores: como dois fazendeiros criaram uma marca de café com leite MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 1,
-  "resumo": "Dois produtores de leite decidiram empreender e criaram a sua própria marca de café com leite. A iniciativa transformou os fazendeiros em donos de negócio."
+  "relevancia": 2,
+  "resumo": "Dois produtores rurais migraram para a atividade de empreendedorismo ao criarem uma marca própria de café com leite. A iniciativa transformou a atuação dos fazendeiros no mercado.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O surgimento de marcas locais de bebidas lácteas reflete a busca por verticalização e agregação de valor na porteira. Vale acompanhar o crescimento de pequenos entrantes no segmento.",
+  "versao_ia": 2
  },
  {
   "id": "14c332ebbb25a363",
@@ -20,8 +23,11 @@
   "trecho": "\"Como encurtar o tempo da inovação?\": setor lácteo debate desafios regulatórios MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 3,
-  "resumo": "O setor lácteo debateu recentemente os principais desafios regulatórios para encurtar o tempo de inovação. Especialistas discutiram as barreiras legais para o lançamento de novos produtos."
+  "relevancia": 4,
+  "resumo": "Representantes do setor lácteo debateram os principais desafios regulatórios para acelerar a inovação de produtos. As discussões focaram em como encurtar prazos para novos lançamentos.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Burocracias regulatórias podem atrasar a chegada de ingredientes inovadores ao mercado brasileiro. Acompanhar esses debates ajuda a antecipar mudanças nos processos de aprovação de formulações.",
+  "versao_ia": 2
  },
  {
   "id": "dba5e968711c5a32",
@@ -32,8 +38,11 @@
   "trecho": "O que esperar do preço do leite pago ao produtor em 2027? MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 4,
-  "resumo": "Analistas avaliam as perspectivas para o comportamento do preço do leite pago ao produtor até o ano de 2027. O tema gera expectativas nos agentes do setor lácteo."
+  "relevancia": 3,
+  "resumo": "Especialistas analisam os fatores que devem direcionar os valores pagos aos produtores de leite ao longo de 2027. O cenário envolve projeções para o comportamento da cadeia láctea no período.",
+  "ia_tipo": "insight",
+  "ia_texto": "Planejar o orçamento de longo prazo exige acompanhar as projeções de custos e captação de leite. Vale usar o tema para debater estratégias de fixação de preços com fabricantes de laticínios.",
+  "versao_ia": 2
  },
  {
   "id": "655cd2ae1502431b",
@@ -44,8 +53,11 @@
   "trecho": "Leite condensado Natville vira febre na confeitaria e impulsiona buscas no Google MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 2,
-  "resumo": "O leite condensado da marca Natville tornou-se destaque na confeitaria e elevou as buscas na internet. O produto gerou grande interesse entre os consumidores do setor."
+  "relevancia": 3,
+  "resumo": "Um leite condensado específico virou febre na confeitaria e impulsionou buscas na internet. O produto ganhou destaque nas preferências de profissionais do setor.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Vale monitorar o sucesso de marcas específicas na confeitaria para entender a demanda por derivados lácteos de maior valor agregado.",
+  "versao_ia": 2
  },
  {
   "id": "c2e4aec99d59e10e",
@@ -56,8 +68,11 @@
   "trecho": "Parmalat lança linha multipack nos EUA: leite prático sem necessidade de refrigeração MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 2,
-  "resumo": "Uma marca de laticínios introduziu uma nova embalagem múltipla de leite nos Estados Unidos. O produto foca na praticidade e dispensa refrigeração antes do consumo."
+  "relevancia": 3,
+  "resumo": "A marca Parmalat apresentou um novo formato de embalagem múltipla para leite nos Estados Unidos. O produto destaca-se pela conveniência logística, pois dispensa o uso de refrigeração.",
+  "ia_tipo": "insight",
+  "ia_texto": "Inovações em embalagens e produtos lácteos de longa vida refletem tendências globais de conveniência e redução de desperdício. Vale acompanhar se há movimentações similares no mercado brasileiro para ingredientes lácteos focados em praticidade.",
+  "versao_ia": 2
  },
  {
   "id": "1f9806b0c6e1d16e",
@@ -69,7 +84,10 @@
   "tema": "Lácteos",
   "ia": true,
   "relevancia": 5,
-  "resumo": "O preço pago ao produtor de leite registrou queda de 5% no mês de setembro. A desvalorização foi impulsionada pelo aumento da oferta interna do produto."
+  "resumo": "O preço do leite registrou queda de cinco por cento no mês de setembro. A retração foi impulsionada pelo aumento da oferta interna do produto.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A maior oferta interna e a queda nos preços podem aliviar os custos de matérias-primas para as indústrias de laticínios. Vale acompanhar o comportamento da produção nos próximos meses para negociar melhores condições de compra.",
+  "versao_ia": 2
  },
  {
   "id": "40ec6187905fe5eb",
@@ -92,8 +110,11 @@
   "trecho": "Conseleite/PR projeta ajuste de -2,65% no preço do leite entregue em outubro MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 5,
-  "resumo": "O Conseleite do Paraná projetou uma redução de 2,65% no valor do leite entregue pelos produtores em outubro. A estimativa aponta para um ajuste negativo na matéria-prima."
+  "relevancia": 4,
+  "resumo": "O Conseleite do Paraná estimou uma retração de 2,65% no valor de referência do leite entregue no mês de outubro. A projeção reflete as condições atuais de oferta e demanda na região.",
+  "ia_tipo": "insight",
+  "ia_texto": "A queda no preço ao produtor indica um alívio nos custos para as indústrias de laticínios locais. Pode ser uma oportunidade para renegociar contratos de fornecimento de ingredientes para o setor.",
+  "versao_ia": 2
  },
  {
   "id": "0768ed4658ad4239",
@@ -104,8 +125,11 @@
   "trecho": "Setor lácteo dos EUA investe mais de US$ 15 bi para expandir produção MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 2,
-  "resumo": "O setor lácteo dos Estados Unidos está investindo mais de 15 bilhões de dólares para ampliar sua capacidade produtiva. O montante visa o crescimento da produção local."
+  "relevancia": 3,
+  "resumo": "O setor lácteo dos Estados Unidos realizou investimentos superiores a 15 bilhões de dólares para ampliar sua capacidade produtiva. O montante visa expandir a oferta de derivados.",
+  "ia_tipo": "insight",
+  "ia_texto": "A expansão da capacidade produtiva nos EUA pode elevar a oferta exportável global de lácteos, influenciando os preços internacionais. Vale monitorar os reflexos na competitividade do leite importado no Mercosul.",
+  "versao_ia": 2
  },
  {
   "id": "7f62465c04d5bb21",
@@ -116,8 +140,11 @@
   "trecho": "Conseleite/RS: valor de referência do leite para outubro é projetado com variação de -2,98% MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 5,
-  "resumo": "O preço de referência do leite ao produtor no Rio Grande do Sul foi projetado com queda para o mês de outubro. O índice indicou uma retração de quase três por cento."
+  "relevancia": 4,
+  "resumo": "O valor de referência do leite ao produtor no Rio Grande do Sul apresentou projeção de queda para o mês de outubro. O índice calculado pelo Conseleite apontou variação negativa de quase três por cento.",
+  "ia_tipo": "insight",
+  "ia_texto": "A redução no preço pago ao produtor sinaliza um alívio temporário nos custos da matéria-prima láctea. Pode ser uma oportunidade para renegociar volumes e margens com clientes da indústria de laticínios.",
+  "versao_ia": 2
  },
  {
   "id": "d06d1fdeeb556714",
@@ -129,7 +156,10 @@
   "tema": "Lácteos",
   "ia": true,
   "relevancia": 3,
-  "resumo": "O Sindleite do Rio Grande do Norte aprovou uma parceria com uma entidade da Argentina. O acordo tem como objetivo fortalecer a indústria láctea potiguar."
+  "resumo": "O SINDLEITE do Rio Grande do Norte aprovou uma nova parceria com uma entidade argentina. O acordo tem como objetivo fortalecer a indústria láctea potiguar.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Parcerias internacionais no setor de lácteos podem sinalizar fluxos mais intensos de importação do Mercosul. Vale acompanhar o impacto dessa cooperação na competitividade das indústrias locais.",
+  "versao_ia": 2
  },
  {
   "id": "5d36cfd2e48ed470",
@@ -140,8 +170,11 @@
   "trecho": "ABCZ lança carta com propostas para fortalecer a cadeia do leite no Brasil MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 3,
-  "resumo": "A ABCZ lançou uma carta contendo propostas voltadas para o fortalecimento da cadeia produtiva do leite no Brasil. O documento busca apoiar o setor leiteiro nacional."
+  "relevancia": 2,
+  "resumo": "A ABCZ divulgou um documento com sugestões voltadas ao fortalecimento da cadeia produtiva do leite no país. A iniciativa busca apoiar o desenvolvimento do setor pecuário nacional.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Discussões regulatórias e setoriais ajudam a entender o planejamento de longo prazo dos produtores. Pode ser um bom gancho para sondar o sentimento de clientes da indústria láctea.",
+  "versao_ia": 2
  },
  {
   "id": "e7b60d8e49ff3412",
@@ -153,7 +186,10 @@
   "tema": "Lácteos",
   "ia": true,
   "relevancia": 4,
-  "resumo": "Projeções de mercado indicam que o setor de proteínas do leite pode alcançar US$ 24 bilhões até 2033. O segmento global demonstra forte perspectiva de crescimento nas próximas campanhas."
+  "resumo": "Projeções de mercado indicam que o setor de proteínas lácteas pode atingir cifras bilionárias na próxima década. A expansão reflete a busca contínua por alimentos com apelo funcional.",
+  "ia_tipo": "insight",
+  "ia_texto": "O crescimento projetado para o mercado de proteínas lácteas confirma a forte demanda por ingredientes funcionais. É uma oportunidade para apresentar soluções de alto teor proteico aos fabricantes de alimentos e bebidas.",
+  "versao_ia": 2
  },
  {
   "id": "88aafe4f8d5887e5",
@@ -165,7 +201,10 @@
   "tema": "Lácteos",
   "ia": true,
   "relevancia": 2,
-  "resumo": "Uma publicação em vídeo abordou os impactos e o controle de casos de mastite na pecuária leiteira. O conteúdo discutiu formas de manejar a doença para proteger a produção de leite."
+  "resumo": "Material em formato de vídeo abordou o controle e a prevenção de casos de mastite na produção leiteira. O conteúdo discutiu medidas sanitárias para o manejo adequado do rebanho.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Problemas sanitários no campo afetam diretamente a qualidade e o volume da matéria-prima disponível. Monitorar a sanidade do rebanho é essencial para prever oscilações na captação de leite pelas indústrias.",
+  "versao_ia": 2
  },
  {
   "id": "a87bd211941c9d27",
@@ -176,8 +215,11 @@
   "trecho": "Enel 2026: maior evento do setor de leite do Nordeste será no Piauí MilkPoint",
   "tema": "Lácteos",
   "ia": true,
-  "relevancia": 2,
-  "resumo": "O evento Enel 2026, considerado o maior do setor de leite na região Nordeste, será sediado no Piauí. A iniciativa reunirá lideranças da cadeia láctea."
+  "relevancia": 3,
+  "resumo": "O Enel 2026 foi confirmado como o maior evento do setor de leite da região Nordeste. A próxima edição do encontro ocorrerá no estado do Piauí.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Eventos regionais são importantes para entender a dinâmica de produção local e debater gargalos de oferta. Pode ser uma oportunidade para estreitar relacionamento com laticínios da região.",
+  "versao_ia": 2
  },
  {
   "id": "5a8b670e4b979679",
@@ -189,7 +231,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 4,
-  "resumo": "O Banco Mundial elevou a estimativa de preço para trigo, soja e milho com horizonte até 2027. A revisão considerou riscos na oferta global e uma demanda firme."
+  "resumo": "O Banco Mundial revisou para cima as projeções de preço para commodities agrícolas nos próximos anos. A instituição apontou riscos contínuos na oferta e a persistência de uma demanda aquecida.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Projeções de alta em longo prazo reforçam a necessidade de cautela na formação de contratos futuros de compra. Vale usar esse cenário para orientar clientes sobre a importância de travar custos de insumos.",
+  "versao_ia": 2
  },
  {
   "id": "7b43e1341ea13340",
@@ -200,8 +245,11 @@
   "trecho": "Com mix alcooleiro, moagem de cana na safra 2026-2027 no Norte-Nordeste atinge 23,1% da projeção Notícias Agrícolas",
   "tema": "Açúcar",
   "ia": true,
-  "relevancia": 3,
-  "resumo": "A moagem de cana-de-açúcar da safra 2026-2027 na região Norte-Nordeste alcançou 23,1% da projeção total. Os dados consideram o mix alcooleiro da produção."
+  "relevancia": 4,
+  "resumo": "A moagem de cana-de-açúcar para a safra 2026-2027 no Norte-Nordeste atingiu 23,1% da projeção inicial. O período conta com foco no mix alcooleiro.",
+  "ia_tipo": "insight",
+  "ia_texto": "O avanço da safra e a destinação do mix para etanol influenciam diretamente a disponibilidade de açúcar no mercado doméstico. Vale monitorar os volumes direcionados à exportação e ao consumo interno.",
+  "versao_ia": 2
  },
  {
   "id": "de296b0a7c8beec8",
@@ -213,7 +261,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 4,
-  "resumo": "Os contratos de trigo recuaram quase 2% na bolsa de Chicago nesta quarta-feira. Com isso, a cotação fechou abaixo de US$ 6,00 pela primeira vez desde julho."
+  "resumo": "Os contratos futuros de trigo negociados na bolsa de Chicago recuaram quase 2% na quarta-feira. Com a queda, a cotação fechou abaixo de US$ 6,00 pela primeira vez desde o mês de julho.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A queda nas cotações internacionais pode influenciar o ritmo de importação e a paridade de preços no Brasil. É importante monitorar a taxa de câmbio para avaliar o real impacto nos custos dos moinhos.",
+  "versao_ia": 2
  },
  {
   "id": "fc6c920a7992d610",
@@ -225,7 +276,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 3,
-  "resumo": "O plantio de arroz, soja e milho avança na Argentina sob boas condições climáticas. As lavouras locais se desenvolvem favoravelmente no início da temporada."
+  "resumo": "O plantio de grãos na Argentina avança amparado por condições climáticas consideradas boas. As atividades englobam culturas como soja, milho e arroz.",
+  "ia_tipo": "insight",
+  "ia_texto": "O bom desenvolvimento inicial do plantio em países vizinhos pode influenciar a formação de preços e a disponibilidade regional de commodities. É importante acompanhar o clima na América do Sul para antecipar tendências de importação.",
+  "versao_ia": 2
  },
  {
   "id": "7018a4b3386bbf30",
@@ -237,7 +291,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 3,
-  "resumo": "Um programa agropecuário debateu a possibilidade de valorização nos preços do trigo, soja e milho até o ano de 2027. O tema central foi a tendência futura das cotações desses grãos."
+  "resumo": "Um programa agropecuário discutiu a possibilidade de alta nos preços das commodities agrícolas no médio prazo. Entre os grãos citados com potencial de valorização futura está o trigo.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Expectativas de alta para os grãos exigem atenção redobrada no gerenciamento de custos de matéria-prima. Pode ser um bom momento para conversar com clientes sobre planejamento de compras e estratégias de fixação de preços.",
+  "versao_ia": 2
  },
  {
   "id": "447fc93f51790b2a",
@@ -249,7 +306,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 3,
-  "resumo": "O mercado acompanhou o encerramento dos negócios de soja, trigo e café em baixa na quarta-feira. O grão integrou o movimento de desvalorização do dia."
+  "resumo": "O mercado agrícola registrou encerramento de negociações em baixa para commodities como o trigo em meio a ajustes de safra. Na citricultura, o avanço do greening também altera o planejamento dos produtores.",
+  "ia_tipo": "insight",
+  "ia_texto": "A desvalorização recente nas cotações pode trazer alívio temporário para os moinhos na compra de matéria-prima. Vale acompanhar se o recuo externo chegará aos preços da farinha no mercado interno.",
+  "versao_ia": 2
  },
  {
   "id": "515f3bc64dc39891",
@@ -261,7 +321,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 4,
-  "resumo": "A oferta interna e o andamento da safra de trigo continuam ditando o rumo dos preços no mercado brasileiro. Esses fatores locais pesam nas cotações, superando a volatilidade internacional."
+  "resumo": "Os preços internos do trigo continuam pressionados pelo andamento da safra e pelo volume de oferta disponível. O cenário ocorre apesar da volatilidade registrada nos mercados internacionais.",
+  "ia_tipo": "insight",
+  "ia_texto": "A pressão de baixa ou estabilidade nos preços internos do trigo pode aliviar os custos de moinhos e fabricantes de farinhas e massas. Vale acompanhar o ritmo de escoamento da safra local.",
+  "versao_ia": 2
  },
  {
   "id": "d8b2b8d0d63a0c26",
@@ -272,8 +335,11 @@
   "trecho": "Trigo cai em Chicago com demanda fraca e negociações entre Rússia e Ucrânia Abitrigo",
   "tema": "Trigo e farinhas",
   "ia": true,
-  "relevancia": 4,
-  "resumo": "Os contratos do trigo fecharam em queda na bolsa de Chicago. O recuo foi motivado pela baixa demanda internacional e pelo andamento das negociações entre Rússia e Ucrânia."
+  "relevancia": 3,
+  "resumo": "Os contratos futuros de trigo registraram baixa na Bolsa de Chicago durante as negociações. O movimento foi motivado por uma demanda fraca e pelo andamento das negociações entre Rússia e Ucrânia.",
+  "ia_tipo": "insight",
+  "ia_texto": "A queda nas cotações internacionais pode aliviar os custos de importação e influenciar o mercado doméstico. Vale acompanhar o comportamento do câmbio para entender se a baixa externa será repassada internamente.",
+  "versao_ia": 2
  },
  {
   "id": "18d8abfbe14ae2b9",
@@ -296,8 +362,11 @@
   "trecho": "Trigo importado pressiona preços no Sul, diz consultoria Abitrigo",
   "tema": "Trigo e farinhas",
   "ia": true,
-  "relevancia": 5,
-  "resumo": "A entrada de trigo importado exerceu pressão de baixa sobre os valores praticados na região Sul. A informação foi divulgada por uma consultoria especializada no setor."
+  "relevancia": 4,
+  "resumo": "Segundo dados de consultoria especializada, a oferta de trigo importado exerceu pressão de baixa sobre as cotações no Sul do país. A entrada do produto externo afetou os preços locais.",
+  "ia_tipo": "insight",
+  "ia_texto": "A pressão do trigo importado pode gerar oportunidades para indústrias que buscam matéria-prima mais competitiva na região sul. É prudente avaliar se a tendência de preços menores deve se estender para as farinhas.",
+  "versao_ia": 2
  },
  {
   "id": "0429e8002fc2a96b",
@@ -309,7 +378,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 4,
-  "resumo": "A irregularidade no regime de chuvas impactou o andamento do plantio de soja e a qualidade do trigo no país. O fenômeno climático gerou preocupações para a safra atual."
+  "resumo": "A distribuição irregular das chuvas no Brasil causou impactos negativos diretos no plantio da soja. Além disso, o fenômeno climático também comprometeu a qualidade da safra de trigo.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Problemas na qualidade do trigo nacional podem elevar a dependência de grãos importados e encarecer a farinha. Vale acompanhar os laudos de qualidade da safra atual e antecipar conversas com moinhos e panificadoras.",
+  "versao_ia": 2
  },
  {
   "id": "fd74a6815cd3694a",
@@ -332,8 +404,11 @@
   "trecho": "França rejeita imposto sobre alimentos processados com açúcar e aditivos aditivosingredientes.com.br",
   "tema": "Açúcar",
   "ia": true,
-  "relevancia": 2,
-  "resumo": "O governo da França recusou a aplicação de um tributo sobre alimentos processados contendo açúcar e aditivos. A decisão descarta o encarecimento desses produtos no mercado francês."
+  "relevancia": 3,
+  "resumo": "O governo da França rejeitou a implementação de um imposto específico sobre alimentos processados que contêm açúcar e aditivos. A medida evitou a taxação adicional desses produtos no mercado local.",
+  "ia_tipo": "insight",
+  "ia_texto": "Discussões sobre tributação de alimentos processados e ingredientes específicos continuam em pauta em diferentes países. Vale acompanhar se essa tendência de rejeição de impostos se reflete em debates regulatórios futuros no Brasil.",
+  "versao_ia": 2
  },
  {
   "id": "c1eb1d7d68623198",
@@ -345,7 +420,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 4,
-  "resumo": "O mercado internacional de grãos começou novembro pressionado por fundos de investimento e incertezas na demanda. A soja, o milho e o trigo acumulam perdas recentes com influência do câmbio e do clima."
+  "resumo": "O mercado internacional de grãos inicia novembro sob pressão com perdas em soja, milho e trigo. Fundos de investimento e condições climáticas influenciam a formação dos preços.",
+  "ia_tipo": "insight",
+  "ia_texto": "A pressão externa e o câmbio podem gerar volatilidade nos custos de importação de trigo, exigindo cautela na fixação de preços.",
+  "versao_ia": 2
  },
  {
   "id": "935aab79e5c19b42",
@@ -357,7 +435,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 5,
-  "resumo": "A comercialização de trigo no Sul enfrenta oferta reduzida e problemas de qualidade no cereal. Apenas 14% do volume colhido no Rio Grande do Sul possui padrão adequado para a moagem."
+  "resumo": "A comercialização no Sul do país enfrenta oferta reduzida de trigo e problemas de qualidade. Apenas uma pequena parcela do volume colhido no Rio Grande do Sul possui padrão para moagem.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A escassez de trigo de boa qualidade no RS pode encarecer a matéria-prima nacional para moinhos, elevando os preços das farinhas locais.",
+  "versao_ia": 2
  },
  {
   "id": "f610b42c7c597f9f",
@@ -369,7 +450,10 @@
   "tema": "Trigo e farinhas",
   "ia": true,
   "relevancia": 5,
-  "resumo": "A escassez de trigo próprio para moagem pode sustentar preços específicos no mercado nacional. A oferta do produto argentino, por outro lado, limita uma valorização generalizada do cereal."
+  "resumo": "A negociação do trigo exige atenção à qualidade dos lotes e à concorrência do produto importado. A escassez de cereal nacional sustenta preços, enquanto a oferta argentina limita altas generalizadas.",
+  "ia_tipo": "insight",
+  "ia_texto": "A forte presença do trigo argentino funciona como um teto para os preços internos, equilibrando o impacto da quebra de safra no Sul.",
+  "versao_ia": 2
  },
  {
   "id": "30c09fb809694018",
@@ -381,7 +465,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "Os preços do arroz em casca no Rio Grande do Sul fecharam o mês de outubro com perdas acumuladas. Houve uma recuperação nos indicadores na última semana, ficando acima dos valores registrados em 23 de outubro."
+  "resumo": "O mercado de arroz em casca do Rio Grande do Sul encerrou outubro com perdas nos preços mensais. Houve uma recuperação na última semana, mas os indicadores fecharam abaixo dos valores anteriores.",
+  "ia_tipo": "insight",
+  "ia_texto": "A oscilação de curto prazo reflete um mercado cauteloso, onde vale acompanhar o comportamento das indústrias e a paridade de exportação.",
+  "versao_ia": 2
  },
  {
   "id": "a4f033c19090b50e",
@@ -393,7 +480,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 3,
-  "resumo": "Produtores de arroz em Mato Grosso enfrentam dificuldades logísticas, de armazenamento e com o custo de produção. A data comemorativa do cereal destaca a importância e os desafios agrícolas locais."
+  "resumo": "Produtores de arroz em Mato Grosso relatam dificuldades para escoar e comercializar o cereal. Custo de produção, logística e armazenamento desafiam a atividade na região.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Problemas logísticos regionais podem elevar custos de frete e dificultar o abastecimento local, impactando as margenes da cadeia.",
+  "versao_ia": 2
  },
  {
   "id": "766473e31e80598a",
@@ -404,8 +494,11 @@
   "trecho": "As novas formas de preparo e consumo ampliam as possibilidades de levar esse alimento à rotina Renato Franzner Presidente da Associação Brasileira da Indústria do Arroz (Abiarroz) A rotina das famílias influencia cada vez mais as escolhas à mesa. Com menos tempo para cozinhar, a praticidade ganha espaço e alimentos tradicionais precisam se adaptar a […] O que mantém o arroz na mesa dos brasileiros",
   "tema": "Arroz",
   "ia": true,
-  "relevancia": 2,
-  "resumo": "Novas formas de preparo e consumo ampliam as possibilidades do arroz na rotina das famílias brasileiras. A Abiarroz aponta que a busca por praticidade exige adaptação do alimento tradicional."
+  "relevancia": 3,
+  "resumo": "Novas formas de preparo e consumo ampliam as possibilidades do arroz na rotina das famílias. A busca por praticidade exige adaptação dos alimentos tradicionais.",
+  "ia_tipo": "insight",
+  "ia_texto": "Essa mudança de hábito pode abrir oportunidades para ingredientes voltados a pratos prontos, porções menores e conveniência.",
+  "versao_ia": 2
  },
  {
   "id": "b37e9e391c3e23b7",
@@ -417,7 +510,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 2,
-  "resumo": "O arroz se mantém como um alimento básico e parte fundamental da cultura e da história do país. O cereal está presente diariamente no almoço de milhões de brasileiros ao lado do feijão."
+  "resumo": "O arroz é um alimento básico essencial na cultura e na história do país. O setor enfrenta diversos desafios produtivos e econômicos no campo.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O artigo reforça a importância cultural do grão, mas traz poucos elementos práticos novos para a negociação comercial de ingredientes.",
+  "versao_ia": 2
  },
  {
   "id": "51708de2ff5e7e05",
@@ -429,7 +525,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "O mercado brasileiro de arroz encerrou outubro com baixa liquidez e resistência dos produtores nas negociações. A retenção limita a oferta imediata, enquanto a demanda fraca impede a recuperação dos preços."
+  "resumo": "O mercado brasileiro de arroz encerrou outubro com baixa liquidez e resistência dos produtores em negociar. A demanda fraca da indústria impediu uma recuperação expressiva dos preços.",
+  "ia_tipo": "insight",
+  "ia_texto": "O impasse entre retenção no campo e baixa demanda industrial pode manter os preços estáveis no curto prazo.",
+  "versao_ia": 2
  },
  {
   "id": "d5f2ef675cb4fb4f",
@@ -441,7 +540,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "A semeadura do arroz irrigado atingiu 61,86% da área prevista no Rio Grande do Sul para a safra. O levantamento do Irga indica 533,2 mil hectares semeados até o final de outubro."
+  "resumo": "A semeadura do arroz irrigado atingiu quase sessenta e dois por cento da área prevista no Rio Grande do Sul. O levantamento contabilizou mais de quinhentos mil hectares semeados para a safra.",
+  "ia_tipo": "insight",
+  "ia_texto": "O ritmo adiantado do plantio no principal estado produtor é um dado importante para monitorar a oferta futura do grão. Condições climáticas favoráveis mantêm a expectativa de uma safra regular, o que pode estabilizar os preços internos.",
+  "versao_ia": 2
  },
  {
   "id": "e6122efe4f683e3c",
@@ -453,7 +555,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 1,
-  "resumo": "A diretora técnica do Irga foi incluída na lista de mulheres poderosas do agronegócio da Forbes. O reconhecimento destaca sua atuação em pesquisas, extensão rural e liderança técnica."
+  "resumo": "Uma diretora técnica do instituto estadual de arroz integrou lista de destaque em publicação de negócios. A profissional foi reconhecida por sua atuação em pesquisa, extensão rural e liderança.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O reconhecimento de lideranças técnicas valoriza a pesquisa ligada ao setor arrozeiro. Pode ser um bom gancho de relacionamento para parcerias institucionais e trocas de conhecimento técnico.",
+  "versao_ia": 2
  },
  {
   "id": "8216bbdf54f53eb0",
@@ -464,8 +569,11 @@
   "trecho": "Análises de amostras do arroz verificaram características compatíveis com uma classificação comercial inferior à registrada nas embalagens, que identificavam o arroz como Tipo 1 (Por Patricia Lima/ Diário do Rio) Um dos alimentos mais consumidos no país e um dos itens essenciais da cesta básica, o arroz, está na mira das autoridades. Nesta quarta-feira (28), […] Fiscalização apreende 47 toneladas de arroz com irregularidades em mercados do Rio",
   "tema": "Arroz",
   "ia": true,
-  "relevancia": 4,
-  "resumo": "Autoridades apreenderam dezenas de toneladas de arroz em estabelecimentos comerciais no Rio de Janeiro. A fiscalização encontrou divergências na classificação do grão em relação ao informado nas embalagens."
+  "relevancia": 3,
+  "resumo": "Órgãos de fiscalização apreenderam dezenas de toneladas de arroz em estabelecimentos comerciais no Rio de Janeiro. As análises apontaram que o produto apresentava classificação inferior à informada nos rótulos.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Casos de fraudes ou desvios de qualidade na comercialização exigem maior rigor na rastreabilidade dos fornecedores. É um bom momento para reforçar com os clientes a confiabilidade dos padrões de qualidade dos grãos comercializados.",
+  "versao_ia": 2
  },
  {
   "id": "b39e40f164df894c",
@@ -476,8 +584,11 @@
   "trecho": "(Por CEPEA) As negociações de arroz em casca seguem pontuais no Rio Grande do Sul, diante da baixa demanda das indústrias e do enfraquecimento das exportações. Segundo o Cepea, parte das empresas permanece abastecida, enquanto a dificuldade de repassar os custos da matéria-prima ao arroz beneficiado limita novas aquisições. Nesse cenário, as cotações permanecem praticamente […] Indústrias abastecidas e menor demanda externa limitam negócios",
   "tema": "Arroz",
   "ia": true,
-  "relevancia": 5,
-  "resumo": "As negociações de arroz em casca no Rio Grande do Sul estão lentas devido à baixa demanda das indústrias e à retração das exportações. Parte das empresas segue abastecida, limitando novas compras e a repasse de custos."
+  "relevancia": 4,
+  "resumo": "As transações de arroz em casca no Rio Grande do Sul ocorrem de forma pontual devido ao estoque satisfatório das indústrias. A dificuldade de repassar o custo da matéria-prima e a menor força das exportações também limitam novos negócios.",
+  "ia_tipo": "insight",
+  "ia_texto": "Com indústrias abastecidas e ritmo lento de vendas, os preços do arroz tendem a ficar estáveis no curto prazo. Vale acompanhar a margem dos beneficiadores para entender o apetite de compra por insumos e farelos.",
+  "versao_ia": 2
  },
  {
   "id": "8eab9aebf49c00bf",
@@ -488,8 +599,11 @@
   "trecho": "Promovida pela Abiarroz, iniciativa marca o Dia Mundial do Arroz e pretende alcançar cerca de 700 supermercados (Por Correio do Povo) Do “Baião de Dois” nordestino ao “Carreteiro” gaúcho, o arroz está presente em pratos que atravessam regiões e gerações e ajudam a definir a mesa brasileira. Em alusão à data mundial do cereal, celebrada […] Semana do Arroz destaca adaptação do grão às novas rotinas de consumo dos brasileiros",
   "tema": "Arroz",
   "ia": true,
-  "relevancia": 2,
-  "resumo": "A Abiarroz promoveu uma semana temática para destacar a adaptação do grão às rotinas alimentares dos brasileiros. A ação comemorou o Dia Mundial do Arroz com presença em centenas de supermercados."
+  "relevancia": 3,
+  "resumo": "A Semana do Arroz destacou a capacidade de adaptação do cereal às novas rotinas de consumo das famílias brasileiras. Promovida pela Abiarroz, a iniciativa alcançou centenas de supermercados.",
+  "ia_tipo": "insight",
+  "ia_texto": "Ações de promoção do arroz ajudam a sustentar a demanda pelo grão e derivados no varejo. Pode ser um bom momento para conversar com fabricantes sobre inovações em pratos prontos e farinhas à base de arroz.",
+  "versao_ia": 2
  },
  {
   "id": "f4dd464a7ff444dd",
@@ -500,8 +614,11 @@
   "trecho": "Indicadores registram quatro levantamentos consecutivos de baixa; arroz com maior rendimento acumula queda de 1,91% em outubro, segundo referências de 22 de outubro. (Por Portal do Agronegócio) O preço do arroz em casca no Rio Grande do Sul registrou quatro levantamentos consecutivos de queda, com desvalorização mais intensa no produto de maior rendimento. No fechamento […] Preço do arroz cai no RS e diferença entre padrões de qualidade recua para R$ 0,58 por saca",
   "tema": "Arroz",
   "ia": true,
-  "relevancia": 5,
-  "resumo": "Os preços do arroz em casca no Rio Grande do Sul acumularam quatro quedas semanais consecutivas em outubro. O produto com maior rendimento registrou desvalorização de 1,91% no período."
+  "relevancia": 4,
+  "resumo": "O preço do arroz em casca registrou quedas consecutivas no Rio Grande do Sul. A diferença de valor entre os padrões de qualidade também apresentou recuo.",
+  "ia_tipo": "insight",
+  "ia_texto": "A desvalorização contínua no mercado gaúcho pode sinalizar um alívio temporário nos custos para indústrias processadoras, sendo oportuno monitorar os impactos na formação de preços futuros.",
+  "versao_ia": 2
  },
  {
   "id": "d80b332ac3e542fd",
@@ -513,7 +630,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "Os preços do arroz no Rio Grande do Sul permanecem sustentados pela resistência dos produtores em vender. No entanto, a baixa liquidez limita uma recuperação mais consistente do mercado."
+  "resumo": "Os produtores mantêm resistência na comercialização, o que sustenta parcialmente as cotações do arroz no Rio Grande do Sul. No entanto, a baixa liquidez limita uma recuperação mais sólida dos negócios.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A retração vendedora atrelada à baixa liquidez sugere volatilidade nas negociações, exigindo cautela na hora de fechar contratos de médio prazo para evitar surpresas com a disponibilidade.",
+  "versao_ia": 2
  },
  {
   "id": "063d27b4aa3036d0",
@@ -525,7 +645,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "A semeadura da safra brasileira de arroz atingiu 33,2% da área prevista até meados de outubro. O excesso de umidade limitou o avanço no Rio Grande do Sul e em Santa Catarina."
+  "resumo": "A semeadura da safra brasileira de arroz avançou para 33,2% da área prevista. O ritmo, contudo, continua abaixo da média histórica devido ao excesso de umidade em alguns estados.",
+  "ia_tipo": "alerta",
+  "ia_texto": "O atraso no plantio provocado por condições climáticas desfavoráveis pode acender um alerta quanto ao desenvolvimento da safra, merecendo acompanhamento rigoroso nas próximas semanas.",
+  "versao_ia": 2
  },
  {
   "id": "607c8914e9ea7660",
@@ -536,8 +659,11 @@
   "trecho": "Entidade aponta substituição da cédula rural pignoratícia por modalidade com alienação fiduciária da safra e orienta produtores a revisar documentos (Por Nestor Tipa Júnior/ AgroEffective) A substituição da tradicional Cédula Rural Pignoratícia pela Cédula de Crédito Bancário com alienação fiduciária da safra motivou um alerta da Federação das Associações de Arrozeiros do Estado do Rio […] Federarroz alerta para risco de apropriação de grãos em contratos de crédito rural",
   "tema": "Arroz",
   "ia": true,
-  "relevancia": 3,
-  "resumo": "Entidades do setor alertam sobre a substituição de cédulas rurais por modalidades com alienação fiduciária da safra. A mudança gera riscos de apropriação de grãos em contratos de crédito."
+  "relevancia": 2,
+  "resumo": "Uma entidade do setor arrozeiro emitiu alerta sobre mudanças em contratos de crédito rural. A substituição de modalidades de garantia gerou recomendações para que produtores revisem seus documentos.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Questões jurídicas e financeiras do produtor rural podem influenciar indiretamente o fluxo de caixa e a retenção de grãos, embora o impacto comercial direto seja limitado.",
+  "versao_ia": 2
  },
  {
   "id": "547e46c57158e57a",
@@ -549,7 +675,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "As exportações brasileiras de arroz registraram forte alta e somaram 1,59 milhão de toneladas de janeiro a setembro. A receita gerada no período alcançou centenas de milhões de dólares."
+  "resumo": "As exportações brasileiras de arroz acumularam alta expressiva no volume comercializado. Os embarques geraram receitas significativas para o setor externo no período avaliado.",
+  "ia_tipo": "insight",
+  "ia_texto": "O forte ritmo exportador pode continuar enxugando a oferta doméstica disponível, o que tende a dar sustentação aos preços internos e exige planejamento antecipado das indústrias compradoras.",
+  "versao_ia": 2
  },
  {
   "id": "f6306e4dfd5bade3",
@@ -561,7 +690,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 4,
-  "resumo": "As cotações do arroz em casca continuam estáveis no Rio Grande do Sul, com suporte vindo das compras para exportação. Enquanto isso, a demanda do mercado interno permanece enfraquecida."
+  "resumo": "As cotações do arroz em casca permaneceram estáveis no Rio Grande do Sul, com comportamento dispar entre regiões e qualidades. As compras externas deram suporte aos lotes de menor rendimento, enquanto o consumo interno seguiu fraco.",
+  "ia_tipo": "insight",
+  "ia_texto": "A dualidade entre demanda externa aquecida e mercado interno enfraquecido aponta para um cenário onde a exportação atua como principal piso para as cotações atuais.",
+  "versao_ia": 2
  },
  {
   "id": "5f445ecadf512aaa",
@@ -573,7 +705,10 @@
   "tema": "Arroz",
   "ia": true,
   "relevancia": 3,
-  "resumo": "O Brasil encerrou o ano com um aumento de 13% no volume total de arroz exportado. Os principais destinos dos embarques nacionais foram Senegal, Venezuela e México."
+  "resumo": "O Brasil encerrou o ano com crescimento de 13% no volume de arroz exportado. Senegal, Venezuela e México figuraram entre os principais destinos do produto nacional.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O desempenho consolida a relevância do país no comércio internacional do grão, contexto útil para entender a pressão sobre os estoques locais ao longo do ano.",
+  "versao_ia": 2
  },
  {
   "id": "d83736286ebac546",
@@ -669,7 +804,10 @@
   "tema": "Açúcar",
   "ia": true,
   "relevancia": 5,
-  "resumo": "As cotações do açúcar registraram alta na bolsa ICE. O movimento ocorreu em meio a precipitações registradas nas regiões produtoras do Brasil."
+  "resumo": "Os preços do açúcar registraram alta na bolsa de Nova York em decorrência de chuvas registradas no Brasil. O fenômeno climático influenciou as cotações internacionais da commodity.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Oscilações na bolsa de Nova York impactam diretamente a paridade de exportação e os custos internos do açúcar. É fundamental alertar clientes sobre a volatilidade dos preços e negociar volumes com agilidade.",
+  "versao_ia": 2
  },
  {
   "id": "b71deaaf40483e72",
@@ -681,7 +819,10 @@
   "tema": "Açúcar",
   "ia": true,
   "relevancia": 5,
-  "resumo": "As chuvas associadas ao fenômeno El Niño no Brasil colocam em risco o início da próxima safra açucareira. O país lidera as exportações globais e detém grande parcela da produção mundial do sweetener."
+  "resumo": "As chuvas associadas ao fenômeno El Niño no Brasil começaram a ameaçar o desenvolvimento da próxima safra de cana-de-açúcar. Como o país é o maior exportador global, qualquer quebra produtiva pode gerar fortes reflexos internacionais.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Riscos climáticos na safra brasileira tendem a sustentar os preços do açúcar nas bolsas internacionais e no mercado interno. É recomendável conversar com clientes do setor sucroenergético e de alimentos para antecipar compras antes de novas altas.",
+  "versao_ia": 2
  },
  {
   "id": "b56f559a0c4d9d95",
@@ -693,7 +834,10 @@
   "tema": "Óleos e gorduras",
   "ia": true,
   "relevancia": 3,
-  "resumo": "Especialistas apontam que a produção de bioenergia impulsiona a competitividade da pecuária de corte nacional. O uso de coprodutos do biodiesel e do etanol de milho favorece o setor de carnes."
+  "resumo": "Especialistas apontam que a expansão da bioenergia tem tornado a produção de carne mais competitiva no país. O avanço na oferta de coprodutos como o etanol de milho e o biodiesel impacta diretamente a cadeia pecuária.",
+  "ia_tipo": "contexto",
+  "ia_texto": "A demanda contínua por biocombustíveis mantém firme o consumo de óleos vegetais e farelos, influenciando os preços da soja e do milho. Vale ficar atento a como a oferta de coprodutos afeta a margem de formulação de rações e alimentos.",
+  "versao_ia": 2
  },
  {
   "id": "89ec2dfe42778596",
@@ -704,7 +848,637 @@
   "trecho": "Estudo projeta crescimento da demanda por biodiesel e etanol até 2035, mas aponta necessidade de investimentos, previsibilidade regulatória e políticas para combustíveis sustentáveis",
   "tema": "Óleos e gorduras",
   "ia": true,
+  "relevancia": 4,
+  "resumo": "A CNI apresentou propostas para incentivar a expansão de biocombustíveis no Brasil até 2035. O estudo destaca a alta esperada na procura por itens como o biodiesel, exigindo novos aportes e regras claras.",
+  "ia_tipo": "alerta",
+  "ia_texto": "O crescimento projetado na demanda por biodiesel pode pressionar o consumo de óleo de soja no mercado interno. É prudente monitorar os mandatos de mistura e os reflexos nos custos de óleos vegetais.",
+  "versao_ia": 2
+ },
+ {
+  "id": "54273dec7b586b8c",
+  "titulo": "Starbucks lança bebidas de halloween por tempo limitado",
+  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNU1nZ1ZDbTF0WWd4WElmcERjaXpZaVZtRURtLXlkWG1oVFJjeGxnS1k2UkkzNE1nM1RORGtzLWpGWDA4OGFETjQxUjd1UkdGWWtJUFdzeWdsQkpiNGRGd1RCMFJuYjZIVjVEbGdXa3lnRmxJR0w5bWtkYXF2QzRXQmdXZS1CTUsxbFRkNUZ3TDNMUmp0NnpZeFZJMkZwYW5YQXVrQkdHaXZ4TGkzRTRENW1tSTlCeFJBdDRkb09JX3o?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-10-28T13:40:18+00:00",
+  "trecho": "Starbucks lança bebidas de halloween por tempo limitado MilkPoint",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A Starbucks realizou o lançamento de bebidas temáticas de halloween por tempo limitado. A novidade busca atrair consumidores durante o período festivo.",
+  "ia_tipo": "insight",
+  "ia_texto": "Lançamentos sazonais de cafeterias costumam movimentar a demanda por ingredientes como lácteos, xaropes e aromatizantes. Vale acompanhar as tendências de sabores que podem inspirar novos desenvolvimentos na indústria.",
+  "versao_ia": 2
+ },
+ {
+  "id": "993e9fd4596c0f25",
+  "titulo": "Epamig e CCPR ampliam parceria para produção de bezerras Girolando",
+  "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdXEyYmxoUWFxb0VGZWI2YmhGRjJ5Z3YtV055SjVqM3hOcVNNcXRfZWQ3QjkyRW1DODdkZGRQTFR4YUpPNi15LUZaQ3pYSlJrMVRYTmMwb1NlUHNhODBDd3NVbVNKeXlra0hEWlpJX25sU0tiME5nRjdoVFdSNDFzQzRPRS1KdnRMTkc0LWFfU0U3d19xMnV4dGlIbTQ1VERLUXMzSU82bGRuYm5mMzNlTXhSZDhnZzFKb0ptOGVLdll4M0IyRlpVNVJmTnBIWVliUVlaemJ2b19paVVURXlJZEZ5MTJOd19ZSFJ3?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-10-31T02:31:01+00:00",
+  "trecho": "Epamig e CCPR ampliam parceria para produção de bezerras Girolando MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Instituições ampliaram uma parceria voltada para a produção de bezerras da raça Girolando. A iniciativa busca fortalecer o setor pecuário leiteiro.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Investimentos na pecuária leiteira têm impacto de longo prazo na oferta de leite, sem efeito imediato nos preços dos insumos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "a9302d4b92724b44",
+  "titulo": "Cimed: URSO lança barras proteicas com 15 g de proteína",
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNDQ0eGtPOWpKcVhoWWJ4UmpFaThpenY4bEJjVFdnd2hLcDA0emYwTHBCRnZpbWJWVEJvSFVrS1Y5Wjl1OS1XalhHTVdtbVFtZmtLWjBlLWZaN0o2OUQtVnlpRmo3ZV9TNVMzQmtzTjZ0MlN2WnBaX0pYNWw0R0F6bklpMGttWHdkYmQwaDZlVXVqbnBTbWc2cHRZZWVNRHBXdzByemUxZ0FuQU1lNWFhMTItS0loWnBGSFE?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-10-30T11:55:39+00:00",
+  "trecho": "Cimed: URSO lança barras proteicas com 15 g de proteína MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
   "relevancia": 3,
-  "resumo": "Uma entidade industrial apresentou propostas para incentivar o fornecimento de biocombustíveis no Brasil até 2035. O estudo destacou a necessidade de investimentos e diretrizes regulatórias para o biodiesel e o etanol."
+  "resumo": "Uma empresa farmacêutica e de bens de consumo lançou barras de proteína com quinze gramas do nutriente. O produto amplia o portfólio da marca voltado ao segmento de nutrição.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "A entrada de marcas de diferentes segmentos no mercado de nutrição proteica reforça a expansão dessa categoria. Vale oferecer ingredientes proteicos concentrados a fabricantes que buscam diversificar seus portfólios.",
+  "versao_ia": 2
+ },
+ {
+  "id": "7b059d9268caefd1",
+  "titulo": "Bacio di Latte lança panettones recheados de pistache e gianduia para o Natal de 2026",
+  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRW1pLXlpLVdhbDB4RGhUQXNKdWRMWUZzc0VWS1JUSy1hYXpEVWtHaGNWSm40STJzVjdLNWg1c3hkS29nbHJaNG00UDFIaUR5NFlwNGtXMHhqcnh5Z0EtQmJFWWN2VWt4QWtHSDVycVVkZDFrMEN4YVZlSTUwRXZ5a2s4Rnl1VzVtbXdBZ3BhM094cjdBTmZucFA4QlBKSGFWaXdZTjl0aFRoZWhObndOeG01MGpBR2VWdnAzSlc0NWhKSjNYaW1MdDdzcC1MLTlGWGkzc0RlRQ?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-10-29T12:15:19+00:00",
+  "trecho": "Bacio di Latte lança panettones recheados de pistache e gianduia para o Natal de 2026 MilkPoint",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Bacio di Latte anunciou o lançamento de panettones com recheios de pistache e gianduia para o Natal. Os produtos integram o portfólio sazonal da marca para a data festiva.",
+  "ia_tipo": "insight",
+  "ia_texto": "A forte presença de sabores como pistache confirma a tendência de indulgência e apostas premium em linhas sazonais. Vale conversar com clientes de panificação sobre o fornecimento antecipado de ingredientes especiais.",
+  "versao_ia": 2
+ },
+ {
+  "id": "ca31e79e6e45cec0",
+  "titulo": "Do \"patinho feio\" ao \"ouro branco\": o que falta para o leite brasileiro dar o próximo salto?",
+  "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRnNZTmpJZkJBTU1uMWhmaXpvX2tQWmtza3dQTnVwdWpnbThEczBJUVZOQVotOHlDYXFhazN3YUhDcDdzN2U2VGxJNUs4ejJSRDdiYldVV1ByM2g5Sk9ONnNxaF8tbWhrY2V1a25Yck9ReVEweVd6aVZESXFyXzgyb25JYVFwMjBEdm90Tk5nMjFXX1VkYUwtOXhlcmNpNmlMQUhYS2VOcUQ0X0hNTnpMOGF0bXA3UVhlZE1ObUxjN1hPYmRTUUpZWFJ1SzludG1SU1BFQlBWUzJTVUNPcFRCVUFIM01wMlVDdXd1bTA3S3JWcHc?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-10-27T14:50:14+00:00",
+  "trecho": "Do \"patinho feio\" ao \"ouro branco\": o que falta para o leite brasileiro dar o próximo salto? MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Especialistas discutem os desafios e os passos necessários para o leite brasileiro alcançar um patamar superior de qualidade e competitividade. A reflexão aborda a transição do setor produtivo.",
+  "ia_tipo": "insight",
+  "ia_texto": "A busca por maior produtividade e qualidade do leite cru pode elevar os padrões exigidos da indústria de laticínios. Vale acompanhar investimentos em tecnologia na cadeia primária.",
+  "versao_ia": 2
+ },
+ {
+  "id": "6c4096ea5eac6d78",
+  "titulo": "Governo Federal lança novas edições da publicação Consumidor Turista",
+  "link": "https://www.gov.br/pt-br/noticias/viagens-e-turismo/2021/12/governo-federal-lanca-novas-edicoes-da-publicacao-consumidor-turista/young-woman-is-looking-for-a-check-in-counter-at-t-2021-10-06-09-52-52-utc.jpg/view",
+  "fonte": "Conab",
+  "data": "2026-10-26T21:25:31+00:00",
+  "trecho": "As publicações se propõem a informar os direitos e deveres dos consumidores.",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O Governo Federal lançou novas edições da publicação Consumidor Turista. Os materiais têm o objetivo de orientar os cidadãos sobre seus direitos e deveres.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Conteúdo voltado aos direitos do consumidor de viagens, sem relevância prática para o fornecimento de ingredientes à indústria.",
+  "versao_ia": 2
+ },
+ {
+  "id": "82210cbbed9d3ee7",
+  "titulo": "Governo Federal investe mais de R$ 14,3 milhões para melhorias em orlas no Nordeste",
+  "link": "https://www.gov.br/pt-br/noticias/viagens-e-turismo/2022/01/governo-federal-investe-mais-de-r-14-3-milhoes-para-melhorias-em-orlas-no-nordeste/aee60727-2f25-4317-af44-bd8a5d20d37f.png/view",
+  "fonte": "Conab",
+  "data": "2026-10-26T21:25:30+00:00",
+  "trecho": "Praia do Patacho receberá R$ 2,4 milhões em investimentos do MTur.",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O Governo Federal investiu mais de R$ 14,3 milhões em melhorias de orlas no Nordeste. A Praia do Patacho receberá parte desses recursos do Ministério do Turismo.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Investimentos em infraestrutura turística regional que não afetam a cadeia de suprimentos da indústria de alimentos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "49fb1a3268846e27",
+  "titulo": "Firmada parceria internacional para promoção de destinos turísticos inteligentes no Brasil",
+  "link": "https://www.gov.br/pt-br/noticias/viagens-e-turismo/2021/01/firmada-parceria-internacional-para-promocao-de-destinos-turisticos-inteligentes-no-brasil/fe5cd521-9a35-4812-acf1-6a3438afed0e.jpeg/view",
+  "fonte": "Conab",
+  "data": "2026-10-26T21:25:36+00:00",
+  "trecho": "A ideia é implementar, inicialmente, em cinco destinos do país, representando as cinco regiões, em um projeto-piloto",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O governo firmou uma parceria internacional para promover destinos turísticos inteligentes no Brasil. O projeto-piloto será implementado inicialmente em cinco cidades de diferentes regiões.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O assunto refere-se exclusivamente à gestão de turismo público, sem conexões com o mercado de insumos alimentares.",
+  "versao_ia": 2
+ },
+ {
+  "id": "60485944220fdbef",
+  "titulo": "Governo Federal lança “Cartilha RedeTrilhas”",
+  "link": "https://www.gov.br/pt-br/noticias/viagens-e-turismo/2022/06/governo-federal-lanca-201ccartilha-redetrilhas201d/d1bd9d6e-8f79-4896-9b22-b82d96237629.png/view",
+  "fonte": "Conab",
+  "data": "2026-10-26T21:25:27+00:00",
+  "trecho": "Governo promoveu a RedeTrilhas durante o 1º Congresso Brasileiro de Trilhas, em Goiânia (GO).",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O Governo Federal promoveu o lançamento da cartilha RedeTrilhas durante um congresso em Goiânia. A divulgação ocorreu no primeiro Congresso Brasileiro de Trilhas.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Notícia institucional sobre políticas públicas de turismo e lazer, sem utilidade comercial para vendedores de ingredientes.",
+  "versao_ia": 2
+ },
+ {
+  "id": "a0fbb7c33ed08121",
+  "titulo": "Parceria incentivará o turismo gastronômico no país",
+  "link": "https://www.gov.br/pt-br/noticias/viagens-e-turismo/2020/12/parceria-incentivara-o-turismo-gastronomico-no-pais/4e10146d-6316-4086-9943-5bb1dc8a4f14.jpeg/view",
+  "fonte": "Conab",
+  "data": "2026-10-26T21:25:37+00:00",
+  "trecho": "A gastronomia é um dos motivadores essenciais para a escolha de um destino turístico",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "Foi anunciada uma parceria para incentivar o turismo gastronômico no país. A iniciativa destaca a gastronomia como um elemento essencial na escolha de destinos.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Trata-se de uma iniciativa focada em turismo e viagens, sem impacto direto nas cotações ou na comercialização de commodities e ingredientes.",
+  "versao_ia": 2
+ },
+ {
+  "id": "6f6150b4c43eb6c2",
+  "titulo": "Ministério do Turismo lança cartilha com novas medidas para o setor",
+  "link": "https://www.gov.br/pt-br/noticias/viagens-e-turismo/2020/03/ministerio-do-turismo-lanca-cartilha-com-novas-medidas-para-o-setor/aeroporto_mtur.jpg/view",
+  "fonte": "Conab",
+  "data": "2026-10-26T21:25:40+00:00",
+  "trecho": "Cartilha detalha de que forma operadores da área e consumidores devem agir quanto à remarcação de viagens e serviços turísticos",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O Ministério do Turismo lançou uma cartilha com orientações para o setor. O documento detalha regras sobre a remarcação de viagens e serviços turísticos.",
+  "ia_tipo": "contexto",
+  "ia_texto": "A notícia aborda o setor de turismo e não possui relação direta com o mercado de ingredientes ou com a indústria de alimentos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "0f3a906a5ef3a8ca",
+  "titulo": "Aurora Coop anuncia compra de frigorífico de peixes em Mato Grosso do Sul",
+  "link": "https://foodbiz.com.br/fusoes-e-aquisicoes/aurora-coop-compra-frigorifico-peixes-mato-grosso-do-sul/",
+  "fonte": "FoodBiz",
+  "data": "2026-10-30T20:32:44+00:00",
+  "trecho": "Negociação com a Bello Alimentos inclui unidade industrial, fábrica de rações e fazendas de piscicultura. Operação amplia a atuação da cooperativa no mercado de pescados e depende da aprovação do Cade. A Aurora Coop anunciou, em 29 de outubro, um acordo para adquirir ativos do complexo de produção e processamento de pescados da Mar & […] O post Aurora Coop anuncia compra de frigorífico de peixes em Mato Grosso do Sul apareceu primeiro em FoodBiz .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Uma cooperativa anunciou a aquisição de ativos de um complexo de pescados. A operação inclui unidade industrial, fábrica de rações e fazendas de piscicultura.",
+  "ia_tipo": "insight",
+  "ia_texto": "O movimento demonstra consolidação no setor de proteína animal, embora sem impacto direto sobre os ingredientes tradicionais foco da carteira.",
+  "versao_ia": 2
+ },
+ {
+  "id": "9e30eb983c1f9fa0",
+  "titulo": "Jurupinga estreia no mercado de bebidas prontas para consumo",
+  "link": "https://foodbiz.com.br/marketing-e-vendas/jurupinga-mix-lancamento-bebidas-prontas-tres-sabores/",
+  "fonte": "FoodBiz",
+  "data": "2026-10-30T20:14:04+00:00",
+  "trecho": "Com três sabores, Jurupinga Mix chega ao mercado nacional em meio ao crescimento de 32,4% do segmento RTD entre 2019 e 2024 Uma bebida que conquistou espaço próprio no mercado brasileiro agora ganha uma nova versão. Criada em São Paulo nos anos 2000, a Jurupinga lança a Jurupinga Mix, sua primeira linha de bebidas prontas […] O post Jurupinga estreia no mercado de bebidas prontas para consumo apareceu primeiro em FoodBiz .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Uma marca tradicional de bebida estreou no segmento de produtos práticos para consumo com novos sabores. O lançamento ocorre em meio ao crescimento desse mercado no país.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "O crescimento de bebidas prontas pode representar uma oportunidade para a venda de aromatizantes, extratos e insumos voltados a esse mercado.",
+  "versao_ia": 2
+ },
+ {
+  "id": "693b376e217b4777",
+  "titulo": "Match Protein chega ao mercado com 30g de proteína",
+  "link": "https://foodbiz.com.br/negocios/grupo-the-best-lanca-match-protein-sorvetes-proteicos/",
+  "fonte": "FoodBiz",
+  "data": "2026-10-30T19:40:48+00:00",
+  "trecho": "Nova marca do Grupo The Best investe mais de R$ 5 milhões no desenvolvimento de sorvetes proteicos com zero adição de açúcares e baixo teor calórico A busca por uma alimentação mais equilibrada vem impulsionando uma nova geração de alimentos que combinam benefícios nutricionais, praticidade e sabor. Atento a essa transformação, o Grupo The Best, […] O post Match Protein chega ao mercado com 30g de proteína apareceu primeiro em FoodBiz .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "Uma empresa investiu milhões no lançamento de uma nova linha de sorvetes proteicos com zero adição de açúcares. A novidade atende à busca crescente por alimentos mais equilibrados e funcionais.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "A expansão de sorvetes proteicos e sem açúcar sinaliza uma boa oportunidade para ofertar proteínas funcionais e edulcorantes aos fabricantes.",
+  "versao_ia": 2
+ },
+ {
+  "id": "43469c248911593d",
+  "titulo": "Nestlé leva Moça e Nescafé Gold ao MasterChef Profissionais",
+  "link": "https://foodbiz.com.br/marca-e-ativacoes/nestle-moca-nescafe-gold-masterchef-profissionais-2026/",
+  "fonte": "FoodBiz",
+  "data": "2026-10-30T14:31:06+00:00",
+  "trecho": "Com estreia no dia 6 de outubro, a sexta edição do MasterChef Profissionais marcou, após três anos de hiato, o retorno do consagrado formato à tela da Band. Sob o comando e a avaliação criteriosa dos chefs Helena Rizzo, Henrique Fogaça e Erick Jacquin, a atração voltou ao ar trazendo, como destaque comercial, a parceria […] O post Nestlé leva Moça e Nescafé Gold ao MasterChef Profissionais apareceu primeiro em FoodBiz .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Uma grande empresa de alimentos realizou ações de patrocínio e inserção de marcas conhecidas em programa de culinária na televisão. A iniciativa marcou o retorno da atração ao ar após período de hiato.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Aparecer em programas de grande audiência fortalece a lembrança de marcas de ingredientes tradicionais junto ao público e profissionais. Vale monitorar o impacto dessas campanhas na demanda por produtos voltados ao food service.",
+  "versao_ia": 2
+ },
+ {
+  "id": "f665ac671570e166",
+  "titulo": "Kibon apresenta lançamentos de verão em parceria com Disney, Minecraft e Bauducco",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQXy1VendFbld3OG85YjBubllPQ3RuanRhTHRkcUhxNzFodjg1ZzhQZXJ1eGVwRDZETGJYci1PSWo1YWpMUlkyX1EwVHRaNnRiaHNIMVo0RWlUZi1fNkt1b0lZeWVUbU14TWRKU28yZnFDdTdyS05WMWFSc0dNTWJUZGFQR0lOU0d6R2tucGNVbS04R0ZNNlBNMllrTlNTS2Y2eUp2aGdrakU5clRmSDZyT05nZko?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-30T14:01:01+00:00",
+  "trecho": "Kibon apresenta lançamentos de verão em parceria com Disney, Minecraft e Bauducco Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Uma marca de sorvetes apresentou novidades para o verão em colaboração com grandes franquias de entretenimento e confeitaria. Os produtos combinam marcas conhecidas em novos formatos.",
+  "ia_tipo": "insight",
+  "ia_texto": "Parcerias entre marcas consagradas costumam atrair forte atenção no ponto de venda durante o período de maior consumo. Essa estratégia evidencia a tendência de co-branding para impulsionar lançamentos sazonais.",
+  "versao_ia": 2
+ },
+ {
+  "id": "68d864e290c6c3c4",
+  "titulo": "Engov After lança sabor Tropical para a temporada de verão",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSzdUX0pmVk9xcUQ0dUFHSDBQUG9Pb0lNaFVteW54TVV5eWlTN3BSNE92Q0RKVnNkX0x6TEl5MWJYREhtSExad2dJaHBOT2d2RkpINlBnMXNlR2FsOUgzSV9qaVcwZ0ZPaFlwbVpvS2JXUFBSNU10a2ZRNmpCbkJiaUZNbG0tOE93eTZyWC1IRFI4UFlaV3IyTEFDb2FmYTdqTXk2OUV3NzdKTzJZa2Vqdw?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-28T13:57:42+00:00",
+  "trecho": "Engov After lança sabor Tropical para a temporada de verão Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A marca Engov After ampliou seu portfólio com o lançamento do sabor Tropical para o período de verão. A novidade busca atrair consumidores durante a estação mais quente do ano.",
+  "ia_tipo": "insight",
+  "ia_texto": "Lançamentos sazonais focados em refrescância movimentam o mercado de bebidas prontas para o consumo. Vale observar quais aromas e ingredientes frutados estão ganhando destaque nas formulações de verão.",
+  "versao_ia": 2
+ },
+ {
+  "id": "e3332a05cdf79823",
+  "titulo": "Listerine lança enxaguantes com personagens de Frozen e Homem-Aranha",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1l5ZlVTRVpGMUxaa2RqTk1ocllQUUJLRkQ4RTMtd0xqRnNSWEZuZVFvUFRHdllpTmo4WEVWd2xwMlp3cFQzeDhoeUtOMUZsV0pHY3dOX2ZURGhzeTJUZUxqeFJBWmFvR0lvR0M1WGRtOW5lT21wQUJKOHRDSG1Jd0RHUWxUQ3MzZ0JQemhNWTRZeUlMVGd1VkRsTHJmc2c0dllPZ1JsQnBXSVBDWDR6VWZOSzFXTWFURklPTA?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-30T14:01:01+00:00",
+  "trecho": "Listerine lança enxaguantes com personagens de Frozen e Homem-Aranha Giro News",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "Uma marca de produtos de higiene bucal lançou enxaguantes inspirados em personagens infantis de destaque. Os itens buscam atrair o público jovem e fãs de franquias cinematográficas.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Como se trata de um produto de higiene pessoal sem relação com ingredientes alimentícios, o impacto para o mercado de alimentos é nulo.",
+  "versao_ia": 2
+ },
+ {
+  "id": "0c68f7d06bd48273",
+  "titulo": "market4u verticaliza tecnologia e projeta alta de 11% no faturamento por loja",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndfYjR6NHpvYV9oR2Q5ZXEtbk04bkN1Y29aR2FXbnlRd0VEaHRDUXpTU0tzNjFtaXVlMFhaNm4xc3pncXZGbW5fd1QweldhTThVMkt0Y0dIVENKbWtVaE5lNzBkUVlXMVFkSXBDNUEwaHJMYjRPRDVGMkFiOEt6RGRRck45bXgxY3I2RW9BTF9VanZpVDloeEJMdUZMY0tjVUdMcGliZ2M4YkRtVS1R?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-29T20:59:23+00:00",
+  "trecho": "market4u verticaliza tecnologia e projeta alta de 11% no faturamento por loja Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A empresa market4u realizou a verticalização de sua tecnologia para o modelo de negócios. Com isso, a projeção é alcançar um aumento de 11% no faturamento de cada loja.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Movimentos de inovação em canais de proximidade mostram como a tecnologia altera a distribuição de alimentos. Pode valer a pena monitorar novos canais de venda para produtos finais.",
+  "versao_ia": 2
+ },
+ {
+  "id": "14f69dc5d1f3f916",
+  "titulo": "Pamplona Alimentos lança linha de pizzas com versões para air fryer",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZEVQQ1FZekVaTms0UDZKQk05RWplSk5yWXFDLU0ybFpxUWxFSjJQaklmc3RyQXo5QlktS29YaWFNdGcyRHVHc2tKLS1SQ0VTWTVNOW8xRXZ4QzBxNEEwU3VzT2hGLVZrQ05JU0hLTG1mWXdkYWZZQTVXMTBCUmFTWDFtSExYN2txc29YejFWOEFtelNJWERjQXY2UllRcTY0Z3NzQnJib19wSnNVTnRZbnVGX2x0OWs?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-29T14:13:58+00:00",
+  "trecho": "Pamplona Alimentos lança linha de pizzas com versões para air fryer Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Pamplona Alimentos anunciou o lançamento de uma nova linha de pizzas desenvolvida especificamente para o preparo em air fryer. A novidade busca atender a novas demandas de praticidade no consumo.",
+  "ia_tipo": "insight",
+  "ia_texto": "O crescimento de produtos voltados para o preparo rápido em air fryer exige ingredientes com características específicas de congelamento e assamento. Vale a pena investigar se os clientes da indústria de massas e queijos buscam soluções para esse nicho.",
+  "versao_ia": 2
+ },
+ {
+  "id": "7a02d9ab43ebb93e",
+  "titulo": "RuERA lança cerveja Pumpkin Ale para celebrar o Halloween",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXNHVzNGWXo1elRUdm8xX2pCRFgtd2dmbnlRMHNRU2hxWENuU3gzM1ZYLThFcEl1MjItOTJ5Vi1pRnRscHFxQ3puRmFZU0RGVklBeVVmdHJXZkNhZnJuZzBWeEFzVEFUazl1azdxTElhVUI5bG1KY1UxdWsxNDVzT3hYTXhxdTh6dFl0RVljci1CN1VtcmRz?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-30T16:32:03+00:00",
+  "trecho": "RuERA lança cerveja Pumpkin Ale para celebrar o Halloween Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Uma marca lançou uma cerveja sazonal com temática festiva para a data comemorativa de Halloween. O produto busca aproveitar o apelo festivo da temporada.",
+  "ia_tipo": "insight",
+  "ia_texto": "Lançamentos temáticos mostram a importância de inovações sazonais para capturar o interesse do consumidor. Vale observar a aceitação desse tipo de produto para sugerir ingredientes aromáticos ou especiarias em projetos futuros.",
+  "versao_ia": 2
+ },
+ {
+  "id": "5124b56b21ec6556",
+  "titulo": "Rumo ao centenário, La Violetera projeta crescimento de duplo dígito e investe em rebranding",
+  "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaDZYN1hZeWlwS05hcURUQXltWlpqUm1VVktmUGhiNktZVTJNbjRNdmVNMlFHMHd0Vi13UlhKOE42czBLYjcxeXFZLTZmTTY0NXpPVXd6LURNNjJoM0VDemkwSkhiT3JYenk0TEg4eGd2U2Y1Y1hWNmloUDdhQ0N4d1l3UHhObjJXMkxHalBReVVfNzZMQ1FXczJHUTVoVkw1b1BZeHBYLWRsMURwYzkyLVo4d3d1cFRRYWZHbTgybTVoNEh5OWdGZDYtQm9TU2ZJeTREczkyLTA?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-27T14:16:00+00:00",
+  "trecho": "Rumo ao centenário, La Violetera projeta crescimento de duplo dígito e investe em rebranding Giro News",
+  "tema": "Coco",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A marca La Violetera projeta crescimento de duplo dígito e investe em um processo de rebranding. As ações comemoram a proximidade do centenário da empresa.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Empresas em fase de expansão e reposicionamento de marca costumam buscar novos fornecedores e ingredientes diferenciados. Pode ser uma oportunidade de abordagem comercial para apresentar portfólio.",
+  "versao_ia": 2
+ },
+ {
+  "id": "1d8adc7cd9090012",
+  "titulo": "Grupo Burguês aposta em operação casada para acelerar expansão",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMlAtaVRQbFdBQnZnX2hobnRRaFZGVTBuS1lNbE9VcEFoNk8wQ1JTdDA4N1FXWkdpQVBHdXZ3WWZHZG1sYmlQUWs2VU5LS3hlZFA3cXVFWVhQSXZlcTQwTkVNY0NwRUZ4TjlPZ3V4NGo3TDA3d0tERUtxaW15clNvTXdHMVNOWUp5cFFfTDJndFpLVkcxVkJ6RWdSSEtSQQ?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-29T14:17:27+00:00",
+  "trecho": "Grupo Burguês aposta em operação casada para acelerar expansão Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "O Grupo Burguês adotou uma estratégia de operação conjunta para dar mais velocidade ao seu plano de expansão. A iniciativa visa otimizar processos comerciais e de atendimento.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Estratégias de expansão em redes de alimentação indicam maior capilaridade e potencial aumento na demanda por insumos padronizados. Pode valer a pena monitorar o crescimento da rede para futuras parcerias.",
+  "versao_ia": 2
+ },
+ {
+  "id": "1acdf60e9316a785",
+  "titulo": "Parceria entre Drogaria Venancio e naPorta leva entregas a comunidades no RJ",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaUtSTnZZWDlfNWVXQjFITnpWOGdEbGx5UjlUQnVEblZ5T21WWFN2dVhIamh6UzE4WWlfQmczQWRDVHNKNzlwQS1zUzhMVTFaMXpNNUYxUWNuWVBHQnA4bUdaQVVzMjNWTHp0R2VUVmhPT0lJZG9MTWhBbkprTi1zc1BHTFJfbE9zWFROaDhpbWhSRnJpdHBOaTFmWEdHbG1FY2tfQThJSHlnMi1WWnpES09SMHhZUQ?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-10-27T18:13:06+00:00",
+  "trecho": "Parceria entre Drogaria Venancio e naPorta leva entregas a comunidades no RJ Giro News",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "A Drogaria Venancio firmou uma parceria com a naPorta para otimizar entregas em comunidades do Rio de Janeiro. A iniciativa visa melhorar a logística na região.",
+  "ia_tipo": "contexto",
+  "ia_texto": "A notícia foca em logística urbana e varejo farmacêutico, sem relação direta com o mercado de ingredientes para alimentos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "d31f6386c7cdd5bd",
+  "titulo": "FMC tem prejuízo de US$ 2 bilhões no 3º trimestre e vê receita despencar 80% após ajustes comerciais",
+  "link": "https://agfeed.com.br/negocios/fmc-tem-prejuizo-de-us-2-bilhoes-no-3o-trimestre-e-ve-receita-despencar-80-apos-ajustes-comerciais",
+  "fonte": "AgFeed",
+  "data": "2026-10-29T22:06:03+00:00",
+  "trecho": "Depois de uma reestruturação profunda na área comercial, a FMC já havia antecipado ao mercado que os resultados do terceiro trimestre de 2026 viriam enfraquecidos. E não trouxe suroresa ao divulgá-los nesta quinta-feira, dia 29 de outubro. A companhia norte-americana registrou um prejuízo líquido de US$ 2,07 bilhões no terceiro trimestre, resultado quase quatro vezes […] O post FMC tem prejuízo de US$ 2 bilhões no 3º trimestre e vê receita despencar 80% após ajustes comerciais apareceu primeiro em AgFeed .",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "A empresa norte-americana FMC registrou um prejuízo líquido de mais de dois bilhões de dólares no terceiro trimestre. A forte queda na receita ocorreu após ajustes profundos na área comercial.",
+  "ia_tipo": "contexto",
+  "ia_texto": "A notícia trata de um resultado financeiro corporativo global e não impacta diretamente o mercado de ingredientes no Brasil.",
+  "versao_ia": 2
+ },
+ {
+  "id": "29cb94ae21ad700b",
+  "titulo": "Allulose, tagatose e adoçantes funcionais: o que a indústria precisa saber",
+  "link": "https://www.foodconnection.com.br/ingredientes/allulose-tagatose-adocantes-funcionais/",
+  "fonte": "Food Connection",
+  "data": "2026-11-02T09:15:00+00:00",
+  "trecho": "A redução de calorias em alimentos virou prioridade para a indústria que quer inovar e acompanhar o mercado. The post Allulose, tagatose e adoçantes funcionais: o que a indústria precisa saber appeared first on Food Connection .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A redução de calorias em alimentos virou prioridade para a indústria que busca inovar. Ingredientes como allulose, tagatose e adoçantes funcionais ganham destaque no mercado.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Vale a pena usar essa tendência para abrir conversas com clientes da indústria de alimentos sobre portfólios de redução de açúcar e inovação.",
+  "versao_ia": 2
+ },
+ {
+  "id": "7ffdd34957126705",
+  "titulo": "82% da indústria de alimentos quer investir em IA. Quantas estão com os dados prontos?",
+  "link": "https://www.foodconnection.com.br/tecnologia/industria-de-alimentos-dados-para-ia/",
+  "fonte": "Food Connection",
+  "data": "2026-10-29T09:36:00+00:00",
+  "trecho": "A vontade de investir em Inteligência Artificial é quase unânime no setor, mas a fundação de dados não acompanha. Confira cinco dimensões para saber se a sua empresa está pronta. The post 82% da indústria de alimentos quer investir em IA. Quantas estão com os dados prontos? appeared first on Food Connection .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Pesquisa aponta que a ampla maioria das indústrias alimentícias deseja investir em inteligência artificial. No entanto, muitas empresas ainda enfrentam desafios na estruturação de bases de dados adequadas.",
+  "ia_tipo": "contexto",
+  "ia_texto": "A digitalização dos processos produtivos e comerciais ganha tração na cadeia de alimentos. É uma oportunidade para entender como seus clientes estão estruturando dados de compras e demanda.",
+  "versao_ia": 2
+ },
+ {
+  "id": "bcddaf182c7d9f94",
+  "titulo": "Perdas e desperdícios de alimentos: há soluções",
+  "link": "https://www.foodconnection.com.br/sustentabilidade/perdas-e-desperdicios-de-alimentos-solucoes/",
+  "fonte": "Food Connection",
+  "data": "2026-10-29T09:36:00+00:00",
+  "trecho": "A indústria de alimentos e bebidas ocupa uma posição estratégica porque conecta produção e consumo. Ao aumentar a eficiência dos processos e adotar tecnologias capazes de preservar alimentos por mais tempo, contribui para que uma parcela maior da produção chegue ao mercado em condições adequadas de qualidade e segurança The post Perdas e desperdícios de alimentos: há soluções appeared first on Food Connection .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Especialistas discutem caminhos para mitigar perdas e desperdícios de alimentos na cadeia produtiva. O uso de novas tecnologias de preservação ajuda a garantir mais segurança e qualidade no destino final.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "O foco em preservação e aumento de shelf-life abre espaço para ofertar aditivos funcionais e conservantes mais eficientes. Vale abordar clientes mostrando como seu portfólio pode ajudar a reduzir perdas.",
+  "versao_ia": 2
+ },
+ {
+  "id": "2fd44dd92a6cd6dc",
+  "titulo": "Lentilha e grão-de-bico revolucionam as proteínas vegetais para produtos veganos",
+  "link": "https://www.foodconnection.com.br/ingredientes/proteinas-vegetais-para-produtos-veganos/",
+  "fonte": "Food Connection",
+  "data": "2026-10-26T09:19:00+00:00",
+  "trecho": "Entenda como funcionalidade, desempenho tecnológico e sustentabilidade impulsionam essa virada no desenvolvimento plant-based. The post Lentilha e grão-de-bico revolucionam as proteínas vegetais para produtos veganos appeared first on Food Connection .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Lentilha e grão-de-bico estão ganhando destaque no desenvolvimento de proteínas vegetais. Fatores como funcionalidade e sustentabilidade impulsionam o uso desses ingredientes em produtos veganos.",
+  "ia_tipo": "insight",
+  "ia_texto": "O crescimento de alternativas proteicas à base de leguminosas pode abrir espaço para novos negócios e portfólios de fornecimento voltados ao mercado plant-based.",
+  "versao_ia": 2
+ },
+ {
+  "id": "283b3f34bc497572",
+  "titulo": "Como aplicar a economia circular na indústria de alimentos e bebidas",
+  "link": "https://www.foodconnection.com.br/sustentabilidade/economia-circular-industria-de-alimentos/",
+  "fonte": "Food Connection",
+  "data": "2026-10-23T19:10:18+00:00",
+  "trecho": "A economia circular na indústria de alimentos mantém recursos e materiais em uso pelo maior tempo possível, reduzindo desperdícios e a dependência de matérias-primas virgens. The post Como aplicar a economia circular na indústria de alimentos e bebidas appeared first on Food Connection .",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A economia circular busca manter materiais em uso pelo maior período na indústria de alimentos. A prática reduz desperdícios e diminui a dependência de matérias-primas virgens.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Valores ligados à sustentabilidade e redução de perdas podem ser usados por equipes comerciais para demonstrar eficiência e alinhar o discurso com as metas ambientais dos clientes.",
+  "versao_ia": 2
+ },
+ {
+  "id": "a923cb3b281ac5f6",
+  "titulo": "Anuário de Ingredientes — Edição 243",
+  "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lRE5OMkFWNFV2THM1WE1TS0lmTkJaMzRvMzBiRXluNnN5RE9wU1pCTGhpLUhUOVZadUFZVGc5N0l4QTduSHV4b2ZvT0J2cmpHeElGZ2dLUm9fUWM2R25zdVgwYWNCR0dnNUZkQWRBS0IxcXgxZGFz?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-28T23:31:51+00:00",
+  "trecho": "Anuário de Ingredientes — Edição 243 aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A publicação especializada divulgou a nova edição de seu tradicional anuário voltado ao mercado de ingredientes. O material reúne panorama e informações relevantes para o setor.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Publicações setoriais ajudam a mapear fornecedores e tendências tecnológicas correntes. Vale a leitura para identificar novos entrantes e concorrentes no mercado de insumos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "26b9b74d538c23f6",
+  "titulo": "Guia Funcionais 2025 - Nov/Dez — Edição 223",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUG13UllRaWUzNjRzTjI4THc2OVFtdks0bC1OanRIZTdqQ3ZUYnJtdEtkQjVRR2dkRjhLTTR2UDFicHdnU3dTUWRSeF9lR2Z4U014MzVZNVdPMFR3SE9NcWJGaThrcGRLeWVPeWQxc0dHNEI3cnlobmQ4Uk1rUnJCX1FiTE5sQQ?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-03T22:42:05+00:00",
+  "trecho": "Guia Funcionais 2025 - Nov/Dez — Edição 223 aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": false,
+  "relevancia": 0,
+  "resumo": "Guia Funcionais 2025 - Nov/Dez — Edição 223 aditivosingredientes.com.br"
+ },
+ {
+  "id": "82da090293cdf9f3",
+  "titulo": "Anvisa suspende picolé com melatonina e suplemento de proteína",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZl9GVTUyaTF6NGd0U3JoUy1NWkNPaHUwb290X2tVYVhWWlN6aG1WYmYzX0ZSREx5aXotdHZHM080b01EUlB4ZklJRmVWM3lKT2VkeHpfQzhpWE1iVWF3THF0QnY0WTV6RzBuR3l1RUw0WjNzWDh6WWdhdU1HTDd0VnRKX29DZkUzWnlfSkQ5RTZpNEFHNmE2c3Q5TUhldG5Hb0RoZmJTSHlySlBKOGN5NXJpdWVhRGp3bWdWeGZHYjMyZlE?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-28T03:00:00+00:00",
+  "trecho": "Anvisa suspende picolé com melatonina e suplemento de proteína aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Anvisa determinou a suspensão da comercialização de um picolé contendo melatonina e de um suplemento de proteína. A medida sanitária foi divulgada recentemente.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Restrições regulatórias a ingredientes funcionais exigem atenção redobrada das indústrias de alimentos e bebidas. Vale revisar a conformidade de formulações que utilizam ativos similares para evitar riscos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "202a96e4a90293f2",
+  "titulo": "HTBA compra a Specnova em sua primeira aquisição no setor de ingredientes",
+  "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZmtyalkyQnNacllFZ3pLbVFfZm9RLW5ETl9obGU4aDBMeG9HQTk3Nlh0ajIzSnBUWmhsV3JGTEpTckpoNTBzVXBLbUExNlJ2VldqazJFVTljeDl2elZnM0RFQXlGV1VhODR6QVp0UDlCdXZpVktUbjdUaGlkWGNZaklmOG1sTjBFODg2RU1YMmJidzhxRnJXSjNVV2lqWmtZMWd5clJ5MXE2NkYyalV1T2R0WlZ2Q0dyRmtKOWRzT3FiMXJFUGp1cEd2R25ZRHZyQURkLW1BVUo?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-28T03:00:00+00:00",
+  "trecho": "HTBA compra a Specnova em sua primeira aquisição no setor de ingredientes aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A HTBA concretizou a compra da Specnova em sua primeira operação de aquisição no mercado de ingredientes. A transação expande a atuação da companhia.",
+  "ia_tipo": "insight",
+  "ia_texto": "Movimentos de M&A no mercado de ingredientes costumam alterar o portfólio de oferta e a competitividade global. Vale monitorar se a integração trará novas tecnologias ou portfólios para o mercado brasileiro.",
+  "versao_ia": 2
+ },
+ {
+  "id": "33ffc8b6b49077e1",
+  "titulo": "Nestlé divulga resultados: vendas orgânicas sobem 4% no 3º tri; Rússia sai do balanço",
+  "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbE9uZjc1T0hNdTZMQzU1QUhySENkdTZaclNTLXFlUFRvZzZXVXdFZEFEdDh1WDRqWHF5cnhmMDJSY0pZaVdZYVF5STV1T3dVOTNYUFlVVkxJZ01JSWk0Ulk4Q290OXdoTjBhNjFWdjRNdWxkeWVGTmhveDV2bmMySkRMbFhEMGRuTDNFZURSenFDbUV0eG5xWHlTWE5IazJWR09XZmNtbnFzbnJMUTJKZXVNd3Jra2llQzFSQkJUVlZQRzE2ajA2UGtyY1Z0Z1c2T1ZfS2ZJbzRCeEFx?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-29T03:00:00+00:00",
+  "trecho": "Nestlé divulga resultados: vendas orgânicas sobem 4% no 3º tri; Rússia sai do balanço aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Nestlé registrou alta de 4% nas vendas orgânicas durante o terceiro trimestre do ano. O balanço financeiro também confirmou a saída das operações na Rússia.",
+  "ia_tipo": "insight",
+  "ia_texto": "O desempenho positivo de grandes players globais sinaliza o ritmo da demanda por matérias-primas e ingredientes. Monitorar esses resultados ajuda a antecipar o apetite de compra da grande indústria.",
+  "versao_ia": 2
+ },
+ {
+  "id": "29a2c2e539570331",
+  "titulo": "Emulzint Zeelandia lança misturas para bolos em embalagens de 2 kg para facilitar o controle da produção",
+  "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVnVDM3lpQVNPZ2w5cEJHQnJDclNBTUcwVE4zZVdteEkxMTg2MlRweXFKd2RwaF94RjJZZjdXM2JhRUZMX180U0c3S2d5dlBxdXNwQjdwOUFzMFdWSlZGSTUxTlRZQXFWRF81OU4tOVV0bGFsMkxxcVU1alBELW10MklBZFdfV2RvMGxrYjNrVk1Fc0ZXdU9jSWFLekRCN0NJWm9DNXNveF9qUll1SEdHOFZVM1Z1a3h0X19iNXdxVzB5dVVlZEhNc2Q5ZzZ3M1k1bDZCNU5OQmVOdWtJZE80RS1kaXZRNE5uWWtWZHp2QllzcW4yeThfZHpFRQ?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-27T03:00:00+00:00",
+  "trecho": "Emulzint Zeelandia lança misturas para bolos em embalagens de 2 kg para facilitar o controle da produção aditivosingredientes.com.br",
+  "tema": "Trigo e farinhas",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Emulzint Zeelandia introduziu ao mercado misturas para bolos acondicionadas em embalagens de 2 kg. A novidade tem como foco principal facilitar o controle operacional da produção.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Embalagens fracionadas atendem à demanda de padarias e pequenos estabelecimentos por padronização e redução de desperdício. É um tema útil para discutir soluções de conveniência com clientes de panificação.",
+  "versao_ia": 2
+ },
+ {
+  "id": "a2cf9cddd5e55bbe",
+  "titulo": "Especialista explica a diferença entre fermento biológico e massa madre e por que a união dos dois é a nova tendência na panificação",
+  "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOU05QTVRYOXg4bkxZeXNTUmlMdS1Pekg1UUxJTmJsbDc1S0xpaGpQdTJyX3JRelBEcV92RjJrcnBPOEFaRlZDQ2lEVWljM2V3Q3gxMFpkUTZ5NHVBTmd3NDdzZnFSaEVwaXNGN0JJZG40X1hHajV0a19Bb2lUWFl4Z1JZMHljQTNkM3ltcXlGc3BGdE5Lc0dFR3hwN2NkV0EzVlhXUUwtSE1BX29jRF8tLWZydmFLVmpfRWUyUm02SkRQUkpKVWh1Q2xaRlFGOXZHaHdzUUdYTDU0N1pPWjBnQmJyWkhad3ZpR1FIVzlxRDNDSFQ5ZjhNMUpEdDlDLTNyMmhXY2FDbzZMLUw2anFlNzJBRFV5OW5tQ0J5LUF3?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-30T03:00:00+00:00",
+  "trecho": "Especialista explica a diferença entre fermento biológico e massa madre e por que a união dos dois é a nova tendência na panificação aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "Uma especialista explicou as diferenças entre fermento biológico e massa madre na panificação. A união de ambos os ingredientes desponta como uma nova tendência para o setor.",
+  "ia_tipo": "insight",
+  "ia_texto": "A tendência de unir fermentação natural e biológica pode abrir oportunidades para oferecer ingredientes que auxiliem na padronização e no sabor dos pães. Vale acompanhar o interesse dos fabricantes de panificados por soluções que otimizem esse processo.",
+  "versao_ia": 2
+ },
+ {
+  "id": "0b9a43eb6bbc6cd4",
+  "titulo": "Ofertas de iogurtes crescem 40% e funcionais mais que dobram presença nas promoções",
+  "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNak1qUDZaU3pPdTllVmJvUmd2SktnVERRemo0cm81RHMtOUJwNjBYR2I3Y0w2OEhxb1k3ZmNvOHRaQVBzTGtLTXQwWWRqeHFFOXFRT2dkeHVtTTRQS3NnU01nWnQyZTdSaHRKSEFFWjQ1bVp0Unh0cFZ2anNFcUxlMnp3Qm5mWFE0UjVONVZkNHFpNDEyQ04zclRFazBFM0NDbGEzOGVodGlUQkpsVjB6ZFk0VUtzX2NDZHk4dXg4WGdkMzBjbFpWZVlTR1Mta2lkdHhwUHQxN18xM29ISmJFZ0l5WlM?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-27T03:00:00+00:00",
+  "trecho": "Ofertas de iogurtes crescem 40% e funcionais mais que dobram presença nas promoções aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "O volume de ofertas de iogurtes registrou alta de 40%, enquanto as opções funcionais duplicaram sua presença nas campanhas promocionais. Os dados refletem mudanças nas estratégias do varejo.",
+  "ia_tipo": "insight",
+  "ia_texto": "O aumento nas promoções de iogurtes e funcionais indica forte concorrência no segmento e maior busca por saudabilidade. Vale acompanhar a demanda por ingredientes voltados a fortificação e saudabilidade.",
+  "versao_ia": 2
+ },
+ {
+  "id": "ca0f3b03342af0a7",
+  "titulo": "Proteínas, fibras e probióticos avançam nas prateleiras e ampliam mercado de alimentos funcionais",
+  "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYVhuaUNaS01sZ01DTXBnWWNtM2d2Sjhld0x2S2FrRWhROXZYV181clJEMFc0VnVHdXhwYlU1SFZSRk4yTHp5NlQ5ZEd4TTVsb0xoV05QX1NwYTNUQWNtTkVPaS1qMEhYLUpuYWYyM2dJN2g2RzNQb1FGbElDUUU0c0Z3N3I1ZFZ3V2xGMVNDc2swN3RHeGZYZ0kta2VkTHpyQ25iY1pVa3BxM2JyWGUyRHMyVW9qRjZfZU1ibXNjNWtGMTczTW1PREdFSXN6dmlDNDNibDN4YWp2aS1rek9VZnd1Q0VlZFIwNWJ5MWo4bXZFOEdLcEJyWQ?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-29T03:00:00+00:00",
+  "trecho": "Proteínas, fibras e probióticos avançam nas prateleiras e ampliam mercado de alimentos funcionais aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "Ingredientes voltados à saudabilidade ganham espaço nas gôndolas e impulsionam o segmento de alimentos funcionais. A categoria registra avanço na preferência dos consumidores.",
+  "ia_tipo": "insight",
+  "ia_texto": "A alta procura por saudabilidade fortalece o mercado de proteínas, fibras e probióticos. Pode ser o momento ideal para sugerir formulações inovadoras e linhas limpas aos seus clientes.",
+  "versao_ia": 2
+ },
+ {
+  "id": "211c2c7d516e045e",
+  "titulo": "Tratamento da ureia ajuda a reduzir perdas de nitrogênio",
+  "link": "https://www.agrolink.com.br/noticias/tratamento-da-ureia-ajuda-a-reduzir-perdas-de-nitrogenio_520483.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-02T18:36:00+00:00",
+  "trecho": "A aplicação superficial de ureia exige atenção às perdas de nitrogênio por volatilização de amônia, que podem comprometer a eficiência da adubação. Segundo Carlos Henrique Eiterer de Souza, especialista em tecnologia de fertilizantes, o NBPT atua temporariamente sobre a urease, enzima responsável pela hidrólise da ureia",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O uso de inibidores de urease ajuda a reduzir perdas de nitrogênio na agricultura. A tecnologia atua na enzima responsável pela hidrólise da ureia.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O tema trata de insumos agrícolas gerais para lavouras, sem impacto direto e imediato nos preços dos ingredientes focados.",
+  "versao_ia": 2
+ },
+ {
+  "id": "d45cc2ddd89a04cd",
+  "titulo": "Cocal prevê emissões negativas de 11g de CO2 por megajoule com captura de carbono",
+  "link": "https://www.novacana.com/noticias/cocal-preve-emissoes-negativas-de-11g-de-co2-por-megajoule-com-captura-de-carbono",
+  "fonte": "NovaCana",
+  "data": "2026-10-30T19:03:15+00:00",
+  "trecho": "Com projeto mais adiantado, FS afirma que resultado depende da metodologia de cálculo adotada, podendo variar de -1 gCO2/MJ a -13 gCO2/MJ",
+  "tema": "Açúcar",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Uma empresa do setor prevê emissões negativas de carbono por meio de projetos de captura. O resultado final depende da metodologia de cálculo aplicada.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Iniciativas de sustentabilidade e pegada de carbono ganham relevância na cadeia sucroenergética. Isso pode se tornar um diferencial competitivo na imagem corporativa perante o mercado e os consumidores.",
+  "versao_ia": 2
+ },
+ {
+  "id": "4c47e0c0a29352c7",
+  "titulo": "Agrion investe R$ 46 milhões em fábrica de fertilizante e prevê sextuplicar receita até 2028",
+  "link": "https://www.novacana.com/noticias/agrion-investe-r-46-milhoes-em-fabrica-de-fertilizante-e-preve-sextuplicar-receita-ate-2028",
+  "fonte": "NovaCana",
+  "data": "2026-10-29T12:58:03+00:00",
+  "trecho": "A unidade terá inicialmente capacidade de produzir 70 mil toneladas ao ano a partir da torta de filtro e da vinhaça geradas na usina",
+  "tema": "Açúcar",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Agrion aplicou R$ 46 milhões na construção de uma nova fábrica de fertilizantes. A planta vai aproveitar resíduos da produção sucroenergética para alcançar alta capacidade anual.",
+  "ia_tipo": "insight",
+  "ia_texto": "O aproveitamento de subprodutos da usina pode otimizar custos operacionais no setor sucroenergético. Vale acompanhar a oferta regional desses insumos agrícolas para as lavouras.",
+  "versao_ia": 2
  }
 ]
