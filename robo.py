@@ -408,6 +408,7 @@ MODELO_PAGINA = """<!doctype html>
   .tema-cor { --c: var(--cd) !important; }
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }  /* o que está escondido fica escondido, sempre */
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--fundo); color: var(--tinta);
   font: 17px/1.55 "Atkinson Hyperlegible Next", system-ui, "Segoe UI", sans-serif; }
