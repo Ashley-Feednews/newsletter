@@ -225,6 +225,24 @@ def temas_por_palavra(materia, temas):
 
 
 # ---------- resumo com Gemini ----------
+# Formato que o Gemini é obrigado a seguir (nenhum campo pode faltar)
+FORMATO_RESPOSTA = {
+    "type": "ARRAY",
+    "items": {
+        "type": "OBJECT",
+        "properties": {
+            "i": {"type": "INTEGER"},
+            "tema": {"type": "STRING"},
+            "resumo": {"type": "STRING"},
+            "relevancia": {"type": "INTEGER"},
+            "ia_tipo": {"type": "STRING", "enum": ["insight", "alerta", "sugestao", "contexto"]},
+            "ia_texto": {"type": "STRING"},
+        },
+        "required": ["i", "tema", "resumo", "relevancia", "ia_tipo", "ia_texto"],
+    },
+}
+
+
 def resumir_lote(lote, temas, chave):
     nomes = [t["nome"] for t in temas]
     descricao = "\n".join(f"- {t['nome']}: {t['foco']}" for t in temas)
@@ -251,7 +269,8 @@ Notícias:
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:generateContent"
     corpo = {
         "contents": [{"parts": [{"text": instrucao}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
+        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2,
+                             "responseSchema": FORMATO_RESPOSTA},
     }
     r = requests.post(url, headers={"x-goog-api-key": chave}, json=corpo, timeout=90)
     if r.status_code != 200:
@@ -290,7 +309,8 @@ def aplicar_ia(pendentes, temas):
             m["ia_tipo"] = tipo if tipo in ("insight", "alerta", "sugestao", "contexto") else "insight"
             m["ia_texto"] = str(resp.get("ia_texto") or "").strip()
             m["ia"] = True
-            m["versao_ia"] = VERSAO_IA
+            if m["ia_texto"]:
+                m["versao_ia"] = VERSAO_IA  # pronta; sem comentário, tenta de novo na próxima rodada
         if inicio + LOTE_IA < len(pendentes):
             time.sleep(PAUSA_ENTRE_CHAMADAS)
 
@@ -841,7 +861,8 @@ def main():
     print(f"{adicionadas} matérias novas dentro dos temas.")
 
     # manda ao Gemini as matérias que ainda não têm resumo da IA (mais recentes primeiro)
-    pendentes = sorted((n for n in historico if n.get("versao_ia") != VERSAO_IA and n.get("tema")),
+    pendentes = sorted((n for n in historico
+                        if n.get("tema") and (n.get("versao_ia") != VERSAO_IA or not n.get("ia_texto"))),
                        key=lambda n: n["data"], reverse=True)
     aplicar_ia(pendentes, temas)
 
