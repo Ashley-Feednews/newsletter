@@ -18,6 +18,7 @@ from urllib.parse import quote_plus, urljoin, urlparse
 
 import feedparser
 import requests
+import shutil
 
 # ---------------- CONFIGURAÇÃO ----------------
 NOME_NEWSLETTER = "Mimosa News"
@@ -383,6 +384,14 @@ MODELO_PAGINA = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__NOME__ · __ASSINATURA__</title>
 <meta name="description" content="__SUBTITULO__">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#BFE3F2">
+<link rel="icon" type="image/png" sizes="192x192" href="icone-192.png">
+<link rel="apple-touch-icon" href="icone-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mimosa News">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -434,6 +443,17 @@ a { color: inherit; }
   .cena-texto h1, .cena-texto p { max-width: 100%; }
 }
 .topo-busca { padding-top: 20px; }
+.instalar { display: flex; align-items: center; gap: 14px; margin-top: 16px; padding: 12px 14px;
+  background: var(--papel); border: 1px solid var(--linha); border-radius: 14px; }
+.instalar img { width: 48px; height: 48px; border-radius: 12px; flex: none; }
+.instalar .txt { flex: 1; font-size: 15px; line-height: 1.4; }
+.instalar strong { display: block; font-size: 16px; }
+.instalar .botoes { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+.instalar button { font: inherit; font-size: 15px; font-weight: 700; border-radius: 999px; cursor: pointer; padding: 7px 14px; }
+.instalar .sim { background: var(--tinta); color: var(--papel); border: 0; }
+.instalar .nao { background: none; border: 0; color: var(--apagado); padding: 7px 6px; }
+@media (max-width: 520px) { .instalar { flex-wrap: wrap; } .instalar .botoes { width: 100%; } }
+.offline { margin-top: 12px; padding: 8px 12px; border-radius: 10px; background: var(--alerta-fundo); font-size: 15px; }
 .ia { display: flex; gap: 10px; align-items: flex-start; margin-top: 12px; padding: 10px 12px; border-radius: 10px;
   background: var(--ia-fundo); font-size: 16px; max-width: 68ch; }
 .ia .selo { flex: none; margin-top: 2px; font-size: 12px; font-weight: 800; color: #fff; background: var(--ia-selo);
@@ -529,7 +549,13 @@ footer ul { padding-left: 18px; }
   </div>
 </header>
 <div class="miolo topo-busca">
-  <label class="busca">
+  <div class="offline" id="offline" hidden>Você está sem internet. Mostrando as notícias da última vez que o app abriu.</div>
+  <div class="instalar" id="instalar" hidden>
+    <img src="icone-192.png" alt="">
+    <div class="txt"><strong>Instale a Mimosa News</strong><span id="instalar-texto">Tenha as notícias na tela inicial do celular, como um app.</span></div>
+    <div class="botoes"><button type="button" class="sim" id="instalar-sim">Instalar app</button><button type="button" class="nao" id="instalar-nao">Agora não</button></div>
+  </div>
+  <label class="busca" style="margin-top:16px">
     <span style="position:absolute;left:-9999px">Buscar notícia</span>
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
     <input id="busca" type="search" placeholder="Buscar notícia (ex.: Cepea, EUDR, Argentina)" autocomplete="off">
@@ -553,6 +579,45 @@ __DIAS__
   <p>Os resumos e os comentários da IA são feitos automaticamente a partir das matérias dos portais. Os comentários são sugestões para orientar a leitura, não recomendações de compra ou venda. Para decisões, confira sempre a matéria original.</p>
   <details><summary>De onde vêm as notícias</summary><ul>__STATUS__</ul></details>
 </footer>
+<script>
+// ----- app instalável -----
+(function () {
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });
+  }
+  var caixa = document.getElementById("instalar");
+  var texto = document.getElementById("instalar-texto");
+  var sim = document.getElementById("instalar-sim");
+  var off = document.getElementById("offline");
+  function atualizarOffline() { off.hidden = navigator.onLine; }
+  window.addEventListener("online", atualizarOffline); window.addEventListener("offline", atualizarOffline); atualizarOffline();
+
+  var instalado = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  var dispensado = false;
+  try { dispensado = Date.now() - Number(localStorage.getItem("mimosa-instalar-dispensado") || 0) < 14 * 864e5; } catch (e) {}
+  if (instalado || dispensado) return;
+
+  var pedido = null;
+  window.addEventListener("beforeinstallprompt", function (e) {
+    e.preventDefault(); pedido = e; caixa.hidden = false;
+  });
+  sim.addEventListener("click", function () {
+    if (pedido) { pedido.prompt(); pedido.userChoice.finally(function () { caixa.hidden = true; pedido = null; }); }
+  });
+  document.getElementById("instalar-nao").addEventListener("click", function () {
+    caixa.hidden = true;
+    try { localStorage.setItem("mimosa-instalar-dispensado", String(Date.now())); } catch (e) {}
+  });
+  window.addEventListener("appinstalled", function () { caixa.hidden = true; });
+
+  // iPhone e iPad: o Safari não tem botão de instalar, então mostramos o caminho
+  var ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  if (ios) {
+    texto.textContent = "No Safari, toque em Compartilhar (o quadrado com a seta) e depois em \u201cAdicionar à Tela de Início\u201d.";
+    sim.hidden = true; caixa.hidden = false;
+  }
+})();
+</script>
 <script>
 (function () {
   var itens = Array.prototype.slice.call(document.querySelectorAll(".item"));
@@ -693,6 +758,60 @@ def montar_pagina(noticias, temas, status):
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(pagina, encoding="utf-8")
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
+    montar_app()
+
+
+def montar_app():
+    """Arquivos que transformam a página num app instalável (PWA)."""
+    manifesto = {
+        "name": NOME_NEWSLETTER,
+        "short_name": NOME_NEWSLETTER,
+        "description": SUBTITULO,
+        "lang": "pt-BR",
+        "start_url": "./",
+        "scope": "./",
+        "display": "standalone",
+        "background_color": "#F4F9F1",
+        "theme_color": "#BFE3F2",
+        "icons": [
+            {"src": "icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+            {"src": "icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+            {"src": "icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+        ],
+    }
+    (SITE / "manifest.json").write_text(json.dumps(manifesto, ensure_ascii=False, indent=1), encoding="utf-8")
+    versao = AGORA.strftime("%Y%m%d%H%M")
+    (SITE / "sw.js").write_text(SERVICE_WORKER.replace("__VERSAO__", versao), encoding="utf-8")
+    for icone in ("icone-192.png", "icone-512.png"):
+        if (BASE / icone).exists():
+            shutil.copy(BASE / icone, SITE / icone)
+        else:
+            print(f"Aviso: {icone} não encontrado no repositório; o app ficará sem ícone.")
+
+
+# O "service worker" guarda uma cópia da página para abrir sem internet.
+# Sempre tenta a versão nova primeiro; só usa a cópia guardada se estiver offline.
+SERVICE_WORKER = """const CACHE = "mimosa-__VERSAO__";
+const ARQUIVOS = ["./", "./index.html", "./manifest.json", "./icone-192.png", "./icone-512.png"];
+self.addEventListener("install", (e) => {
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ARQUIVOS)).then(() => self.skipWaiting()));
+});
+self.addEventListener("activate", (e) => {
+  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+    .then(() => self.clients.claim()));
+});
+self.addEventListener("fetch", (e) => {
+  const req = e.request;
+  if (req.method !== "GET" || new URL(req.url).origin !== self.location.origin) return;
+  e.respondWith(
+    fetch(req).then((resp) => {
+      const copia = resp.clone();
+      caches.open(CACHE).then((c) => c.put(req, copia));
+      return resp;
+    }).catch(() => caches.match(req).then((r) => r || caches.match("./index.html")))
+  );
+});
+"""
 
 
 # ---------- rodada completa ----------
