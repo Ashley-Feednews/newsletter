@@ -3784,5 +3784,20 @@
   "ia_tipo": "alerta",
   "ia_texto": "Desafios trabalhistas no campo podem impactar os custos operacionais da safra canavieira. Vale acompanhar se a escassez de pessoal trará pressões adicionais para a oferta de açúcar e etanol.",
   "versao_ia": 2
+ },
+ {
+  "id": "a91eb1acf25eb797",
+  "titulo": "Aviões agrícolas terão imposto zerado em 2027",
+  "link": "https://www.agrolink.com.br/noticias/avioes-agricolas-terao-imposto-zerado-em-2027_520672.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-06T16:26:00+00:00",
+  "trecho": "O governo federal estabeleceu alíquota zero do Imposto Seletivo para a aquisição e importação de aviões agrícolas em 2027, afastando a incidência do novo tributo sobre esses equipamentos utilizados nas atividades rurais. A decisão consta na Medida Provisória nº 1.399, publicada em 4 de novembro, e terá validade até 31 de dezembro do próximo ano.",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "O governo federal definiu alíquota zero do Imposto Seletivo para a compra e importação de aviões agrícolas em 2027. A medida foi publicada por meio de medida provisória e tem vigência prevista até o final de dezembro daquele ano.",
+  "ia_tipo": "contexto",
+  "ia_texto": "A desoneração de aviões agrícolas pode reduzir custos operacionais para produtores rurais a médio prazo, impactando indiretamente a eficiência de grandes lavouras. Vale acompanhar se essa redução de custo se reflete em investimentos em tecnologia no campo.",
+  "versao_ia": 2
  }
 ]
