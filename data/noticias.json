@@ -2983,9 +2983,12 @@
   "data": "2026-11-05T00:32:06+00:00",
   "trecho": "Cargill lança solução para aumentar a produção e o teor de gordura no leite MilkPoint",
   "tema": "Lácteos",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Cargill lança solução para aumentar a produção e o teor de gordura no leite MilkPoint"
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A Cargill apresentou uma nova solução voltada para pecuaristas com foco na atividade leiteira. O produto visa elevar tanto o volume de produção quanto o teor de gordura no leite.",
+  "ia_tipo": "insight",
+  "ia_texto": "Tecnologias que melhoram a qualidade da matéria-prima podem impactar a rentabilidade do produtor e a composição do leite entregue à indústria. Vale acompanhar a adoção dessa solução para entender potenciais reflexos na qualidade dos derivados lácteos.",
+  "versao_ia": 2
  },
  {
   "id": "ad142242e4b767e6",
@@ -2995,9 +2998,12 @@
   "data": "2026-11-03T17:40:33+00:00",
   "trecho": "Açúcar cai nas bolsas e atinge menor nível em cinco semanas em Nova Iorque Notícias Agrícolas",
   "tema": "Açúcar",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Açúcar cai nas bolsas e atinge menor nível em cinco semanas em Nova Iorque Notícias Agrícolas"
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "Os contratos futuros de açúcar registraram baixa nas bolsas internacionais de negociação. O indicador atingiu o menor patamar em cinco semanas na bolsa de Nova Iorque.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A queda nas cotações internacionais pode trazer alívio para os custos industriais, mas exige cautela na hora de fechar novos contratos de compra. Vale acompanhar os próximos relatórios de safra do Centro-Sul para avaliar se a tendência de baixa se sustenta.",
+  "versao_ia": 2
  },
  {
   "id": "5bacec8f1c32252f",
@@ -3007,9 +3013,12 @@
   "data": "2026-11-03T17:32:21+00:00",
   "trecho": "DO GRÃO A BARRA - Preocupação com El Niño em lavouras de cacau reforça... Notícias Agrícolas",
   "tema": "Cacau",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "DO GRÃO A BARRA - Preocupação com El Niño em lavouras de cacau reforça... Notícias Agrícolas"
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "Analistas demonstraram preocupação com os impactos do fenômeno El Niño nas lavouras produtoras de cacau. O alerta reforça os riscos climáticos que cercam a cadeia de suprimentos da commodity.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A incerteza climática pressiona a oferta global e mantém o risco de alta nos preços da matéria-prima. É recomendável conversar com clientes sobre planejamento de compras e estratégias de hedge para mitigar volatilidades.",
+  "versao_ia": 2
  },
  {
   "id": "cfe1b584501ebbb5",
@@ -3019,9 +3028,12 @@
   "data": "2026-11-05T00:35:09+00:00",
   "trecho": "Fugini lança pasta de tomate duplo concentrada Giro News",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Fugini lança pasta de tomate duplo concentrada Giro News"
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Fugini anunciou o lançamento de uma nova pasta de tomate com duplo concentrado. O produto amplia o portfólio da marca voltado ao mercado de alimentos.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Novos lançamentos na categoria de derivados de tomate podem indicar tendências de conveniência e saudabilidade. É uma boa oportunidade para apresentar ingredientes texturizantes ou melhoradores de sabor a fabricantes do segmento.",
+  "versao_ia": 2
  },
  {
   "id": "77c250473c9161b0",
@@ -3031,9 +3043,12 @@
   "data": "2026-11-04T21:48:11+00:00",
   "trecho": "Casa Flora lança linha de panetones premium em caixa presenteável Giro News",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Casa Flora lança linha de panetones premium em caixa presenteável Giro News"
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A Casa Flora introduziu ao mercado uma nova linha de panetones focada no segmento premium. Os produtos são comercializados em embalagens especiais do tipo caixa presenteável.",
+  "ia_tipo": "insight",
+  "ia_texto": "Lançamentos com foco em linhas presenteáveis reforçam a busca das marcas por maior valor agregado em datas comemorativas. Pode ser um bom termômetro para antecipar demandas por insumos de alta qualidade na confeitaria.",
+  "versao_ia": 2
  },
  {
   "id": "a13491188f72fd77",
@@ -3043,9 +3058,12 @@
   "data": "2026-11-05T10:38:01+00:00",
   "trecho": "Das quatro maiores empresas processadoras de trigo no País, três são brasileiras “nascidas” no Ceará, mas seguem expandindo operações em outros estados. É o caso do Grande Moinho Cearense (GMC), que leva o estado de origem no nome, mas, diferentemente dos concorrentes M. Dias Branco e J.Macêdo, não foi para o Sul, mantém uma estratégia […] O post Grande Moinho Cearense, da família Jereissati, investe R$ 230 milhões em nova unidade na Bahia apareceu primeiro em AgFeed .",
   "tema": "Trigo e farinhas",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Das quatro maiores empresas processadoras de trigo no País, três são brasileiras “nascidas” no Ceará, mas seguem expandindo operações em outros estados. É o caso do Grande Moinho Cearense (GMC), que leva o estado de origem no nome, mas, diferentemente dos concorrentes M. Dias Branco e J.Macêdo, não foi para o Sul, mantém uma estratégia […] O post Grande Moinho Cearense, da família Jereissati, investe R$ 230 milhões em nova unidade na Bahia apareceu primeiro em AgFeed ."
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "O Grande Moinho Cearense investiu duzentos e trinta milhões de reais na construção de uma nova unidade na Bahia. A empresa amplia sua atuação estratégica na região Nordeste.",
+  "ia_tipo": "insight",
+  "ia_texto": "A expansão de grandes moinhos sinaliza investimentos na capacidade de moagem regional, o que pode intensificar a demanda local por trigo e alterar a dinâmica comercial com fornecedores.",
+  "versao_ia": 2
  },
  {
   "id": "ce068c99e057bce0",
@@ -3055,9 +3073,12 @@
   "data": "2026-11-04T23:14:03+00:00",
   "trecho": "O post O sabor regenerativo do cacau apareceu primeiro em AgFeed .",
   "tema": "Cacau",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "O post O sabor regenerativo do cacau apareceu primeiro em AgFeed ."
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "Publicação abordou o tema da produção sustentável e regenerativa no cultivo de cacau. O foco recai sobre as práticas agrícolas e o perfil sensorial do ingrediente.",
+  "ia_tipo": "insight",
+  "ia_texto": "A pauta de sustentabilidade e agricultura regenerativa ganha cada vez mais espaço no mercado de cacau e chocolate. Essa pode ser uma excelente linha de argumentação comercial para marcas que buscam agregar valor aos seus produtos finais.",
+  "versao_ia": 2
  },
  {
   "id": "fbda33389f16b859",
@@ -3066,10 +3087,13 @@
   "fonte": "AgFeed",
   "data": "2026-11-04T20:54:52+00:00",
   "trecho": "A fábrica da John Deere no município goiano de Catalão vai ganhar novo status dentro da montadora americana de máquinas agrícolas a partir de 2029. Até lá, a companhia vai investir na adequação da unidade, onde produz colhedoras de cana e pulverizadores, segundo anúncio foi feito nesta terça-feira, 4 de novembro, junto com a divulgação […] O post John Deere faz reorganização industrial e vai tornar Catalão seu centro mundial de colhedoras de cana apareceu primeiro em AgFeed .",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A fábrica da John Deere no município goiano de Catalão vai ganhar novo status dentro da montadora americana de máquinas agrícolas a partir de 2029. Até lá, a companhia vai investir na adequação da unidade, onde produz colhedoras de cana e pulverizadores, segundo anúncio foi feito nesta terça-feira, 4 de novembro, junto com a divulgação […] O post John Deere faz reorganização industrial e vai tornar Catalão seu centro mundial de colhedoras de cana apareceu primeiro em AgFeed ."
+  "tema": "Açúcar",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A John Deere anunciou uma reorganização industrial que envolverá sua fábrica localizada em Goiás. A unidade de Catalão se tornará o centro mundial de produção de colhedoras de cana até 2029.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Investimentos em maquinário agrícola indicam renovação tecnológica de longo prazo para a cadeia sucroenergética. O movimento sinaliza perspectivas positivas para a eficiência na colheita da cana-de-açúcar.",
+  "versao_ia": 2
  },
  {
   "id": "b89889a78c876b42",
@@ -3079,9 +3103,12 @@
   "data": "2026-11-05T03:00:00+00:00",
   "trecho": "CACAU: Barry Callebaut fecha acordo de 15 anos com Mondelēz, a começar pelo Brasil aditivosingredientes.com.br",
   "tema": "Cacau",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "CACAU: Barry Callebaut fecha acordo de 15 anos com Mondelēz, a começar pelo Brasil aditivosingredientes.com.br"
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "A Barry Callebaut firmou um acordo de longo prazo com a Mondelēz com início previsto para o Brasil. A parceria comercial terá duração de 15 anos.",
+  "ia_tipo": "insight",
+  "ia_texto": "Parcerias de longo prazo no setor de cacau costumam buscar estabilidade no fornecimento frente à volatilidade dos preços internacionais. Vale acompanhar como esse movimento pode influenciar a disponibilidade de matéria-prima para outros players locais.",
+  "versao_ia": 2
  },
  {
   "id": "64ae6fbf60cef7fb",
@@ -3090,10 +3117,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T08:18:00+00:00",
   "trecho": "A valorização de 9,2% do dólar entre 23 e 30 de outubro não se refletiu integralmente nas cotações da soja e do milho no mercado brasileiro. Enquanto a moeda americana registrou forte alta após o resultado das eleições presidenciais, os preços dos grãos tiveram comportamento mais moderado, influenciados pelas negociações internacionais, pelos prêmios de exportação e pelas condições de oferta e demanda.",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A valorização de 9,2% do dólar entre 23 e 30 de outubro não se refletiu integralmente nas cotações da soja e do milho no mercado brasileiro. Enquanto a moeda americana registrou forte alta após o resultado das eleições presidenciais, os preços dos grãos tiveram comportamento mais moderado, influenciados pelas negociações internacionais, pelos prêmios de exportação e pelas condições de oferta e demanda."
+  "tema": "Óleos e gorduras",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A alta expressiva do dólar não se repetiu integralmente nos preços da soja e do milho no Brasil. As cotações foram moderadas por negociações internacionais e prêmios de exportação.",
+  "ia_tipo": "insight",
+  "ia_texto": "O descasamento entre a alta cambial e os preços internos da soja pode oferecer janelas pontuais de compra para o óleo de soja, sendo prudente monitorar a paridade de exportação.",
+  "versao_ia": 2
  },
  {
   "id": "af17b6e9ab75960b",
@@ -3102,10 +3132,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T08:07:00+00:00",
   "trecho": "O Banco Central decidiu interromper o ciclo de redução da taxa básica de juros e manteve a Selic em 13,75% ao ano. A decisão do Comitê de Política Monetária (Copom) ocorre em meio ao aumento das expectativas de inflação, à valorização do dólar e às incertezas sobre as contas públicas. Com isso, o custo do crédito deve permanecer elevado nos próximos meses, influenciando as decisões de consumo e investimento das empresas.",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "O Banco Central decidiu interromper o ciclo de redução da taxa básica de juros e manteve a Selic em 13,75% ao ano. A decisão do Comitê de Política Monetária (Copom) ocorre em meio ao aumento das expectativas de inflação, à valorização do dólar e às incertezas sobre as contas públicas. Com isso, o custo do crédito deve permanecer elevado nos próximos meses, influenciando as decisões de consumo e investimento das empresas."
+  "tema": null,
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "O Banco Central manteve a taxa Selic inalterada diante das expectativas de inflação e da alta do dólar. O custo do crédito deve continuar elevado para empresas e consumidores.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Juros altos encarecem o capital de giro das indústrias de alimentos, tornando a gestão de estoques de ingredientes ainda mais enxuta.",
+  "versao_ia": 2
  },
  {
   "id": "925ce7efe0215898",
@@ -3115,9 +3148,12 @@
   "data": "2026-11-05T08:06:00+00:00",
   "trecho": "A CRA aprovou projeto que isenta de tarifa de energia elétrica usinas que gerem eletricidade exclusivamente com biomassa da casca de arroz; a proposta segue para análise da CAE",
   "tema": "Arroz",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A CRA aprovou projeto que isenta de tarifa de energia elétrica usinas que gerem eletricidade exclusivamente com biomassa da casca de arroz; a proposta segue para análise da CAE"
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Foi aprovado um projeto que isenta de tarifa de energia elétrica as usinas que geram eletricidade com biomassa de casca de arroz. A proposta seguiu para nova análise legislativa.",
+  "ia_tipo": "insight",
+  "ia_texto": "Incentivos à cogeração de energia a partir da casca de arroz podem reduzir custos operacionais para beneficiadores do grão, impactando indiretamente a competitividade da cadeia.",
+  "versao_ia": 2
  },
  {
   "id": "443e3c3319cbbe61",
@@ -3126,10 +3162,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T08:06:00+00:00",
   "trecho": "No III Encontro do Programa Cozinha Solidária, em Brasília, a Conab destacou o papel do PAA no abastecimento de mais de 700 cozinhas com alimentos da agricultura familiar e informou investimentos superiores a R$ 240 milhões entre 2023 e 2026",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "No III Encontro do Programa Cozinha Solidária, em Brasília, a Conab destacou o papel do PAA no abastecimento de mais de 700 cozinhas com alimentos da agricultura familiar e informou investimentos superiores a R$ 240 milhões entre 2023 e 2026"
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O III Encontro Nacional do Programa Cozinha Solidária destacou a atuação da Conab em Brasília. O evento divulgou investimentos superiores a R$ 240 milhões aplicados entre 2023 e 2026.",
+  "ia_tipo": "contexto",
+  "ia_texto": "A iniciativa tem foco social e institucional, sem impacto direto na comercialização de ingredientes para a indústria de alimentos.",
+  "versao_ia": 2
  },
  {
   "id": "21a0116f0dfcadbf",
@@ -3139,9 +3178,12 @@
   "data": "2026-11-05T10:33:50+00:00",
   "trecho": "",
   "tema": "Açúcar",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": ""
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "Os contratos futuros de açúcar bruto registraram recuperação na bolsa de Nova York. Em contrapartida, o adoçante refinado apresentou queda nas cotações.",
+  "ia_tipo": "insight",
+  "ia_texto": "A oscilação divergente entre o açúcar bruto e o refinado na ICE reflete ajustes globais de oferta, o que pode influenciar os preços domésticos e as margens de exportação.",
+  "versao_ia": 2
  },
  {
   "id": "94a0de0642f58d8b",
@@ -3150,10 +3192,13 @@
   "fonte": "MilkPoint",
   "data": "2026-11-05T11:17:47+00:00",
   "trecho": "MUAI amplia linha de iogurtes proteicos com lançamento bicamada de maracujá MilkPoint",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "MUAI amplia linha de iogurtes proteicos com lançamento bicamada de maracujá MilkPoint"
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A marca MUAI expandiu seu portfólio com o lançamento de um iogurte proteico em versão bicamada de maracujá. A novidade amplia a linha voltada ao segmento saudável.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "O crescimento de produtos lácteos fortificados e proteicos abre oportunidade para ofertar ingredientes funcionais, estabilizantes e proteínas lácteas (como whey) aos fabricantes.",
+  "versao_ia": 2
  },
  {
   "id": "57d966db2b7bba4f",
@@ -3163,9 +3208,12 @@
   "data": "2026-11-05T11:37:20+00:00",
   "trecho": "Câmara aprova fiscalização do TCU sobre importações de leite e derivados MilkPoint",
   "tema": "Lácteos",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Câmara aprova fiscalização do TCU sobre importações de leite e derivados MilkPoint"
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A Câmara aprovou a realização de uma fiscalização do TCU sobre as importações de leite e derivados. A medida busca acompanhar a entrada desses produtos no país.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Maior rigor nas importações de lácteos do Mercosul pode impactar a oferta interna e trazer volatilidade aos preços do leite em pó, exigindo cautela na formação de estoques.",
+  "versao_ia": 2
  },
  {
   "id": "97045bd578f09f9d",
@@ -3175,9 +3223,12 @@
   "data": "2026-11-05T16:58:02+00:00",
   "trecho": "Parceria apresenta versão exclusiva do Corre 5 e integra estratégia de divulgação do Guaraná Antarctica Zero com Fibras, ampliando a presença da bebida no universo esportivo. O Guaraná Antarctica, marca da Ambev, e a Olympikus, pertencente à Vulcabras, anunciaram uma colaboração que une os mercados de bebidas e artigos esportivos. A parceria resultou no lançamento […] O post Guaraná Antarctica e Olympikus lançam tênis em edição limitada apareceu primeiro em FoodBiz .",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Parceria apresenta versão exclusiva do Corre 5 e integra estratégia de divulgação do Guaraná Antarctica Zero com Fibras, ampliando a presença da bebida no universo esportivo. O Guaraná Antarctica, marca da Ambev, e a Olympikus, pertencente à Vulcabras, anunciaram uma colaboração que une os mercados de bebidas e artigos esportivos. A parceria resultou no lançamento […] O post Guaraná Antarctica e Olympikus lançam tênis em edição limitada apareceu primeiro em FoodBiz ."
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Guaraná Antarctica e Olympikus uniram-se no lançamento de um tênis em edição limitada para promover uma versão do refrigerante. A parceria cruza os mercados de bebidas e artigos esportivos em uma ação de marketing.",
+  "ia_tipo": "insight",
+  "ia_texto": "Ações de co-branding reforçam a visibilidade de marcas de bebidas voltadas ao público jovem e fitness. Demonstra o esforço de grandes marcas em associar produtos a estilos de vida ativos.",
+  "versao_ia": 2
  },
  {
   "id": "8dce9cb8c0877267",
@@ -3187,9 +3238,12 @@
   "data": "2026-11-05T14:05:07+00:00",
   "trecho": "Unilever investe em hub logístico automatizado em Itupeva (SP) Giro News",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Unilever investe em hub logístico automatizado em Itupeva (SP) Giro News"
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A Unilever realizou investimentos na construção de um novo hub logístico com alto grau de automação no interior paulista. A estrutura tem o objetivo de otimizar as operações de distribuição da companhia na região.",
+  "ia_tipo": "insight",
+  "ia_texto": "Investimentos em automação logística por grandes indústrias de bens de consumo buscam ganho de eficiência e redução de custos operacionais. Vale acompanhar o impacto na cadeia de abastecimento de alimentos.",
+  "versao_ia": 2
  },
  {
   "id": "667e7a61e8897090",
@@ -3199,9 +3253,12 @@
   "data": "2026-11-05T12:54:49+00:00",
   "trecho": "Wyda lança promoção com cinco cozinhas e mais de 100 sorteios Giro News",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Wyda lança promoção com cinco cozinhas e mais de 100 sorteios Giro News"
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A empresa Wyda lançou uma campanha promocional com mais de cem sorteios e cinco cozinhas. A ação visa engajar o público consumidor.",
+  "ia_tipo": "insight",
+  "ia_texto": "Movimentações de marketing e embalagens indicam estratégias para aquecer as vendas no varejo, o que pode refletir indiretamente na demanda por insumos alimentícios.",
+  "versao_ia": 2
  },
  {
   "id": "85fb49dd17e523c7",
@@ -3210,10 +3267,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T16:08:00+00:00",
   "trecho": "A presença de investimentos chineses na economia brasileira alcançou US$ 85,5 bilhões em 2025, segundo levantamento do Conselho Empresarial Brasil-China (CEBC). O volume de recursos e as possibilidades de expansão da cooperação econômica entre os dois países estiveram em discussão durante um encontro empresarial realizado na quarta-feira (4), em Xangai, com a participação de aproximadamente 300 representantes dos setores público e privado.",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A presença de investimentos chineses na economia brasileira alcançou US$ 85,5 bilhões em 2025, segundo levantamento do Conselho Empresarial Brasil-China (CEBC). O volume de recursos e as possibilidades de expansão da cooperação econômica entre os dois países estiveram em discussão durante um encontro empresarial realizado na quarta-feira (4), em Xangai, com a participação de aproximadamente 300 representantes dos setores público e privado."
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "Os investimentos chineses acumulados no Brasil atingiram patamares expressivos no último período avaliado. Representantes dos dois países debateram novas frentes de cooperação econômica em um encontro recente no exterior.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Acordos bilaterais podem influenciar o fluxo de commodities em geral, embora o foco permaneça em acordos macroeconômicos e diplomáticos.",
+  "versao_ia": 2
  },
  {
   "id": "51cc0ec9f83acdcb",
@@ -3222,10 +3282,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T13:39:00+00:00",
   "trecho": "Pesquisadores do Centro de Pesquisas apontam que os valores foram influenciados pela restrição na disponibilidade de animais terminados e pela demanda consistente por carne bovina, combinação que ampliou a disputa entre frigoríficos pela aquisição de matéria-prima.",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Pesquisadores do Centro de Pesquisas apontam que os valores foram influenciados pela restrição na disponibilidade de animais terminados e pela demanda consistente por carne bovina, combinação que ampliou a disputa entre frigoríficos pela aquisição de matéria-prima."
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O mês de outubro registrou preços recordes para a arroba do boi no Brasil. A alta foi impulsionada pela menor oferta de animais prontos para abate e pela forte demanda.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Embora envolva a cadeia de carnes, o tema não afeta diretamente o mercado de ingredientes vegetais ou aditivos acompanhados.",
+  "versao_ia": 2
  },
  {
   "id": "b286d143e4cfc279",
@@ -3235,9 +3298,12 @@
   "data": "2026-11-05T11:50:00+00:00",
   "trecho": "Os mercados de grãos iniciaram esta quinta-feira com cotações pressionadas por fatores externos. Segundo a TF Agroeconômica, na abertura de 5 de novembro, trigo, soja e milho refletem as perspectivas para o comércio internacional e os preços de produtos concorrentes",
   "tema": "Trigo e farinhas",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Os mercados de grãos iniciaram esta quinta-feira com cotações pressionadas por fatores externos. Segundo a TF Agroeconômica, na abertura de 5 de novembro, trigo, soja e milho refletem as perspectivas para o comércio internacional e os preços de produtos concorrentes"
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "O mercado de grãos iniciou o dia com cotações pressionadas por fatores externos. O trigo reflete as perspectivas do comércio internacional e os preços de concorrentes.",
+  "ia_tipo": "insight",
+  "ia_texto": "Valores internacionais e o comportamento do câmbio podem trazer volatilidade para o preço do trigo no mercado interno, valendo acompanhar o ritmo de importação.",
+  "versao_ia": 2
  },
  {
   "id": "6c47464330232b78",
@@ -3246,10 +3312,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T11:19:00+00:00",
   "trecho": "A economia brasileira passa por um ajuste nos preços dos ativos, com forte oscilação cambial, inflação em alta e desaceleração do crédito. Segundo análise do Rabobank, o cenário reúne incertezas externas, efeitos do resultado eleitoral e sinais de moderação da atividade doméstica",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A economia brasileira passa por um ajuste nos preços dos ativos, com forte oscilação cambial, inflação em alta e desaceleração do crédito. Segundo análise do Rabobank, o cenário reúne incertezas externas, efeitos do resultado eleitoral e sinais de moderação da atividade doméstica"
+  "tema": null,
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A economia brasileira atravessa um momento de ajuste com oscilação cambial, inflação elevada e crédito restrito. O cenário traz incertezas externas e internas para a atividade.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O cenário macroeconômico afeta o poder de compra, sendo útil para monitorar o comportamento geral dos custos industriais e repasses de preços.",
+  "versao_ia": 2
  },
  {
   "id": "930c63b4da11b44a",
@@ -3259,9 +3328,12 @@
   "data": "2026-11-05T10:51:00+00:00",
   "trecho": "As chuvas voltaram a interromper a colheita de trigo no Rio Grande do Sul e elevaram o alerta sobre a qualidade do grão no campo. Segundo a TF Agroeconômica, temporais com volumes superiores a 100 milímetros em regiões gaúchas paralisaram novamente os trabalhos",
   "tema": "Trigo e farinhas",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "As chuvas voltaram a interromper a colheita de trigo no Rio Grande do Sul e elevaram o alerta sobre a qualidade do grão no campo. Segundo a TF Agroeconômica, temporais com volumes superiores a 100 milímetros em regiões gaúchas paralisaram novamente os trabalhos"
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "O excesso de chuvas no Rio Grande do Sul interrompeu a colheita de trigo e gerou preocupação com a qualidade do grão. Os temporais paralisaram os trabalhos no campo.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Problemas na qualidade do trigo nacional podem elevar a dependência do cereal argentino e encarecer a matéria-prima para moinhos e indústrias de massas e biscoitos.",
+  "versao_ia": 2
  },
  {
   "id": "6f7ca377a090996c",
@@ -3271,9 +3343,12 @@
   "data": "2026-11-05T12:46:24+00:00",
   "trecho": "Média de outubro é a maior desde fev/25 Planeta Arroz",
   "tema": "Arroz",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Média de outubro é a maior desde fev/25 Planeta Arroz"
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A média de preços do arroz em outubro atingiu o maior patamar desde fevereiro. O movimento reflete as condições atuais de oferta e demanda no mercado interno.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A alta nas cotações do arroz pode pressionar os custos de produção para indústrias que utilizam o grão ou derivados como farinhas, exigindo atenção nas negociações de compra.",
+  "versao_ia": 2
  },
  {
   "id": "1bec936d1a4634e7",
@@ -3283,9 +3358,12 @@
   "data": "2026-11-05T12:46:24+00:00",
   "trecho": "Área plantada com arroz encolhe 51% e produção recua em Mato Grosso Planeta Arroz",
   "tema": "Arroz",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Área plantada com arroz encolhe 51% e produção recua em Mato Grosso Planeta Arroz"
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A área plantada com arroz teve uma forte retração e a produção recuou no estado de Mato Grosso. Os dados indicam uma menor oferta regional para a safra.",
+  "ia_tipo": "insight",
+  "ia_texto": "A quebra de safra regional pode estreitar a disponibilidade local do grão, criando oportunidades para discutir contratos antecipados com clientes da indústria.",
+  "versao_ia": 2
  },
  {
   "id": "d7c771ee1df2cf8d",
@@ -3294,10 +3372,13 @@
   "fonte": "NovaCana",
   "data": "2026-11-05T12:02:33+00:00",
   "trecho": "Demanda doméstica pode atingir 103 milhões de toneladas, impulsionada sobretudo pela expansão acelerada da capacidade de produção de etanol de milho, projeta StoneX",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Demanda doméstica pode atingir 103 milhões de toneladas, impulsionada sobretudo pela expansão acelerada da capacidade de produção de etanol de milho, projeta StoneX"
+  "tema": null,
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Os estoques de milho devem registrar crescimento no país, impulsionados pela alta demanda do setor de etanol. A projeção é da consultoria StoneX.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O milho é um grão relevante, mas o foco desta análise restringe-se a insumos específicos como trigo, açúcar, lácteos e óleos.",
+  "versao_ia": 2
  },
  {
   "id": "a9a424ab03351587",
@@ -3306,10 +3387,13 @@
   "fonte": "MilkPoint",
   "data": "2026-11-05T19:47:08+00:00",
   "trecho": "Milet e Treloso: collab combina sorvetes nos sabores chocolate e morango inspirados nos biscoitos MilkPoint",
-  "tema": "Cacau",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Milet e Treloso: collab combina sorvetes nos sabores chocolate e morango inspirados nos biscoitos MilkPoint"
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "As marcas Milet e Treloso uniram-se em uma parceria para o lançamento de sorvetes inspirados em biscoitos. A novidade traz sabores de chocolate e morango ao mercado.",
+  "ia_tipo": "insight",
+  "ia_texto": "Collabs entre marcas conhecidas reforçam o apelo de indulgência no setor de lácteos e sobremesas. Vale monitorar a demanda por ingredientes voltados a texturas e coberturas.",
+  "versao_ia": 2
  },
  {
   "id": "90cabe02f6aaa030",
@@ -3319,9 +3403,12 @@
   "data": "2026-11-05T20:04:10+00:00",
   "trecho": "A pedidos dos clientes, a marca brasileira de cremosos alcoólicos criou um sabor e já iniciou as vendas A promessa está cumprida. Com o rebranding em maio deste ano, quando a antiga Don Luiz passou a se chamar Don Cream, a marca declarou seu objetivo de liderar o segmento de cremosos alcoólicos no país e […] O post Como a Don Cream uniu duas paixões nacionais e lançou o Coffee Cream apareceu primeiro em FoodBiz .",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A pedidos dos clientes, a marca brasileira de cremosos alcoólicos criou um sabor e já iniciou as vendas A promessa está cumprida. Com o rebranding em maio deste ano, quando a antiga Don Luiz passou a se chamar Don Cream, a marca declarou seu objetivo de liderar o segmento de cremosos alcoólicos no país e […] O post Como a Don Cream uniu duas paixões nacionais e lançou o Coffee Cream apareceu primeiro em FoodBiz ."
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A marca brasileira Don Cream lançou o sabor Coffee Cream em seu portfólio de cremosos alcoólicos. A novidade faz parte da estratégia de expansão da empresa após um processo recente de rebranding.",
+  "ia_tipo": "insight",
+  "ia_texto": "Lançamentos com café indicam forte apelo sensorial e podem abrir espaço para novos ingredientes aromáticos e extratos. É uma oportunidade para conversar com fabricantes sobre tendências de sabor.",
+  "versao_ia": 2
  },
  {
   "id": "920751439e721f44",
@@ -3331,9 +3418,12 @@
   "data": "2026-11-05T18:21:49+00:00",
   "trecho": "Aquisição da dona das marcas Praya, Baer-Mate e Mamba Water reforça estratégia de diversificação do portfólio e expansão no mercado brasileiro. O Grupo Heineken acertou a compra do controle da Better Drinks, empresa brasileira responsável pelas marcas Praya, Baer-Mate e Mamba Water. A operação representa um novo movimento da cervejaria para ampliar sua presença em […] O post Heineken compra Better Drinks, dona da Praya e Baer-Mate apareceu primeiro em FoodBiz .",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Aquisição da dona das marcas Praya, Baer-Mate e Mamba Water reforça estratégia de diversificação do portfólio e expansão no mercado brasileiro. O Grupo Heineken acertou a compra do controle da Better Drinks, empresa brasileira responsável pelas marcas Praya, Baer-Mate e Mamba Water. A operação representa um novo movimento da cervejaria para ampliar sua presença em […] O post Heineken compra Better Drinks, dona da Praya e Baer-Mate apareceu primeiro em FoodBiz ."
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "O Grupo Heineken adquiriu o controle da Better Drinks, fabricante de marcas como Praya e Baer-Mate. A operação faz parte da estratégia da cervejaria para diversificar seu portfólio no mercado brasileiro.",
+  "ia_tipo": "insight",
+  "ia_texto": "Movimentos de M&A em grandes companhias de bebidas alteram a dinâmica de compras e portfólios. Pode significar novas exigências para fornecedores de insumos e bases aromáticas.",
+  "versao_ia": 2
  },
  {
   "id": "1bf428637a92357d",
@@ -3342,10 +3432,13 @@
   "fonte": "Giro News",
   "data": "2026-11-05T17:50:34+00:00",
   "trecho": "Corote Drinks ICE Ultra amplia portfólio com sabores Caju & Capim-Limão e Green Fresh Giro News",
-  "tema": "Açúcar",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Corote Drinks ICE Ultra amplia portfólio com sabores Caju & Capim-Limão e Green Fresh Giro News"
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A linha Corote Drinks ICE Ultra expandiu seu portfólio com a introdução de dois novos sabores ao mercado. Os lançamentos buscam ampliar a variedade de opções oferecidas aos consumidores da categoria.",
+  "ia_tipo": "insight",
+  "ia_texto": "A introdução de novos sabores em bebidas prontas para beber sinaliza busca por inovação e apelo refrescante. Vale ficar atento a tendências de aromas e ingredientes cítricos ou botânicos.",
+  "versao_ia": 2
  },
  {
   "id": "109c469c54135748",
@@ -3354,10 +3447,13 @@
   "fonte": "AgFeed",
   "data": "2026-11-05T16:58:33+00:00",
   "trecho": "A Nutrien encerrou o terceiro trimestre de 2026 com um resultado mais fraco, mas apresentou ao mercado uma projeção que aponta em sentido mais positivo. Para a companhia canadense de fertilizantes e distribuição de insumos, 2027 deve trazer fundamentos mais favoráveis ao produtor e, por consequência, mais volume de fertilizante vendido. Por isso, em guidance […] O post Nutrien projeta safra 2027 mais forte e aposta em potássio, enquanto encolhe no varejo brasileiro apareceu primeiro em AgFeed .",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A Nutrien encerrou o terceiro trimestre de 2026 com um resultado mais fraco, mas apresentou ao mercado uma projeção que aponta em sentido mais positivo. Para a companhia canadense de fertilizantes e distribuição de insumos, 2027 deve trazer fundamentos mais favoráveis ao produtor e, por consequência, mais volume de fertilizante vendido. Por isso, em guidance […] O post Nutrien projeta safra 2027 mais forte e aposta em potássio, enquanto encolhe no varejo brasileiro apareceu primeiro em AgFeed ."
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "A Nutrien registrou resultados mais fracos no trimestre, mas projeta fundamentos mais favoráveis para a safra do próximo ano. A companhia canadense aposta no crescimento do mercado de potássio, apesar de encolher sua atuação no varejo local.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O desempenho do setor de insumos e fertilizantes impacta indiretamente os custos agrícolas, mas a notícia foca na estratégia corporativa global da empresa.",
+  "versao_ia": 2
  },
  {
   "id": "b7409b3365c89d15",
@@ -3367,9 +3463,12 @@
   "data": "2026-11-05T21:55:00+00:00",
   "trecho": "O preço do trigo no Brasil não subiu como esperado diante das perdas de produção e qualidade da safra atual. Segundo dados divulgados pela Central Internacional de Análises Econômicas e de Estudos de Mercado Agropecuário (CEEMA), o trigo tipo 1 é negociado em torno de R$ 72 por saca no Rio Grande do Sul, com perda de força, enquanto no Paraná permanece próximo de R$ 80 por saca. A dificuldade de encontrar cereal com qualidade adequada preocupa os moinhos, especialmente na região Sul.",
   "tema": "Trigo e farinhas",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "O preço do trigo no Brasil não subiu como esperado diante das perdas de produção e qualidade da safra atual. Segundo dados divulgados pela Central Internacional de Análises Econômicas e de Estudos de Mercado Agropecuário (CEEMA), o trigo tipo 1 é negociado em torno de R$ 72 por saca no Rio Grande do Sul, com perda de força, enquanto no Paraná permanece próximo de R$ 80 por saca. A dificuldade de encontrar cereal com qualidade adequada preocupa os moinhos, especialmente na região Sul."
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "Os preços do trigo no Brasil mantêm-se estáveis apesar das quebras de safra e dos problemas de qualidade. A escassez de cereal adequado para moagem gera preocupação entre os moinhos da região Sul.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A dificuldade em encontrar trigo tipo um no mercado interno pode elevar a dependência do produto importado. Vale a pena alertar os clientes da panificação sobre possíveis ajustes futuros nos preços da farinha.",
+  "versao_ia": 2
  },
  {
   "id": "c0efb568554228a5",
@@ -3378,10 +3477,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T20:49:00+00:00",
   "trecho": "A colheita de cerejas em Mendoza, na Argentina, está prevista para a primeira semana de novembro de 2026, com atraso em relação à temporada anterior. Para apoiar os produtores, o Instituto Nacional de Tecnologia Agropecuária (INTA) avalia variedades, preferências dos consumidores e técnicas de manejo pós-colheita, com foco na qualidade da fruta e no abastecimento dos mercados interno e externo.",
-  "tema": "Trigo e farinhas",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A colheita de cerejas em Mendoza, na Argentina, está prevista para a primeira semana de novembro de 2026, com atraso em relação à temporada anterior. Para apoiar os produtores, o Instituto Nacional de Tecnologia Agropecuária (INTA) avalia variedades, preferências dos consumidores e técnicas de manejo pós-colheita, com foco na qualidade da fruta e no abastecimento dos mercados interno e externo."
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "A colheita de cerejas na província argentina de Mendoza tem início previsto para novembro com algum atraso. O instituto agrícola local acompanha o manejo e a qualidade para abastecer os mercados interno e externo.",
+  "ia_tipo": "contexto",
+  "ia_texto": "A notícia trata de frutas frescas fora do escopo principal de ingredientes industriais focados pela empresa. Sem impacto direto para o mercado de commodities e insumos.",
+  "versao_ia": 2
  },
  {
   "id": "b6770b204ce69eaa",
@@ -3390,10 +3492,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T20:43:00+00:00",
   "trecho": "A ferrugem negra do girassol (Puccinia helianthi) foi identificada por técnicos do Instituto Nacional de Tecnologia Agropecuária (INTA) em uma lavoura na região centro-norte da província de Santa Fé, na Argentina. A doença foi detectada no híbrido NK 3970, no estádio R1, correspondente ao início da fase reprodutiva, e motivou a recomendação de intensificar o monitoramento para avaliar a necessidade de Fungicidas e preservar o potencial produtivo da cultura.",
-  "tema": "Trigo e farinhas",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A ferrugem negra do girassol (Puccinia helianthi) foi identificada por técnicos do Instituto Nacional de Tecnologia Agropecuária (INTA) em uma lavoura na região centro-norte da província de Santa Fé, na Argentina. A doença foi detectada no híbrido NK 3970, no estádio R1, correspondente ao início da fase reprodutiva, e motivou a recomendação de intensificar o monitoramento para avaliar a necessidade de Fungicidas e preservar o potencial produtivo da cultura."
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "A ferrugem negra foi identificada em uma lavoura de girassol na província argentina de Santa Fé. Técnicos agrícolas recomendaram o monitoramento da doença e o uso de fungicidas para proteger a produtividade.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Embora o girassol produza óleo, o foco principal em óleos e gorduras costuma ser a soja e a palma. O impacto direto na safra argentina de girassol é pontual para o mercado brasileiro de ingredientes.",
+  "versao_ia": 2
  },
  {
   "id": "2d50d2a7a6dad672",
@@ -3403,9 +3508,12 @@
   "data": "2026-11-05T20:39:00+00:00",
   "trecho": "O melhoramento genético contribuiu para aumentar a produtividade do trigo na Argentina entre 40 e 44 quilos por hectare ao ano, equivalente a um ganho de aproximadamente 1% anual, segundo estudo do Centro de Pesquisa Econômica da Província (CIEP), vinculado ao Instituto Nacional de Tecnologia Agropecuária (INTA). A pesquisa, baseada em mais de 77 mil registros de ensaios de 26 safras agrícolas, identificou o impacto das novas variedades sobre o rendimento da cultura entre 1998 e 2025.",
   "tema": "Trigo e farinhas",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "O melhoramento genético contribuiu para aumentar a produtividade do trigo na Argentina entre 40 e 44 quilos por hectare ao ano, equivalente a um ganho de aproximadamente 1% anual, segundo estudo do Centro de Pesquisa Econômica da Província (CIEP), vinculado ao Instituto Nacional de Tecnologia Agropecuária (INTA). A pesquisa, baseada em mais de 77 mil registros de ensaios de 26 safras agrícolas, identificou o impacto das novas variedades sobre o rendimento da cultura entre 1998 e 2025."
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "Um estudo recente indica que o melhoramento genético elevou a produtividade do trigo na Argentina em cerca de 1% ao ano. Os dados cobrem o período entre 1998 e 2025 com base em milhares de registros de ensaios agrícolas.",
+  "ia_tipo": "insight",
+  "ia_texto": "O avanço tecnológico na safra argentina pode indicar maior oferta potencial do cereal para o mercado brasileiro. Vale acompanhar os custos de importação e a qualidade do grão colhido.",
+  "versao_ia": 2
  },
  {
   "id": "1fb652ea658e0e52",
@@ -3414,10 +3522,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T18:51:00+00:00",
   "trecho": "O sorgo amplia suas alternativas de comercialização no Brasil, com espaço nas usinas de etanol e no mercado externo. Segundo Enilson Nogueira, consultor e analista de mercado agrícola ligado ao GETAP e à Céleres, a área cultivada, estimada em 2,2 milhões de hectares, poderá dobrar até 2035, se a demanda e os investimentos em tecnologia mantiverem a trajetória de crescimento",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "O sorgo amplia suas alternativas de comercialização no Brasil, com espaço nas usinas de etanol e no mercado externo. Segundo Enilson Nogueira, consultor e analista de mercado agrícola ligado ao GETAP e à Céleres, a área cultivada, estimada em 2,2 milhões de hectares, poderá dobrar até 2035, se a demanda e os investimentos em tecnologia mantiverem a trajetória de crescimento"
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O cultivo de sorgo no Brasil amplia suas alternativas de comercialização para usinas de etanol e mercado externo. A área plantada tem potencial de crescimento expressivo nos próximos anos, conforme projeções de consultoria.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Embora o sorgo ganhe espaço na matriz energética e de grãos, o tema não está no escopo principal dos ingredientes monitorados.",
+  "versao_ia": 2
  },
  {
   "id": "3bcfd3f847ebcf05",
@@ -3426,10 +3537,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T18:40:00+00:00",
   "trecho": "O financiamento da produção agrícola brasileira perdeu força no início da safra 2026/27. Entre julho e setembro deste ano, as contratações de crédito rural somaram R$ 87,79 bilhões, uma redução de 22,65% em relação ao mesmo período de 2025. O resultado marca o terceiro ano consecutivo de queda no trimestre que concentra parte importante da demanda por recursos para o plantio de soja e milho.",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "O financiamento da produção agrícola brasileira perdeu força no início da safra 2026/27. Entre julho e setembro deste ano, as contratações de crédito rural somaram R$ 87,79 bilhões, uma redução de 22,65% em relação ao mesmo período de 2025. O resultado marca o terceiro ano consecutivo de queda no trimestre que concentra parte importante da demanda por recursos para o plantio de soja e milho."
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "As contratações de crédito rural brasileiro registraram queda expressiva no trimestre inicial da safra atual. O resultado marca o terceiro ano seguido de retração nos recursos voltados ao financiamento agrícola.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A retração no crédito pode impactar o fluxo de caixa dos produtores, mas o foco da análise deve se manter nos indicadores específicos de cada ingrediente.",
+  "versao_ia": 2
  },
  {
   "id": "2770c0a197b51370",
@@ -3439,9 +3553,12 @@
   "data": "2026-11-05T18:25:00+00:00",
   "trecho": "A mancha-parda no arroz, doença causada pelo fungo Bipolaris oryzae, exige atenção dos produtores entre novembro e março, período marcado por alta umidade e temperaturas elevadas em áreas de arroz irrigado. Reconhecer os sintomas iniciais nas folhas, nos colmos e nos grãos ajuda a orientar o diagnóstico e o manejo fitossanitário, reduzindo os riscos de perdas de produtividade e de qualidade industrial.",
   "tema": "Arroz",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A mancha-parda no arroz, doença causada pelo fungo Bipolaris oryzae, exige atenção dos produtores entre novembro e março, período marcado por alta umidade e temperaturas elevadas em áreas de arroz irrigado. Reconhecer os sintomas iniciais nas folhas, nos colmos e nos grãos ajuda a orientar o diagnóstico e o manejo fitossanitário, reduzindo os riscos de perdas de produtividade e de qualidade industrial."
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A incidência de mancha-parda no arroz exige monitoramento rigoroso por parte dos produtores nos meses de maior umidade e calor. O reconhecimento precoce dos sintomas ajuda a mitigar prejuízos na produtividade e na qualidade industrial do grão.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Problemas fitossanitários na lavoura podem afetar o rendimento e a qualidade da matéria-prima disponível para beneficiamento. Vale acompanhar o desenvolvimento da safra para antecipar eventuais pressões nos preços.",
+  "versao_ia": 2
  },
  {
   "id": "878ee8b0721d2a97",
@@ -3450,10 +3567,13 @@
   "fonte": "Agrolink",
   "data": "2026-11-05T18:03:00+00:00",
   "trecho": "A trajetória dos juros no Brasil entrou em uma fase de cautela, com a interrupção dos cortes diante de inflação resistente e incertezas econômicas. Segundo análise do Rabobank, o Comitê de Política Monetária (Copom) decidiu por unanimidade manter a Selic em 13,75% ao ano, resultado alinhado às expectativas do banco e do mercado",
-  "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "A trajetória dos juros no Brasil entrou em uma fase de cautela, com a interrupção dos cortes diante de inflação resistente e incertezas econômicas. Segundo análise do Rabobank, o Comitê de Política Monetária (Copom) decidiu por unanimidade manter a Selic em 13,75% ao ano, resultado alinhado às expectativas do banco e do mercado"
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O Banco Central optou por manter a taxa Selic em patamar elevado em meio a um cenário de inflação resistente. A decisão reflete a cautela da autoridade monetária frente às incertezas econômicas atuais.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Taxas de juros altas encarecem o capital de giro para a cadeia de alimentos, exigindo atenção redobrada com estoques e prazos de pagamento.",
+  "versao_ia": 2
  },
  {
   "id": "061195c1825dd765",
@@ -3463,9 +3583,12 @@
   "data": "2026-11-05T17:55:00+00:00",
   "trecho": "O controle de plantas daninhas é uma etapa importante para o estabelecimento da cana-de-açúcar, especialmente no período entre o plantio e o fechamento das entrelinhas. Nessa fase, o crescimento inicial relativamente lento da cultura permite que espécies invasoras se desenvolvam e disputem água, luz e nutrientes, podendo comprometer a brotação, o perfilhamento e o potencial produtivo do canavial.",
   "tema": "Açúcar",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "O controle de plantas daninhas é uma etapa importante para o estabelecimento da cana-de-açúcar, especialmente no período entre o plantio e o fechamento das entrelinhas. Nessa fase, o crescimento inicial relativamente lento da cultura permite que espécies invasoras se desenvolvam e disputem água, luz e nutrientes, podendo comprometer a brotação, o perfilhamento e o potencial produtivo do canavial."
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "O controle inicial de plantas daninhas é considerado essencial para o bom estabelecimento da cana-de-açúcar. A competição por recursos nessa fase pode comprometer o desenvolvimento e o rendimento final do canavial.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O manejo adequado no início do ciclo vegetativo é determinante para garantir o volume de moagem futuro. Acompanhar as condições agronômicas ajuda a projetar a oferta de açúcar e etanol.",
+  "versao_ia": 2
  },
  {
   "id": "a6fea269926d079f",
@@ -3475,9 +3598,12 @@
   "data": "2026-11-05T17:03:39+00:00",
   "trecho": "Semeadura do arroz irrigado alcança 75,70% da área prevista no Rio Grande do Sul. Planeta Arroz",
   "tema": "Arroz",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Semeadura do arroz irrigado alcança 75,70% da área prevista no Rio Grande do Sul. Planeta Arroz"
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A semeadura do arroz irrigado atingiu mais de três quartos da área prevista no estado do Rio Grande do Sul. O ritmo do plantio segue avançando conforme o cronograma regional estabelecido.",
+  "ia_tipo": "insight",
+  "ia_texto": "O estado gaúcho é o principal produtor nacional do cereal, tornando o acompanhamento do plantio crucial para estimar a safra doméstica. Condições climáticas favoráveis agora podem garantir boa oferta futura.",
+  "versao_ia": 2
  },
  {
   "id": "aab99faf0e258ab7",
@@ -3487,9 +3613,12 @@
   "data": "2026-11-06T03:00:00+00:00",
   "trecho": "Lantmännen lança NordPea para atender à demanda por proteína vegetal sustentável aditivosingredientes.com.br",
   "tema": "Notícias do setor",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": "Lantmännen lança NordPea para atender à demanda por proteína vegetal sustentável aditivosingredientes.com.br"
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A empresa Lantmännen introduziu no mercado um novo ingrediente proteico derivado de ervilha. O lançamento visa atender à crescente demanda global por fontes de proteína vegetal sustentável.",
+  "ia_tipo": "insight",
+  "ia_texto": "O mercado de proteínas vegetais continua em expansão para atender produtos plant-based. É um tema relevante para portfólios focados em inovação e substituição de ingredientes tradicionais.",
+  "versao_ia": 2
  },
  {
   "id": "f3b97ba9b4a9aa80",
@@ -3499,8 +3628,161 @@
   "data": "2026-11-06T10:51:45+00:00",
   "trecho": "",
   "tema": "Açúcar",
-  "ia": false,
-  "relevancia": 0,
-  "resumo": ""
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "Os preços do açúcar registraram alta na bolsa de Nova York impulsionados pela desvalorização do dólar e pela valorização do petróleo. O cenário externo influenciou diretamente as cotações da commodity.",
+  "ia_tipo": "insight",
+  "ia_texto": "A alta externa do açúcar pode encarecer o produto no mercado doméstico e direcionar mais cana para a produção do adoçante. Vale monitorar as paridades de exportação para orientar clientes sobre o momento de compra.",
+  "versao_ia": 2
+ },
+ {
+  "id": "5d846f0ecbb90afe",
+  "titulo": "Trevo lança iogurte natural integral com apenas dois ingredientes",
+  "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOG9aeDBWSVQ2SWZaUkJRTy1OY2JZUHBpOG9vY2UyTU9Ia0U5OXl2SWx0MWpSNklOVnBVem93RG5mUkxTUmcxNVlZYnBEd2VXb0otbWpCc2FNTHFLci1kNUtpVEoxQkxpRGsxaFktS21pQkpzTzRHeXp3MVZTaG1BN2VjdDBTT1U2NXhlNi1hMlV1LU1ldDMweUxQSUEycEpuMFpfUDBIbHhlRmRTSUlObmhPeXB0MjRydV9VSV8wbDJZdE0yN2lESGRGc1VhNW9M?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-06T13:22:25+00:00",
+  "trecho": "Trevo lança iogurte natural integral com apenas dois ingredientes MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "A marca Trevo lançou um iogurte natural integral formulado com apenas dois ingredientes. O produto busca atender à demanda crescente por itens com rótulos mais limpos.",
+  "ia_tipo": "insight",
+  "ia_texto": "O lançamento reflete a forte tendência de saudabilidade e listas de ingredientes reduzidas. Pode ser um bom gancho para negociar ingredientes lácteos focados em clean label com fabricantes de bebidas.",
+  "versao_ia": 2
+ },
+ {
+  "id": "e94a02f548c53938",
+  "titulo": "Soro de leite e frutas tropicais: uma combinação funcional e sustentável",
+  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNFowMXV2UmhxaDVNeTRZUjJWd2YyQ1RFdTllMDNhQTIwSnBQOGNpdmRkM2lzbnRpV0JuQ1QtQ0pPd3VicWZNNE40WWlTcGYtVWxxQnlQSEgwZ0lYQ2ZHMDRCdEpZWGZKOHBvQzRUNnlOcXZwcTVGZ0IybTB1WU9Bb3Q4OEhWTTBwOW8zLUtkMjIwWHlFSGpsVExLWGtCa3ZSakhJb3VnLU9lYVhwbGM3RTZsbDhGWDlLa3NBb1o4TXEzM1NfczRORjVONWlwRXk0THh4ZEJOQQ?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-06T10:59:08+00:00",
+  "trecho": "Soro de leite e frutas tropicais: uma combinação funcional e sustentável MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "O soro de leite combinado com frutas tropicais surge como uma alternativa funcional e sustentável no setor de alimentos. A aplicação valoriza subprodutos industriais em novas formulações.",
+  "ia_tipo": "insight",
+  "ia_texto": "O uso de soro de leite em combinações inovadoras é uma oportunidade para reduzir custos de formulação e aumentar o apelo sustentável. Pode render boas conversas com clientes da indústria de bebidas e lácteos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "f4319f859193a6ca",
+  "titulo": "Setor busca alternativas para manter o Programa Mais Leite Saudável em 2027",
+  "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbzJHZFRmR2MxT29HQk5XemZ4RUFlMUI5N3NHQ1kzTEs4Y2plQ1RmRTVyNGlrRkdSQXFFRDZ4cEVFeGxkamNtbkctMnBuQnZmMmtiR1ZkWEVjNENoSzdLNmJjX3JUTXNxSzBoRl9icktiTjEzQ251R0dQZkIzRXFud19hUTJOVHd2bU14dkptVm9Md0k3V1NCYUM1dlNSVl9xbDZzajhmeE85SUtMWHJUUGpSQ0EwYllPNExFaThXMnFNRHVUM3ZwZUNSS01iaVpZRFFlTnU5NTU1WXFEdHc?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-06T10:53:26+00:00",
+  "trecho": "Setor busca alternativas para manter o Programa Mais Leite Saudável em 2027 MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "O setor leiteiro busca alternativas para assegurar a continuidade do Programa Mais Leite Saudável. As discussões miram a manutenção das diretrizes e incentivos previstos para os próximos anos.",
+  "ia_tipo": "insight",
+  "ia_texto": "Políticas de incentivo à qualidade do leite impactam diretamente os investimentos dos produtores na fazenda. Vale acompanhar as negociações para antecipar possíveis reflexos na captação de matéria-prima.",
+  "versao_ia": 2
+ },
+ {
+  "id": "5d94d34c4eb99a42",
+  "titulo": "Sistema FAEP lança cartilha inédita sobre a jornada 5×2 no campo",
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTzE5b1pZd1Iyel9WSzRLWmJSUXQ1LXNkTU0zMUd5b3ZWTUQwQTBWNlVocmJvOE1URy1aNVVNNU92c2R6ejhkb3BzZHBSOUhqbVlUNEZTN2hfdUViZVdhTXVfSTFqdWZWOUUzaWpjTWNFd2pFZjJuUjBXcDRiZTNaSUwtcU5OS1NOZElJS1RjaVIyMkNlbnRGdXFNVnNBdXVPbEw2VzRwV1B5dkl2QVVhZHFIQjh4OWg2ZlhWUENtTWJWanR2VmhGR0NlV0tJZw?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-06T11:57:24+00:00",
+  "trecho": "Sistema FAEP lança cartilha inédita sobre a jornada 5×2 no campo MilkPoint",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "O Sistema FAEP lançou uma cartilha inédita voltada para a gestão da jornada de trabalho no campo. A publicação aborda os impactos das novas escalas laborais nas atividades agrícolas.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Mudanças nas leis trabalhistas rurais exigem adaptação dos produtores. É um tema regulatório importante para monitorar a eficiência operacional do agronegócio.",
+  "versao_ia": 2
+ },
+ {
+  "id": "4e68218d61ec9764",
+  "titulo": "Supernosso investe R$ 12 milhões em 37ª loja em Belo Horizonte (MG)",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOY3JVcmMtTm05X3BpYTBESFVqZ0Vza2tfUVVfaDNTY3JybmlPdkVUWkRualRBbGhpTVJVYXVKWnFBM0FqTUZkV0IzOGRIU0c1a2xlRGtBVzgzUG9PZGprcHV0TVd4ajdGblp5aVZpYUt2RkhRQncydHZTc3RuMENSRFB6aUotWGhnT2FUaWJ4UG5zTXFSd3FTSGxzaXo0eGtMVEM4WQ?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-11-06T12:56:17+00:00",
+  "trecho": "Supernosso investe R$ 12 milhões em 37ª loja em Belo Horizonte (MG) Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A rede Supernosso investiu doze milhões de reais na abertura de sua trigésima sétima loja em Belo Horizonte. A expansão reforça a presença da marca no varejo mineiro.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Movimentos de expansão no varejo mostram o dinamismo do consumo urbano. Isso pode influenciar indiretamente o escoamento de produtos industrializados nas prateleiras.",
+  "versao_ia": 2
+ },
+ {
+  "id": "950933d18c645f4e",
+  "titulo": "Acesso à água pesa no combate a incêndios no campo",
+  "link": "https://www.agrolink.com.br/noticias/acesso-a-agua-pesa-no-combate-a-incendios-no-campo_520667.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-06T13:38:00+00:00",
+  "trecho": "Em propriedades rurais distantes dos pontos de captação de água, a necessidade de reabastecer os tanques pode interromper o combate a incêndios. A fabricante gaúcha São José desenvolveu o Mata Fogo, sistema que combina alta pressão e baixa vazão para prolongar a operação entre abastecimentos",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Propriedades rurais enfrentam dificuldades de reabastecimento durante o combate a incêndios devido à distância dos pontos de água. Uma fabricante gaúcha desenvolveu um sistema de alta pressão e baixa vazão para prolongar a operação.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Vale acompanhar novas tecnologias voltadas para a segurança e eficiência no campo. A inovação pode gerar interesse em conversas com fornecedores e produtores preocupados com gestão de riscos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "7698e7c0864071a2",
+  "titulo": "Faesp lança a edição 2025 do relatório ‘Radiografia da Agropecuária Paulista’",
+  "link": "https://www.agrolink.com.br/noticias/faesp-lanca-a-edicao-2025-do-relatorio--radiografia-da-agropecuaria-paulista-_520663.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-06T12:17:00+00:00",
+  "trecho": "A Faesp disponibilizou a edição 2025 da Radiografia da Agropecuária Paulista, relatório que reúne indicadores de produção, mercado, comércio exterior e participação nacional de mais de 45 cadeias do agronegócio no estado",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Faesp disponibilizou a edição de 2025 do relatório Radiografia da Agropecuária Paulista. O documento compila indicadores de produção e comércio exterior de dezenas de cadeias do agronegócio.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Relatórios estaduais ajudam a mapear o desempenho de diferentes culturas agrícolas. Vale consultar os dados para entender melhor a oferta regional de matérias-primas.",
+  "versao_ia": 2
+ },
+ {
+  "id": "af4cab47a70f5a73",
+  "titulo": "Soja lidera perdas em Chicago sob pressão dos fundos",
+  "link": "https://www.agrolink.com.br/noticias/soja-lidera-perdas-em-chicago-sob-pressao-dos-fundos_520659.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-06T11:37:00+00:00",
+  "trecho": "Os preços da soja e do milho recuaram no mercado internacional, enquanto o trigo fechou em leve alta. Segundo a TF Agroeconômica, as vendas dos fundos e a perspectiva de maior oferta nos Estados Unidos pesaram sobre as cotações. As perdas em Wall Street e a fraqueza do petróleo reforçaram a cautela dos operadores",
+  "tema": "Óleos e gorduras",
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "Os preços da soja recuaram no mercado internacional sob forte pressão das vendas dos fundos. A expectativa de maior oferta nos Estados Unidos e a queda no petróleo também pesaram nas cotações.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A desvalorização da soja em Chicago pode indicar alívio nos custos do óleo de soja e derivados no mercado interno. Vale acompanhar o câmbio para avaliar o impacto real nos preços locais.",
+  "versao_ia": 2
+ },
+ {
+  "id": "b2a5e7ee9b61415a",
+  "titulo": "Moinhos indicam até R$ 1.450 por tonelada de trigo no RS",
+  "link": "https://www.agrolink.com.br/noticias/moinhos-indicam-ate-r--1-450-por-tonelada-de-trigo-no-rs_520658.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-06T11:07:00+00:00",
+  "trecho": "A colheita de trigo no Rio Grande do Sul atingiu 60% da área prevista antes de ser interrompida novamente pela chuva. Segundo a TF Agroeconômica, o estado colheu cerca de 1,07 milhão de toneladas, e a estimativa é que 120 mil, ou 11%, atendam ao padrão de moagem",
+  "tema": "Trigo e farinhas",
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "A colheita de trigo no Rio Grande do Sul alcançou sessenta por cento da área antes de sofrer novas paralisações por chuvas. Apenas uma pequena parcela do volume colhido até agora atende ao padrão industrial de moagem.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A baixa qualidade do trigo colhido devido ao excesso de chuvas pode encarecer o cereal próprio para panificação. Moinhos podem buscar mais importações da Argentina para suprir a demanda.",
+  "versao_ia": 2
+ },
+ {
+  "id": "83b31ca4b650213f",
+  "titulo": "Orplana defende flexibilização da jornada no setor sucroenergético",
+  "link": "https://www.novacana.com/noticias/orplana-defende-flexibilizacao-da-jornada-no-setor-sucroenergetico",
+  "fonte": "NovaCana",
+  "data": "2026-11-06T12:00:40+00:00",
+  "trecho": "Automação e robotização são apontadas como alternativas à nova escala 5X2 e à escassez de mão de obra no campo",
+  "tema": "Açúcar",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A Orplana defendeu a flexibilização da jornada de trabalho no setor sucroenergético. A escassez de mão de obra e novas escalas geram buscas por automação e robotização no campo.",
+  "ia_tipo": "alerta",
+  "ia_texto": "Desafios trabalhistas no campo podem impactar os custos operacionais da safra canavieira. Vale acompanhar se a escassez de pessoal trará pressões adicionais para a oferta de açúcar e etanol.",
+  "versao_ia": 2
  }
 ]
