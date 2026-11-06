@@ -30,7 +30,12 @@ MAX_IA_POR_RODADA = 90      # máximo de matérias enviadas ao Gemini por rodada
 LOTE_IA = 15                # matérias por chamada ao Gemini
 PAUSA_ENTRE_CHAMADAS = 13   # segundos entre chamadas (respeita o limite por minuto do plano grátis)
 VERSAO_IA = 2              # sobe quando mudamos o que a IA escreve; faz ela reprocessar
-MODELO = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
+# Modelos do Gemini, na ordem em que o robô tenta. Se um falhar (limite, nome trocado,
+# modelo desativado), ele passa para o próximo. Para forçar um modelo, crie a variável GEMINI_MODEL.
+MODELOS = [m for m in [os.environ.get("GEMINI_MODEL", "").strip(),
+                       "gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite",
+                       "gemini-flash-latest", "gemini-3.6-flash", "gemini-2.5-flash-lite"] if m]
+STATUS_IA = {"ok": None, "erros": []}  # aparece no rodapé da página
 # ----------------------------------------------
 
 BASE = Path(__file__).parent
@@ -266,23 +271,54 @@ Responda só com JSON neste formato:
 
 Notícias:
 {itens}"""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:generateContent"
-    corpo = {
-        "contents": [{"parts": [{"text": instrucao}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2,
-                             "responseSchema": FORMATO_RESPOSTA},
-    }
-    r = requests.post(url, headers={"x-goog-api-key": chave}, json=corpo, timeout=90)
-    if r.status_code != 200:
-        raise RuntimeError(f"Gemini respondeu {r.status_code}: {r.text[:200]}")
-    texto = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-    return {int(x["i"]): x for x in json.loads(texto) if "i" in x}
+    ultimo_erro = None
+    for modelo in list(MODELOS):
+        tentativas_ocupado = 0
+        for com_formato in (True, True, False):
+            config = {"responseMimeType": "application/json", "temperature": 0.2}
+            if com_formato:
+                config["responseSchema"] = FORMATO_RESPOSTA
+            corpo = {"contents": [{"parts": [{"text": instrucao}]}], "generationConfig": config}
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
+            try:
+                r = requests.post(url, headers={"x-goog-api-key": chave}, json=corpo, timeout=90)
+            except requests.RequestException as erro:
+                ultimo_erro = f"{modelo}: sem conexão ({type(erro).__name__})"
+                break
+            if r.status_code == 200:
+                try:
+                    texto = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+                    respostas = {int(x["i"]): x for x in json.loads(texto) if "i" in x}
+                except Exception as erro:
+                    ultimo_erro = f"{modelo}: resposta fora do formato ({type(erro).__name__})"
+                    break
+                if MODELOS[0] != modelo:  # guarda o modelo que funcionou para o resto da rodada
+                    MODELOS.remove(modelo); MODELOS.insert(0, modelo)
+                STATUS_IA["ok"] = modelo
+                return respostas
+            try:
+                detalhe = r.json().get("error", {}).get("message", "")
+            except Exception:
+                detalhe = r.text
+            ultimo_erro = f"{modelo}: erro {r.status_code} – {detalhe[:180]}"
+            print("Gemini:", ultimo_erro)
+            if r.status_code in (401, 403):
+                raise RuntimeError(ultimo_erro)  # chave inválida: não adianta tentar outro modelo
+            if r.status_code in (500, 503) and tentativas_ocupado == 0:
+                tentativas_ocupado += 1
+                time.sleep(8)  # modelo sobrecarregado: espera um pouco e tenta de novo o mesmo modelo
+                continue
+            if r.status_code == 400 and com_formato and "schema" in detalhe.lower():
+                continue  # tenta o mesmo modelo sem o formato obrigatório
+            break  # passa para o próximo modelo
+    raise RuntimeError(ultimo_erro or "nenhum modelo respondeu")
 
 
 def aplicar_ia(pendentes, temas):
     chave = os.environ.get("GEMINI_API_KEY", "").strip()
     if not chave:
         print("Sem chave do Gemini: usando o resumo do RSS.")
+        STATUS_IA["erros"].append("a chave GEMINI_API_KEY não foi encontrada no cofre (Secrets) do GitHub")
         return
     nomes = {normalizar(t["nome"]): t["nome"] for t in temas}
     pendentes = pendentes[:MAX_IA_POR_RODADA]
@@ -292,6 +328,7 @@ def aplicar_ia(pendentes, temas):
             respostas = resumir_lote(lote, temas, chave)
         except Exception as erro:
             print(f"Gemini indisponível nesta rodada ({erro}). Usando o resumo do RSS.")
+            STATUS_IA["erros"].append(str(erro))
             return
         for i, m in enumerate(lote):
             resp = respostas.get(i)
@@ -540,6 +577,7 @@ main.miolo { padding-top: 0; padding-bottom: 24px; }
 footer.miolo { padding-top: 24px; padding-bottom: 56px; font-size: 14px; color: var(--apagado); }
 footer summary { cursor: pointer; }
 footer ul { padding-left: 18px; }
+.ia-status { margin-top: 12px; font-size: 13px; }
 @media (max-width: 520px) {
   .item { padding: 16px 16px 14px 20px; }
   .item h3 { font-size: 18px; }
@@ -599,6 +637,7 @@ __DIAS__
 <footer class="miolo">
   <p>Os resumos e os comentários da IA são feitos automaticamente a partir das matérias dos portais. Os comentários são sugestões para orientar a leitura, não recomendações de compra ou venda. Para decisões, confira sempre a matéria original.</p>
   <details><summary>De onde vêm as notícias</summary><ul>__STATUS__</ul></details>
+  __STATUS_IA__
 </footer>
 <script>
 // ----- app instalável -----
@@ -694,6 +733,16 @@ __DIAS__
 """
 
 
+def status_ia_html():
+    if STATUS_IA["erros"] and not STATUS_IA["ok"]:
+        return ('<p class="ia-status">A IA não respondeu na última atualização, então as notícias novas estão com o '
+                'resumo do portal e sem comentário. O robô tenta de novo na próxima rodada. '
+                f'Motivo informado pelo Google: {html.escape(STATUS_IA["erros"][-1])}</p>')
+    if STATUS_IA["ok"]:
+        return f'<p class="ia-status">IA funcionando (modelo {html.escape(STATUS_IA["ok"])}).</p>'
+    return ""
+
+
 def montar_pagina(noticias, temas, status):
     corte = AGORA - timedelta(days=DIAS_NA_PAGINA)
     visiveis = [n for n in noticias if n.get("tema") and datetime.fromisoformat(n["data"]) >= corte]
@@ -775,7 +824,8 @@ def montar_pagina(noticias, temas, status):
               .replace("__TOTAL24__", str(qtd24()))
               .replace("__CHIPS__", chips)
               .replace("__DIAS__", blocos)
-              .replace("__STATUS__", linhas_status))
+              .replace("__STATUS__", linhas_status)
+              .replace("__STATUS_IA__", status_ia_html()))
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(pagina, encoding="utf-8")
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
