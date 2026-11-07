@@ -4054,5 +4054,50 @@
   "ia_tipo": "contexto",
   "ia_texto": "Movimentos de modernização no varejo regional refletem a busca por maior competitividade e atração de consumidores. Isso pode influenciar a dinâmica de exposição e giro de produtos industrializados nas prateleiras.",
   "versao_ia": 2
+ },
+ {
+  "id": "16190b782510f018",
+  "titulo": "O CONFINAMENTO AVANÇA. COMO MANTER O LEITE A PASTO COMPETITIVO?",
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOG5lYWFuSmlJc1hPeWk5d1l5MF91RTBHemFBaEQ2QUpXTFd1c3NpMWNKeWNkTU85cXNTVVpTYVhEaVNydjRjcHNIeVU4NE00eGprc0RZOEludkxnbFFDckFrUWZISW5WN0s2M3h4djc3RXVVbGpSZzJpZlJtT1hHOTJtSUZneFJkbUNWaXU2QjI?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-05T08:00:00+00:00",
+  "trecho": "O CONFINAMENTO AVANÇA. COMO MANTER O LEITE A PASTO COMPETITIVO? MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "O avanço do sistema de confinamento na produção de leite gera debates sobre a viabilidade econômica do modelo a pasto. O setor busca alternativas para manter a competitividade diante dos custos crescentes.",
+  "ia_tipo": "insight",
+  "ia_texto": "Mudanças nos custos de produção e nos sistemas de manejo podem influenciar o volume e a constância da captação de leite pelas indústrias, impactando margens e preços da matéria-prima.",
+  "versao_ia": 2
+ },
+ {
+  "id": "3194315472e4dd32",
+  "titulo": "Nutrichem Ingredientes do Brasil Ltda. | Guia de Fornecedores",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNmx5ZFN6c2FFZ1YyVWNZaG05MDh3a1JPd2ttdWVNX2RERzhwVURrYkx4T0dCckhWdXhQbGdrTzMxQjBQYU84b3JaVkxrMkRVNDNJcFI4MFJaVjhLUlU2NktMdnUydmdRc1B2TDN3QzVCcVQzTG44UTJyYk5Xb2tzY2hhRHZ5Wl94M1RmdksyTjdvblRsb0E?oc=5",
+  "fonte": "Aditivos & Ingredientes",
+  "data": "2026-10-10T10:03:05+00:00",
+  "trecho": "Nutrichem Ingredientes do Brasil Ltda. | Guia de Fornecedores aditivosingredientes.com.br",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "A empresa Nutrichem Ingredientes do Brasil teve seus dados atualizados no Guia de Fornecedores do setor. A publicação serve como diretório de consulta para fabricantes de alimentos e bebidas.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Atualizações em diretórios de fornecedores indicam a movimentação e o posicionamento de empresas no mercado de insumos para a indústria de alimentos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "588c9d968c12f8d1",
+  "titulo": "Banco CEAGESP de Alimentos recebe cerca de 40 toneladas de arroz da Conab",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPXzdaQWlEdDl1MGdTUzFlSFk3LV92WHJPNDNsZHZmVUpSY1lQRnhObDBRMmtSVWp3UERBLVNyNUx1OFF3NVpWdmhhT2xpcTdsMFRNYTlUUmw5bVh1VXozbk5qV0JNRlNLY2JzMUZuTkNOOGNiQXZjLWs0ekpvVkJPTzFoSDE3cW5tRkNKaDJOR1d1Skp3NHQwYnFTY0pacTZLTlZOZw?oc=5",
+  "fonte": "Planeta Arroz",
+  "data": "2026-11-07T12:59:39+00:00",
+  "trecho": "Banco CEAGESP de Alimentos recebe cerca de 40 toneladas de arroz da Conab Planeta Arroz",
+  "tema": "Arroz",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A Companhia Nacional de Abastecimento repassou cerca de 40 toneladas de arroz ao Banco CEAGESP de Alimentos. A doação reforça estoques voltados para programas sociais e assistência alimentar.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Ações institucionais de doação de estoques públicos costumam ter impacto limitado sobre os preços de mercado, mas ajudam a monitorar a destinação de volumes governamentais.",
+  "versao_ia": 2
  }
 ]
