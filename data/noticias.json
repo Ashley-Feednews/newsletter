@@ -4024,5 +4024,35 @@
   "ia_tipo": "insight",
   "ia_texto": "A resistência na comercialização indica cautela tanto de produtores quanto de compradores na entressafra. Vale monitorar os indicadores cambiais e externos para identificar o momento de retomada dos negócios.",
   "versao_ia": 2
+ },
+ {
+  "id": "37995f721e7bbed4",
+  "titulo": "Ballena e Havanna lançam bebida alcoólica com sabor de doce de leite",
+  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdkRUeDBCeHhaOTM3OUFRemhOMkFnX0RaTUQ3YmJZZEI2ZXVxSVNuaGNYN0dyYk1TOVpnN2d4VzRhZjVnS3lndi12bFFiVkFJQ0ZKd1RUclJaR09VXy1lbVJOdWpVMFJFZFRyRlR4ajdUc2FFZld1aExOS1FnLUhlTnpVdWpyZkVvdkRLZ1lLT0VYVkc5WVM4OEFwYldGSWkwb0o4UVBtZzlGTndQWG1PbURnWUVjVk5EOS1GRHNfdGtsWmlYaHhhX3VXcW5hOHhjdnJDdg?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-07T01:18:39+00:00",
+  "trecho": "Ballena e Havanna lançam bebida alcoólica com sabor de doce de leite MilkPoint",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "As marcas Ballena e Havanna uniram-se para lançar uma bebida alcoólica com sabor de doce de leite. O produto inovador busca atrair consumidores que apreciam sabores tradicionais de confeitaria em formato de bebida.",
+  "ia_tipo": "insight",
+  "ia_texto": "Lançamentos que misturam sabores de confeitaria em novas categorias podem indicar tendências de consumo em indulgência. Vale acompanhar a recepção do público para identificar oportunidades de fornecimento de insumos lácteos e aromáticos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "c0d18d7f4d031ba9",
+  "titulo": "Ítalo Supermercados investe em atualização de loja em Curitiba (PR)",
+  "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVXlNUy1CaWUwOUQyWXZUTnpNSXVQVUhqcWdWTzJleFhuLVlXcVU3WVdhVmNKckZWbTRvbVhBeEh0RG5nbzZjN3czeFM5cjBqYkhWVE9NU3Bfd1hkZWRPOC1GSEI4aWtzM1V0azVZTkYyd0ZWV0RyOVgtVXhWaVE3TVBDZC1VZGkxMVYtYWxEVkdYOWJEZkJCMkpMdzZIV2hRdFJfVWR4Ykc?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-11-06T21:00:26+00:00",
+  "trecho": "Ítalo Supermercados investe em atualização de loja em Curitiba (PR) Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A rede Ítalo Supermercados realizou investimentos para atualizar uma de suas unidades localizada em Curitiba, no Paraná. A reforma faz parte da estratégia de melhoria na experiência de compra oferecida aos clientes locais.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Movimentos de modernização no varejo regional refletem a busca por maior competitividade e atração de consumidores. Isso pode influenciar a dinâmica de exposição e giro de produtos industrializados nas prateleiras.",
+  "versao_ia": 2
  }
 ]
