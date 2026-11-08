@@ -4174,5 +4174,35 @@
   "ia_tipo": "contexto",
   "ia_texto": "A expansão de linhas inspiradas em tendências globais demonstra o dinamismo do mercado cosmético. Embora não afete diretamente o setor de alimentos, vale acompanhar a velocidade com que inovações internacionais chegam ao Brasil.",
   "versao_ia": 2
+ },
+ {
+  "id": "8758d8633786f7de",
+  "titulo": "Kibon amplia investimentos em fábrica e aposta em novos formatos de consumo",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQnJfaDNSLUpYckduZnR4V2VHMmgzRlUtZXhycXRkXy1HNWl5ekdKZWxZVE9RMS1kYzNPWlJsZHRtc0tnTnhqemxyVm5WckxLNm9xOGdWQmVYckYxeDZ3UHVUak1aUGZSTUZxVXJaZUNOR3RFSHJMS3MzQ1prWExaLTBLbHcydlFIY0JWTDFZV3RoRVd5SUJGczlvV1VrTF9MbXUtX0dvVHhTNDlBTU82VV81ejRYeEhpTWdVX1JRMWZZQWs?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-11-03T18:47:27+00:00",
+  "trecho": "Kibon amplia investimentos em fábrica e aposta em novos formatos de consumo Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A marca Kibon está ampliando os investimentos em sua planta fabril. A estratégia foca na introdução de novos formatos voltados ao consumo.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "Investimentos em novas linhas produtivas costumam abrir espaço para o fornecimento de ingredientes inovadores e emulsificantes. Pode ser uma oportunidade para sondar novas demandas por texturizantes e soluções customizadas com clientes da indústria de sorvetes.",
+  "versao_ia": 2
+ },
+ {
+  "id": "7940fab324cfde95",
+  "titulo": "Arroz: RS projeta 861,7 mil hectares e plantio avança",
+  "link": "https://www.agrolink.com.br/noticias/arroz--rs-projeta-861-7-mil-hectares-e-plantio-avanca_520705.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-08T11:50:00+00:00",
+  "trecho": "O plantio de arroz no Rio Grande do Sul ultrapassou 70% da área projetada para a safra 2026/2027, impulsionado pela sequência de dias secos e pela elevação das temperaturas. Segundo dados divulgados pela Emater/RS-Ascar no Informativo Conjuntural desta quinta-feira (5), as condições climáticas favoreceram o avanço da semeadura, o desenvolvimento das lavouras e o início dos manejos nas áreas mais precoces.",
+  "tema": "Arroz",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "O plantio de arroz no Rio Grande do Sul superou 70% da área projetada para a próxima safra. O clima seco e as temperaturas elevadas favoreceram o avanço rápido da semeadura.",
+  "ia_tipo": "insight",
+  "ia_texto": "O bom ritmo de plantio no principal estado produtor pode trazer previsibilidade para a oferta futura do cereal. Vale acompanhar o clima nas próximas semanas para avaliar a consolidação da safra e potenciais impactos nos preços.",
+  "versao_ia": 2
  }
 ]
