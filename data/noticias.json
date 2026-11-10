@@ -4266,21 +4266,6 @@
   "versao_ia": 2
  },
  {
-  "id": "706628c0e24b5087",
-  "titulo": "Solução, Ingredientes Industriais",
-  "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdXFOMmtLcEx0MXRRbWIxVEhoZVJ0TElfNy0waS1BVFNZRk51UzZJYUxmdVZvdFAyUnRFal81MjQyWDU0ZWxqSl91T0YyVnZTb0F4d2pWQlowRHN6a2dDWEE2blZMT0tDOHJMY0prcWVMSWJ4UmRkRHFrQ1FmTnh3WnZMbVMxN05RUnlFakJvUQ?oc=5",
-  "fonte": "Aditivos & Ingredientes",
-  "data": "2026-10-11T05:10:30+00:00",
-  "trecho": "Solução, Ingredientes Industriais aditivosingredientes.com.br",
-  "tema": "Notícias do setor",
-  "ia": true,
-  "relevancia": 2,
-  "resumo": "Publicação voltada ao segmento de insumos industriais destaca soluções para formulações alimentícias. O conteúdo aborda novidades técnicas para o desenvolvimento de novos produtos na indústria.",
-  "ia_tipo": "contexto",
-  "ia_texto": "Conteúdos técnicos ajudam a entender quais funcionalidades estão em alta nos laboratórios de desenvolvimento de produtos. Vale acompanhar as publicações para identificar tendências de formulação dos concorrentes.",
-  "versao_ia": 2
- },
- {
   "id": "ab8aa0738bbc4374",
   "titulo": "Univar passa a distribuir ingredientes da Roquette na América do Norte",
   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdXhUaUpqWTZoTFE1STJvYlhhM2xfdFhVUW1lYXVpdWlPNXExMTkwZjNxa1poRjZPbDdtcGRpNzFqZm1XV3o0aVF3Y2ZuYjROSXFXcWphRVhZZThpMlRyZnB1dHdfT3M1c1l5cXYwbGFiaU5wQU93enNObHZWNWlMSHNCMzFLQ3QtZnZsRU5hLXJQTXFNaXpfRmc2OWd2LVJzNGo1SmpBTTVUNVBrUUJxOTBUQlNtdEJKeFc0Uk5LbjFORm5RbjZiMEl3N1pKdTQ?oc=5",
@@ -4713,6 +4698,21 @@
   "resumo": "O preço médio do arroz em casca no Rio Grande do Sul atingiu em outubro o maior patamar desde fevereiro de 2025. A valorização cambial estimulou as exportações e levou vendedores a reterem lotes, enquanto a indústria seguiu cautelosa.",
   "ia_tipo": "alerta",
   "ia_texto": "A alta nos preços e a retenção de estoques elevam a pressão de custos para a indústria de beneficiamento, exigindo monitoramento rigoroso das margens de negociação.",
+  "versao_ia": 2
+ },
+ {
+  "id": "36ce85e8544157d1",
+  "titulo": "Exportações de algodão batem recorde em outubro",
+  "link": "https://www.agrolink.com.br/noticias/exportacoes-de-algodao-batem-recorde-em-outubro_520778.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-10T05:30:00+00:00",
+  "trecho": "O Brasil embarcou em outubro o maior volume de algodão já registrado para o mês, com 338,3 mil toneladas destinadas ao exterior. Segundo dados da Secretaria de Comércio Exterior (Secex), compilados pela Associação Nacional dos Exportadores de Algodão (Anea), o resultado representa alta de 15,1% em relação a outubro de 2025 e de 76,6% sobre setembro",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O Brasil registrou exportações recordes de algodão em outubro com 338,3 mil toneladas embarcadas. O volume superou em 15,1% o resultado de outubro anterior e cresceu 76,6% comparado a setembro.",
+  "ia_tipo": "contexto",
+  "ia_texto": "O algodão é uma commodity agrícola forte no agronegócio brasileiro, mas não impacta diretamente o mercado de ingredientes alimentícios acompanhado por esta empresa.",
   "versao_ia": 2
  }
 ]
