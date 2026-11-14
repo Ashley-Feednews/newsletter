@@ -7279,5 +7279,50 @@
   "ia_tipo": "contexto",
   "ia_texto": "O trecho é apenas um marcador de navegação do site e não traz dados úteis para a tomada de decisão comercial.",
   "versao_ia": 2
+ },
+ {
+  "id": "4ffb097d6076d91a",
+  "titulo": "Queijos paranaenses levam inovação e força do pequeno produtor ao World Cheese Awards na Espanha",
+  "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPR1BfamFGTERvekZuS2ZFT2ZsVWtJYzhQWVRCT1VOS0UxSFAxVTNpSllERW85NEhPSFA4YmZJeGVIRDZVVlR5dEp1bldDWDg3elY1YWctdGItcU5yNGZHLVhBRWh4aVMyREJCTXF4VHVfdEk5a1E0V2FjaVN0Ty1KeWdQTWtPS3lTaWdLOWhhd0F4TFFZbFJEcVhiOG5meVlTTFloZ2tfenBTZW5kWGhhemg3M1hqenY3RkplR2xMTzl1OExkUmxWRkQxcVppZVoyR2lGTjFxZ0lYeGcyTEVINWRSeV9YMFlXaEVfY1MzTTB2VjZONXl2dGJR?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-14T15:54:11+00:00",
+  "trecho": "Queijos paranaenses levam inovação e força do pequeno produtor ao World Cheese Awards na Espanha MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Queijos produzidos no Paraná foram apresentados em um evento internacional na Espanha. A iniciativa destaca a inovação e a atuação dos pequenos produtores da região.",
+  "ia_tipo": "insight",
+  "ia_texto": "O destaque de queijos artesanais em concursos internacionais pode sinalizar uma tendência de valorização de produtos regionais. Vale acompanhar a demanda por insumos voltados à fabricação de queijos especiais e de maior valor agregado.",
+  "versao_ia": 2
+ },
+ {
+  "id": "77027c7f4b0f66b7",
+  "titulo": "O “custo oculto” na etiqueta: estudo calcula impactos da produção de alimentos que não aparecem na prateleira",
+  "link": "https://agfeed.com.br/esg/o-custo-oculto-na-etiqueta-estudo-calcula-impactos-da-producao-de-alimentos-que-nao-aparecem-na-prateleira",
+  "fonte": "AgFeed",
+  "data": "2026-11-14T11:16:24+00:00",
+  "trecho": "O preço de uma barra de chocolate na prateleira do supermercado não conta toda a história sobre quanto custa produzir aquele alimento – pelo menos quando também entram na conta os impactos ambientais e sociais provocados ao longo de sua cadeia produtiva. Ao considerar esses fatores, uma barra de chocolate ao leite pode carregar quase […] O post O “custo oculto” na etiqueta: estudo calcula impactos da produção de alimentos que não aparecem na prateleira apareceu primeiro em AgFeed .",
+  "tema": "Cacau",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "Um estudo recente calculou que o preço final de alimentos como o chocolate esconde custos ambientais e sociais da cadeia. A pesquisa avalia o impacto real da produção que não aparece diretamente na etiqueta da prateleira.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A crescente cobrança por sustentabilidade na cadeia do cacau pode pressionar custos e exigir maior rastreabilidade dos fornecedores. Vale a pena monitorar regulamentações e preparar argumentos comerciais sobre origem sustentável para clientes da indústria de confectionery.",
+  "versao_ia": 2
+ },
+ {
+  "id": "45ff9aabc2e40f4e",
+  "titulo": "Soja e milho têm plantio adiantado na Argentina",
+  "link": "https://www.agrolink.com.br/noticias/soja-e-milho-tem-plantio-adiantado-na-argentina_521066.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-14T10:32:00+00:00",
+  "trecho": "O plantio de soja ganhou ritmo na Argentina e chegou a 17,8% da área prevista para a safra 2026/27. Segundo a Bolsa de Cereais de Buenos Aires (BCBA), a semeadura avançou 13,1 pontos percentuais em uma semana e ficou 12,8 pontos à frente do mesmo período da safra passada. O boletim de 13 de novembro, com dados até o dia 12, projeta 17 milhões de hectares para a cultura",
+  "tema": "Óleos e gorduras",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "O plantio de soja na Argentina registrou avanço expressivo e atingiu quase 18% da área estimada para o ciclo. A semeadura está consideravelmente adiantada em comparação ao mesmo período da safra anterior.",
+  "ia_tipo": "insight",
+  "ia_texto": "Um ritmo acelerado de plantio na Argentina pode indicar boas perspectivas para a oferta futura do complexo soja na América do Sul. Vale acompanhar o clima nas próximas semanas, pois o volume colhido impacta diretamente os preços globais do óleo e do grão em Chicago.",
+  "versao_ia": 2
  }
 ]
