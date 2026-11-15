@@ -771,21 +771,6 @@
   "versao_ia": 2
  },
  {
-  "id": "2bb9ce2a9a2ea5e8",
-  "titulo": "Arroz para exportação alcança R$ 90 por saca após retomada das compras",
-  "link": "https://planetaarroz.com.br/arroz-para-exportacao-alcanca-r-90-por-saca-apos-retomada-das-compras/",
-  "fonte": "Planeta Arroz",
-  "data": "2026-10-16T17:29:02+00:00",
-  "trecho": "Enquanto o mercado registra novas aquisições, produtores gaúchos enfrentam atrasos no plantio em parte das regiões arrozeiras, devido às chuvas e às baixas temperaturas (Por Ieda Risco/ AgroEffective) As compras de arroz para exportação foram retomadas no Rio Grande do Sul, com a aquisição do produto a um preço médio de R$ 90 por saca, […] Arroz para exportação alcança R$ 90 por saca após retomada das compras",
-  "tema": "Arroz",
-  "ia": true,
-  "relevancia": 5,
-  "resumo": "O preço do arroz voltado para a exportação atingiu R$ 90 por saca com a retomada das compras externas no Rio Grande do Sul. Em contrapartida, as lavouras gaúchas enfrentam atrasos no plantio decorrentes de chuvas e baixas temperaturas.",
-  "ia_tipo": "alerta",
-  "ia_texto": "A combinação de preços maiores para exportação e atrasos no plantio por clima adverso pode acirrar a disputa pelo grão e encarecer a matéria-prima no mercado interno. É um ponto de atenção crítico para a estratégia de compras e margens.",
-  "versao_ia": 2
- },
- {
   "id": "0cd596f2089a3311",
   "titulo": "Preços do açúcar sobem na ICE em meio às chuvas no Brasil",
   "link": "https://www.novacana.com/noticias/precos-do-acucar-sobem-na-ice-em-meio-as-chuvas-no-brasil",
@@ -5406,21 +5391,6 @@
   "versao_ia": 2
  },
  {
-  "id": "9d5f2f6cb49597d9",
-  "titulo": "Tag: Safra 2027",
-  "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VbjE0dmRNbVhfMFZXZnhQd20zSnZqcUpfb1JOZHZFYW5wR0pLc1NmUnBjRmlXSndTdjBIUVp6ZVVqUDd3U1d3bFZnN2VjN3g5?oc=5",
-  "fonte": "Abitrigo",
-  "data": "2026-10-16T19:35:02+00:00",
-  "trecho": "Tag: Safra 2027 Abitrigo",
-  "tema": null,
-  "ia": true,
-  "relevancia": 1,
-  "resumo": "A notícia apresenta apenas uma tag de referência sobre a safra de 2027. Não há informações concretas ou dados relevantes para análise de mercado.",
-  "ia_tipo": "contexto",
-  "ia_texto": "Conteúdo sem profundidade ou dados operacionais. Não requer ação imediata ou monitoramento específico.",
-  "versao_ia": 2
- },
- {
   "id": "c8a3d7613326641d",
   "titulo": "Korin recebe reconhecimento internacional por produção de ovos livres de gaiolas",
   "link": "https://foodbiz.com.br/sustentabilidade/heinz-lanca-maionese-culinaria-para-receitas-quentes-e-frias-2/",
@@ -7308,6 +7278,36 @@
   "resumo": "A marca Johnny Joy lançou um panetone recheado com inspiração em seu milk-shake de maior sucesso. O produto chega ao mercado para o período festivo, unindo conceitos de sobremesas populares.",
   "ia_tipo": "insight",
   "ia_texto": "Inovações sazonais em panetones revelam tendências de sabor que podem influenciar a demanda por ingredientes como recheios e emulsificantes. Vale acompanhar a aceitação de sabores indulgentes para antecipar demandas do próximo ano.",
+  "versao_ia": 2
+ },
+ {
+  "id": "8a81c645f009eb44",
+  "titulo": "Queijo Pule: você pagaria uma fortuna por um queijo feito com leite de jumenta?",
+  "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZkZGTHJTdnJyX29UeERoNjZHMFFhWllqRVp0WXY3ZXBlbnpnZTZqWGV0Qjl0VTlXQjU0Z0htbFkwZVJXb2dMRXVyeUYwVnhMeWM1WDZOYVpTXzduS0QzdE5BaVJlRmZJTVlaOGlxbG5KUk1YQ0NwUEI1WnhuSTZjM0RMSU9tWWRoYXVjVzlPSEhIS3UtUW5KbmpyNVRDbVVxWUtXYnlIcXFZZkpYeWROZlZrV3NOZXdkZUpYX2ZfUVkyWkdRd21reTdZOFlGYjZjOHhFSHlQSExFd2tBTDMzbw?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-15T17:49:12+00:00",
+  "trecho": "Queijo Pule: você pagaria uma fortuna por um queijo feito com leite de jumenta? MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "O portal MilkPoint abordou as características e o alto valor do queijo Pule, produzido com leite de jumenta. O produto é conhecido mundialmente por sua raridade e pelo preço extremamente elevado no mercado.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Apesar de curiosos, nichos de queijos exóticos com leites animais alternativos têm impacto praticamente nulo no mercado brasileiro de lácteos industriais. Vale acompanhar apenas como curiosidade de consumo sem reflexos em preços de commodities.",
+  "versao_ia": 2
+ },
+ {
+  "id": "d0cd0120826394d1",
+  "titulo": "Bacio di Latte e Ferrero Rocher lançam parceria para o Natal",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcUV4MDRMLTE0WnRINlBKal9hSWVZMEk0Y0xLSlBENlB2WEVQLVVnd1dOU2pZWi1raXJZTUdxU0ZLTmRiQ0lCSzRFY01GTWxjd1RVTFRSNlpmenZuc1BFeEdtUUY1YXZaS2txNXNZRjN5Z1BMYUZ3Si1Dc29MMEpWd010SjdTMC1qRkowVzgyOGU3UlozOTUwTnhaNA?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-11-11T16:37:04+00:00",
+  "trecho": "Bacio di Latte e Ferrero Rocher lançam parceria para o Natal Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "As marcas Bacio di Latte e Ferrero Rocher anunciaram o lançamento de uma parceria comercial voltada para as festas de Natal. A iniciativa une o sorvete artesanal aos tradicionais chocolates em uma nova opção para os consumidores.",
+  "ia_tipo": "insight",
+  "ia_texto": "Parcerias de co-branding entre grandes marcas geram forte apelo de consumo e podem elevar a demanda por ingredientes de alta qualidade no período festivo. Vale a pena monitorar o sucesso dessa estratégia para inspirar futuros projetos com clientes de sorvetes e confeitaria.",
   "versao_ia": 2
  }
 ]
