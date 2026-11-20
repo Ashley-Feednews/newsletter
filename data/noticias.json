@@ -9364,5 +9364,50 @@
   "ia_tipo": "insight",
   "ia_texto": "O resultado fraco reflete a pressão dos preços atuais do açúcar, o que pode sinalizar estratégias de margem apertada entre os grandes produtores globais.",
   "versao_ia": 2
+ },
+ {
+  "id": "695ca60bc45044d4",
+  "titulo": "Paviloche aposta em sorvetes 3D e lança versão inspirada em batata frita",
+  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdkJ1ZVFNcG5YUkdCZXZUYkhnQ2JoUFMtZjZPU3NqajU5NHI2QWFSNUZzS2lYOE4tdmVlMTVsSk4yU2JZbzRCYVlNc0s2OEVtcXNYT2lMT3piemR0UDA2TUtHUUlEUVNGejd5OG9pODJIZkxqNTJpV3hQSkZyN3h2VFNhQmdwNlZkYWR4VDllSVZWNEg2bjlLcUd3NXI3NFBqLWhOeFFYTzg0SUxrSVBJY2FIZ1FEUmZJeVlnd21iRy1uLTF3cUMyUHRnYzEtWlpUbXNWaGdNaWZVZw?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-20T01:24:36+00:00",
+  "trecho": "Paviloche aposta em sorvetes 3D e lança versão inspirada em batata frita MilkPoint",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "A Paviloche lançou um sorvete em formato 3D com inspiração em batata frita. A novidade busca atrair consumidores com foco em inovação e experiências lúdicas.",
+  "ia_tipo": "insight",
+  "ia_texto": "Lançamentos com formatos inusitados indicam que o consumidor busca experiências sensoriais diferenciadas. Vale acompanhar a aceitação dessas inovações no mercado de sorvetes.",
+  "versao_ia": 2
+ },
+ {
+  "id": "23c5826dd73ec581",
+  "titulo": "Queijo ganha espaço entre os snacks proteicos e amplia oportunidades para o setor lácteo",
+  "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLVlLZ2tVaU1nWG5FQ3VjaE42aHNjd1I1ckJOemw0bU9OU2oyd19JcEswUGdTVHE0N2h5V1Q5T2pKeThkS2xXdDNJd1J3WFBqVXp3RkRRRnhQSTVPOFBDVjFxMlgwd2F2ejVUd3dLTkpZVUhDNmZMUW9YM0Q5cDJzNmFjWnNHamhDMGc1TVRlSndSTkxNZ2VBc0pFeDNyMXZEV3d2TnQyQlhOZkwxcEMyZTk2eEVfdUNoMS0wRmoybDRvZnFxVXNlclR2dlpaeHRESUxfM2lORHBBRHdpTVlyOEJRQ2Q1YU9tQkU0Z2hPQWQtVVJYMkE?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-17T11:17:52+00:00",
+  "trecho": "Queijo ganha espaço entre os snacks proteicos e amplia oportunidades para o setor lácteo MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "O queijo vem conquistando espaço no segmento de snacks proteicos. A tendência amplia as oportunidades de negócios para toda a cadeia láctea.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "O crescimento de laticínios em formatos portáteis pode abrir portas para novos fornecimentos de ingredientes funcionais. É uma oportunidade para conversar com clientes sobre o desenvolvimento de produtos proteicos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "8318ec3da2f3fbb2",
+  "titulo": "Exportação volta a comprar arroz a R$ 90 no porto",
+  "link": "https://www.agrolink.com.br/noticias/exportacao-volta-a-comprar-arroz-a-r--90-no-porto_521337.html",
+  "fonte": "Agrolink",
+  "data": "2026-11-20T09:46:00+00:00",
+  "trecho": "As compras de arroz em casca para exportação voltaram ao Porto de Rio Grande, criando uma referência de comercialização para o cereal gaúcho. Sergio Cardoso, analista da cadeia de arroz, informa que tradings compraram arroz com rendimento de 56% a 58% de grãos inteiros a R$ 90,00 por saca, posto no porto",
+  "tema": "Arroz",
+  "ia": true,
+  "relevancia": 5,
+  "resumo": "Tradings retomaram as compras de arroz em casca para exportação no Porto de Rio Grande. A referência de preço negociada ficou em R$ 90,00 por saca.",
+  "ia_tipo": "alerta",
+  "ia_texto": "O retorno das exportações pode aquecer a demanda interna e pressionar os preços para cima. Vale monitorar a disponibilidade do cereal no Rio Grande do Sul.",
+  "versao_ia": 2
  }
 ]
