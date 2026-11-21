@@ -9787,5 +9787,20 @@
   "ia_tipo": "sugestao",
   "ia_texto": "Com a exportação mais ativa, vale conversar com clientes para entender se a concorrência pelo grão no mercado interno pressionará os custos das indústrias de beneficiamento e derivados.",
   "versao_ia": 2
+ },
+ {
+  "id": "c08766a37f940d83",
+  "titulo": "Exportações de arroz em ritmo favorável seguram os preços internos do arroz",
+  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNnAzRU9HMXJNMDQwMUNWNmFnbVh2WFBVQWxRaW8yM19Galc1M29tZWtFQndFeWtvc2VLNnY0VWtPZWNqT0RoV0VvNGJ0WlYzUXRKNnFXcUZac095TGNyVWFmUUVNMU43MVFxeXpRMVVkRE4xQUxTTEZ3bjBUR0k5Y0ZYMElVRER0V2FoTWhxTi01ZTVScXdGLUFRdkp2WWhGZGxkSng1RkVZLUFoZ2p2cHc0VGF3LWMxNl9URng5Z0x4ekw2SVJoZFRrOUdNVnFjSDdZ0gHYAUFVX3lxTE5SbjBlWnBmalQ4aUN5bkFNdGhvYWJIN01tYmx5ei1EREY4ajRXNkVSUUZkazVMQ0NrUmFsVmFKR1N0WlFPSFNnRmxEdmtZMEpvQjJ6Nm41cUpmQUVYMmhLdVdCSExGUm1aYVNJOFdQNy1fbU5WSWNZeWkwSF9GWm0yWUl4TTRZb05DOGljVk1vQThsRXpIT3F5eGhaU011bVlMTXBCLTh1UnpsRkRmYUhoZlZVZC1kTVdETzVnb2lJdS1pdXBzMG0wQWJPZFJtUmV1TWFtTFd1Yw?oc=5",
+  "fonte": "Notícias Agrícolas",
+  "data": "2026-11-20T15:14:44+00:00",
+  "trecho": "Exportações de arroz em ritmo favorável seguram os preços internos do arroz Notícias Agrícolas",
+  "tema": "Arroz",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "As exportações brasileiras de arroz mantêm um ritmo favorável no mercado externo. Esse movimento ajuda a sustentar a estabilidade dos preços internos do grão.",
+  "ia_tipo": "insight",
+  "ia_texto": "O escoamento externo forte costuma enxugar a oferta doméstica, o que pode manter os preços firmes e exigir atenção dos compradores quanto ao timing de aquisição.",
+  "versao_ia": 2
  }
 ]
