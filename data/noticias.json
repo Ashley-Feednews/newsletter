@@ -384,18 +384,6 @@
   "versao_ia": 2
  },
  {
-  "id": "fd74a6815cd3694a",
-  "titulo": "Lupa nos ingredientes, impacto invisível no mercado",
-  "link": "https://www.foodconnection.com.br/foodservice/lupa-nos-ingredientes-impacto-invisivel-no-mercado/",
-  "fonte": "Food Connection",
-  "data": "2026-10-22T10:18:00+00:00",
-  "trecho": "Enquanto o consumidor começa a se acostumar com lupas e octógonos pretos alertando alto em açúcar ou alto em sódio nas gôndolas do varejo, uma transformação menos visível, e muito mais estrutural, avança pelo foodservice. A rotulagem nutricional frontal, que já se consolidou no México, Chile e Colômbia e ganha corpo no Brasil, deixou de […] The post Lupa nos ingredientes, impacto invisível no mercado appeared first on Food Connection .",
-  "tema": null,
-  "ia": true,
-  "relevancia": 2,
-  "resumo": "A rotulagem nutricional frontal com alertas sobre alto teor de açúcar ou sódio avança no setor de foodservice. A mudança impacta a formulação de produtos e a transparência para o consumidor."
- },
- {
   "id": "0edf8fa04482617b",
   "titulo": "França rejeita imposto sobre alimentos processados com açúcar e aditivos",
   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWEd2M1ZxWVloeDM4ems2eno5MmJ3UFVseDlWUDVoYnFDMU0waGRxVGhXOTVhUlk3eGVDdEhHbnYyTnFDMTZCN09PbDlJSDhSdjA3V0gwcTZLWVo4cWZ6WGJfaGdxTEhjRE5XcVo3cnRoclFYM01heWpuVW5QUjRoVmhRTXN3R21hTG1vMXlmRE1PdXZUVHV6NFppcHc1ZXdNdl9SVFVjcjBkTl9RMGRCaXdjNldJR2xHMEFIWl9jVV9lMWVvUGIzOGtKWFQzOWkw?oc=5",
@@ -9678,6 +9666,66 @@
   "resumo": "O plantio de soja e a colheita de trigo avançam na Argentina durante o período de chuvas. A Bolsa de Cereais de Buenos Aires estimou a safra argentina de trigo em 23,4 milhões de toneladas.",
   "ia_tipo": "insight",
   "ia_texto": "A expectativa de uma safra robusta de trigo na Argentina pode influenciar os preços e a competitividade do cereal importado pelas indústrias brasileiras. Vale acompanhar o ritmo da colheita e a qualidade do grão vizinho.",
+  "versao_ia": 2
+ },
+ {
+  "id": "a5c255ed2a9e43d0",
+  "titulo": "Fábrica de R$ 1 milhão deve ampliar produção de lácteos e renda de produtores no Ceará",
+  "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORVZaeDluVkVsS2Q2MzlET2l3cmVfbm81ZXJUM3g1T00wU2k0UW01UEhKTTh3QnZQa3ZmN3RPbkhzV3VZVUNpd1NYdUVkLTN6cmlqcGtBOVoweUppQy1jb01UMjFzdTAzNXhnU0xMMV9MTnlUdDQ5NGx0S084ZjhNVnU0R0VzUFZXRkpVcXFuVWYzb0NjSFdTRWFkTjlMX2d3YW9Zd0pRVVU3aVc2T0M4aGM2dDdXZ25ZXzMtQWNRalNRX0RyN2dWQWlkenpyWWJPcXQxUWNPUjUzSFdISmRvUGs1Z1pYTmMxbURQWDRR?oc=5",
+  "fonte": "MilkPoint",
+  "data": "2026-11-19T11:48:59+00:00",
+  "trecho": "Fábrica de R$ 1 milhão deve ampliar produção de lácteos e renda de produtores no Ceará MilkPoint",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 4,
+  "resumo": "Um investimento de um milhão de reais viabilizará uma nova fábrica de laticínios no Ceará. O projeto tem como objetivo principal expandir a capacidade produtiva local e aumentar a renda dos produtores da região.",
+  "ia_tipo": "insight",
+  "ia_texto": "A expansão de plantas de laticínios no Nordeste pode indicar um aumento na demanda por insumos e ingredientes para processamento. Vale acompanhar o cronograma da fábrica para identificar oportunidades de fornecimento aos produtores.",
+  "versao_ia": 2
+ },
+ {
+  "id": "a790362dfbee6f7d",
+  "titulo": "RedeMix investe R$ 25 milhões em nova loja em Salvador (BA)",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOHh1QXZBdEQ4YWNuZVdTVV9WcHltenZ0MzlsRFZaQkk3aHMwd3Rwd0lsdG90a2xCMWxhU2JxN182Ni1hbVFHV2lTU09aTzREWG9Tck5nZEM0RVZvVFdsWmt2UlNfSUdyd08xOFNlN3NubjE1QTZUanJmcEhZU2R6ME53TXZLeTlUTUszQWkyQnludTUxNXc?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-11-18T13:36:35+00:00",
+  "trecho": "RedeMix investe R$ 25 milhões em nova loja em Salvador (BA) Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A rede varejista RedeMix destinou vinte e cinco milhões de reais para a abertura de uma nova unidade em Salvador. O empreendimento amplia a presença da marca no mercado baiano.",
+  "ia_tipo": "insight",
+  "ia_texto": "Investimentos em novas lojas físicas indicam expansão na gôndola e maior demanda por produtos acabados. Pode ser um bom momento para verificar com clientes do varejo quais categorias ganham espaço.",
+  "versao_ia": 2
+ },
+ {
+  "id": "b368949a3de6b173",
+  "titulo": "MáximaTech lança ferramenta de IA para a gestão comercial do atacado distribuidor",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaXBjNENYSU9WeGo5TWFfSUw4c1lDcmRrZ1l3ZVJ1QUpfbGxoV2N5TUp6ekZZRmt2TWNaMlpLajNpQkpUWG1CdGxtUTVobTI2ZC1PdFRSTEdySXRXUzN6Tzh0anB2dkFSMUJQWkVBbWJGLVZIMlJ1RlFJWnVmTk9mOVN3d1FHV0dMb2o5c3p3TmJOanlDd2laemNVLUhEZFE4VmsxUnNRaDJVTjhfTUUzTXBLemlfaTNYb2xvWHFpOA?oc=5",
+  "fonte": "Giro News",
+  "data": "2026-11-18T13:41:36+00:00",
+  "trecho": "MáximaTech lança ferramenta de IA para a gestão comercial do atacado distribuidor Giro News",
+  "tema": "Notícias do setor",
+  "ia": true,
+  "relevancia": 3,
+  "resumo": "A empresa MáximaTech desenvolveu uma nova solução tecnológica voltada para o setor de atacado e distribuição. A ferramenta utiliza inteligência artificial para otimizar os processos de gestão comercial.",
+  "ia_tipo": "sugestao",
+  "ia_texto": "O uso de inteligência artificial no atacado distribuidor tende a melhorar a eficiência de vendas e a reposição de estoques. Vale monitorar como essas tecnologias impactam a cadeia de distribuição de alimentos.",
+  "versao_ia": 2
+ },
+ {
+  "id": "0ff11f30815fac41",
+  "titulo": "A fazenda alemã que produz leite há 291 anos, mas evita soja brasileira – por bônus e filosofia",
+  "link": "https://agfeed.com.br/negocios/a-fazenda-alema-que-produz-leite-ha-291-anos-mas-evita-soja-brasileira-por-bonus-e-filosofia",
+  "fonte": "AgFeed",
+  "data": "2026-11-21T10:33:59+00:00",
+  "trecho": "Bierbergen (Alemanha) – A fazenda Hof Decker mostra a força da tradição na produção de leite ao atravessar séculos e gerações. Já são 291 anos de história familiar na vila de Bierbergen, Baixa Saxônia, Alemanha. “Nossa história remonta a 1.735. Esse é o primeiro registro que encontramos em um livro da nossa família”, contou Lutz […] O post A fazenda alemã que produz leite há 291 anos, mas evita soja brasileira – por bônus e filosofia apareceu primeiro em AgFeed .",
+  "tema": "Lácteos",
+  "ia": true,
+  "relevancia": 2,
+  "resumo": "Uma fazenda tradicional alemã produz leite há quase três séculos com foco em práticas específicas. A propriedade opta por não utilizar soja brasileira em suas operações por razões comerciais e filosóficas.",
+  "ia_tipo": "alerta",
+  "ia_texto": "A exigência de insumos livres de desmatamento na Europa reforça a necessidade de acompanhar padrões de sustentabilidade. Isso pode influenciar futuras negociações de rastreabilidade para ingredientes exportados ao continente.",
   "versao_ia": 2
  }
 ]
