@@ -9802,5 +9802,20 @@
   "ia_tipo": "insight",
   "ia_texto": "O escoamento externo forte costuma enxugar a oferta doméstica, o que pode manter os preços firmes e exigir atenção dos compradores quanto ao timing de aquisição.",
   "versao_ia": 2
+ },
+ {
+  "id": "333ebe17aa0751e0",
+  "titulo": "CAPES recebe lançamento do Plano de Gestão da Diversidade do FNDE",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbmpiVnduS3lETUVqSlM0b2Fpak9ueXpoVlNsbndVWmxabzdCZUItbGh4bnVNVWw3bWZJc2MxUVA1MHNVWGdxejYxdW5Uek4zckgzYklQME1UVy1qank5TGVmOWtwanJnOThQVDljNGFsekVXOWw2RzRFQ21EVW9zR3F4dEU4dUx5RzV2M0NHenhqU1d4ZkNWX0VkZWtGd0JqRG02Z0oyb0dWREljWTNEbmJRanROMEU?oc=5",
+  "fonte": "Conab",
+  "data": "2026-11-17T12:03:00+00:00",
+  "trecho": "CAPES recebe lançamento do Plano de Gestão da Diversidade do FNDE GOV.BR",
+  "tema": null,
+  "ia": true,
+  "relevancia": 1,
+  "resumo": "A CAPES sediou o evento de lançamento do Plano de Gestão da Diversidade do FNDE. A iniciativa foi divulgada pelos canais governamentais.",
+  "ia_tipo": "contexto",
+  "ia_texto": "Esta notícia refere-se a um evento governamental na área de educação e gestão pública. O assunto não possui relação direta com o mercado de ingredientes ou com a indústria de alimentos.",
+  "versao_ia": 2
  }
 ]
