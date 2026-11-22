@@ -609,21 +609,6 @@
   "versao_ia": 2
  },
  {
-  "id": "d80b332ac3e542fd",
-  "titulo": "Resistência dos produtores sustenta preços do arroz no RS, mas baixa liquidez limita recuperação",
-  "link": "https://planetaarroz.com.br/resistencia-dos-produtores-sustenta-precos-do-arroz-no-rs-mas-baixa-liquidez-limita-recuperacao/",
-  "fonte": "Planeta Arroz",
-  "data": "2026-10-23T17:38:11+00:00",
-  "trecho": "(Por Sara Lane/ Safras & Mercado) O mercado gaúcho encerra a semana sob uma dinâmica de sustentação comercial incompleta. As referências de preços permanecem relativamente firmes, mas a circulação de negócios continua limitada pela postura defensiva da indústria. A avaliação é do analista e consultor de Safras & Mercado, Evandro Oliveira. O Indicador Safras do […] Resistência dos produtores sustenta preços do arroz no RS, mas baixa liquidez limita recuperação",
-  "tema": "Arroz",
-  "ia": true,
-  "relevancia": 4,
-  "resumo": "Os produtores mantêm resistência na comercialização, o que sustenta parcialmente as cotações do arroz no Rio Grande do Sul. No entanto, a baixa liquidez limita uma recuperação mais sólida dos negócios.",
-  "ia_tipo": "alerta",
-  "ia_texto": "A retração vendedora atrelada à baixa liquidez sugere volatilidade nas negociações, exigindo cautela na hora de fechar contratos de médio prazo para evitar surpresas com a disponibilidade.",
-  "versao_ia": 2
- },
- {
   "id": "0cd596f2089a3311",
   "titulo": "Preços do açúcar sobem na ICE em meio às chuvas no Brasil",
   "link": "https://www.novacana.com/noticias/precos-do-acucar-sobem-na-ice-em-meio-as-chuvas-no-brasil",
@@ -1116,21 +1101,6 @@
   "resumo": "Lentilha e grão-de-bico estão ganhando destaque no desenvolvimento de proteínas vegetais. Fatores como funcionalidade e sustentabilidade impulsionam o uso desses ingredientes em produtos veganos.",
   "ia_tipo": "insight",
   "ia_texto": "O crescimento de alternativas proteicas à base de leguminosas pode abrir espaço para novos negócios e portfólios de fornecimento voltados ao mercado plant-based.",
-  "versao_ia": 2
- },
- {
-  "id": "283b3f34bc497572",
-  "titulo": "Como aplicar a economia circular na indústria de alimentos e bebidas",
-  "link": "https://www.foodconnection.com.br/sustentabilidade/economia-circular-industria-de-alimentos/",
-  "fonte": "Food Connection",
-  "data": "2026-10-23T19:10:18+00:00",
-  "trecho": "A economia circular na indústria de alimentos mantém recursos e materiais em uso pelo maior tempo possível, reduzindo desperdícios e a dependência de matérias-primas virgens. The post Como aplicar a economia circular na indústria de alimentos e bebidas appeared first on Food Connection .",
-  "tema": "Notícias do setor",
-  "ia": true,
-  "relevancia": 3,
-  "resumo": "A economia circular busca manter materiais em uso pelo maior período na indústria de alimentos. A prática reduz desperdícios e diminui a dependência de matérias-primas virgens.",
-  "ia_tipo": "sugestao",
-  "ia_texto": "Valores ligados à sustentabilidade e redução de perdas podem ser usados por equipes comerciais para demonstrar eficiência e alinhar o discurso com as metas ambientais dos clientes.",
   "versao_ia": 2
  },
  {
