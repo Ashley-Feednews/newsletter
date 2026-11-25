@@ -58,4 +58,23 @@ jobs:
 
       - name: Publicar a página
         id: publicar
+        continue-on-error: true # se o GitHub falhar aqui, tenta de novo abaixo
+        uses: actions/deploy-pages@v4
+
+      - name: Esperar o GitHub se recuperar
+        if: steps.publicar.outcome == 'failure'
+        run: sleep 90
+
+      - name: Publicar a página (2ª tentativa)
+        id: publicar2
+        if: steps.publicar.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Esperar mais um pouco
+        if: steps.publicar.outcome == 'failure' && steps.publicar2.outcome == 'failure'
+        run: sleep 180
+
+      - name: Publicar a página (3ª tentativa)
+        if: steps.publicar.outcome == 'failure' && steps.publicar2.outcome == 'failure'
         uses: actions/deploy-pages@v4
